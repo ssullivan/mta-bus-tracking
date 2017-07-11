@@ -1,0 +1,68 @@
+plugins {
+    id 'java'
+    id 'idea'
+    id 'maven'
+    id 'jacoco'
+}
+
+apply from: "versions.gradle"
+
+ext.githubProjectName = rootProject.name
+
+idea {
+    project {
+        languageLevel = '1.8'
+    }
+}
+
+subprojects {
+    apply plugin: 'java'
+
+    repositories {
+      mavenLocal()
+      mavenCentral()
+      jcenter()
+      maven {
+        url "https://oss.sonatype.org/content/repositories/snapshots"
+      }
+    }
+
+    group = "com.github.ssullivan.${githubProjectName}"
+    version = '1.0.0-SNAPSHOT'
+    sourceCompatibility = '1.8'
+    targetCompatibility = '1.8'
+
+
+    tasks.withType(Javadoc).each {
+        it.classpath = sourceSets.main.compileClasspath
+    }
+
+    test {
+        forkEvery = 1
+        maxParallelForks = 1
+    }
+
+
+    task codeCoverageReport(type: JacocoReport) {
+        executionData fileTree(project.rootDir.absolutePath).include("**/build/jacoco/*.exec")
+
+        sourceSets sourceSets.main
+
+        subprojects.each {
+            sourceSets it.sourceSets.main
+        }
+
+        reports {
+            xml.enabled true
+            xml.setDestination(new File("${buildDir}/reports/jacoco/report.xml"))
+            html.enabled false
+            csv.enabled false
+        }
+    }
+}
+task wrapper(type: Wrapper) {
+    gradleVersion = '4.0'
+}
+
+// TODO: https://github.com/bmuschko/gradle-nexus-plugin
+// TODO: https://github.com/Codearte/gradle-nexus-staging-plugin
