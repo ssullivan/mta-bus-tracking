@@ -2,6 +2,14 @@ plugins {
     id "net.ltgt.apt" version "0.10"
 }
 
+sourceSets {
+    apt{
+        java{
+            srcDir 'build/source/apt/main'
+        }
+    }
+}
+
 dependencies {
     compileOnly "com.google.auto.value:auto-value:$autoValueVersion"
     apt "com.google.auto.value:auto-value:$autoValueVersion"
