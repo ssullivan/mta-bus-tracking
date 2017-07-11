@@ -1,5 +1,7 @@
 *.jar
 *.iml
+*.zip
+data
 .idea
 build
 .gradle
