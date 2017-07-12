@@ -1,1 +1,10 @@
-{"version":"1.1","method":"GetBusTimes","params":{"stopId":6326,"Radius":-1,"NumTimesPerLine":5,"NumStopTimes":20}}
+{
+  "version": "1.1",
+  "method": "GetBusTimes",
+  "params": {
+    "stopId": 6326,
+    "Radius": -1,
+    "NumTimesPerLine": 5,
+    "NumStopTimes": 20
+  }
+}

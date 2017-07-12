@@ -1,2 +1,1148 @@
-{"version":"1.1","result":{"stops":[{"stopId":4541,"abbr":"9503","ivrNum":"","name":"BAYNER RD & SANDALWOOD RD","point":{"lon":-76.456688,"lat":39.296256},"lineDirs":[{"lineDirId":95100}]},{"stopId":6514,"abbr":"B928","ivrNum":"","name":"MARLYN AVE & FOXWOOD LN fs eb  ","point":{"lon":-76.454304,"lat":39.294008},"lineDirs":[{"lineDirId":95100}]},{"stopId":4571,"abbr":"P817","ivrNum":"","name":"MIDDLEBOROUGH RD & MARLYN AVE fs ","point":{"lon":-76.450936,"lat":39.29394},"lineDirs":[{"lineDirId":95100}]},{"stopId":4573,"abbr":"P819","ivrNum":"","name":"MIDDLEBOROUGH RD & FOX CHASE LN opp eb","point":{"lon":-76.448928,"lat":39.29748},"lineDirs":[{"lineDirId":95100}]},{"stopId":4574,"abbr":"D503","ivrNum":"","name":"MIDDLEBOROUGH RD & GLEMSFORD RD eb","point":{"lon":-76.44684,"lat":39.29948},"lineDirs":[{"lineDirId":95100}]},{"stopId":4575,"abbr":"D504","ivrNum":"","name":"MIDDLEBOROUGH RD & HARTLAND RD eb","point":{"lon":-76.445952,"lat":39.300712},"lineDirs":[{"lineDirId":95100}]},{"stopId":4576,"abbr":"D505","ivrNum":"","name":"MIDDLEBOROUGH RD & HADWICK DR opp eb","point":{"lon":-76.44464,"lat":39.301608},"lineDirs":[{"lineDirId":95100}]},{"stopId":4577,"abbr":"D506","ivrNum":"","name":"BACK RIVER NECK RD & LANFLAIR RD nb","point":{"lon":-76.442088,"lat":39.305716},"lineDirs":[{"lineDirId":95100}]},{"stopId":4578,"abbr":"D507","ivrNum":"","name":"BACK RIVER NECK RD & POLES  RD nb","point":{"lon":-76.443272,"lat":39.306952},"lineDirs":[{"lineDirId":95100}]},{"stopId":4579,"abbr":"P820","ivrNum":"","name":"BACK RIVER NECK RD & WILLIAMS AVE mid nb","point":{"lon":-76.445424,"lat":39.309432},"lineDirs":[{"lineDirId":95100}]},{"stopId":4581,"abbr":"P822","ivrNum":"","name":"BACK RIVER NECK RD & HOPEWELL AVE opp","point":{"lon":-76.447848,"lat":39.31206},"lineDirs":[{"lineDirId":95100}]},{"stopId":7581,"abbr":"B244","ivrNum":"","name":"BACK RIVER NECK RD & RENAISSANCE DR nb","point":{"lon":-76.449392,"lat":39.314056},"lineDirs":[{"lineDirId":95100}]},{"stopId":12233,"abbr":"9509","ivrNum":"","name":"OLD EASTERN AVE & STEMMERS RUN BLVD fs wb","point":{"lon":-76.452152,"lat":39.314884},"lineDirs":[{"lineDirId":95100}]},{"stopId":4587,"abbr":"D390","ivrNum":"","name":"OLD EASTERN AVE & ESSEX AVE wb","point":{"lon":-76.456528,"lat":39.314176},"lineDirs":[{"lineDirId":95100}]},{"stopId":4589,"abbr":"D392","ivrNum":"","name":"OLD EASTERN AVE & SELIG AVE wb","point":{"lon":-76.461792,"lat":39.313324},"lineDirs":[{"lineDirId":95100}]},{"stopId":4591,"abbr":"4588","ivrNum":"","name":"EASTERN BLVD & MARLYN AVE wb","point":{"lon":-76.465112,"lat":39.312856},"lineDirs":[{"lineDirId":95100}]},{"stopId":4594,"abbr":"D394","ivrNum":"","name":"EASTERN BLVD & STUART ST wb","point":{"lon":-76.470808,"lat":39.310696},"lineDirs":[{"lineDirId":95100}]},{"stopId":4595,"abbr":"D395","ivrNum":"","name":"EASTERN BLVD & WOODWARD DR wb","point":{"lon":-76.473552,"lat":39.30942},"lineDirs":[{"lineDirId":95100}]},{"stopId":4597,"abbr":"9524","ivrNum":"","name":"EASTERN BLVD & TAYLOR AVE wb","point":{"lon":-76.47612,"lat":39.308388},"lineDirs":[{"lineDirId":95100}]},{"stopId":4598,"abbr":"D397","ivrNum":"","name":"EASTERN BLVD & MACE AVE wb","point":{"lon":-76.478896,"lat":39.307284},"lineDirs":[{"lineDirId":95100}]},{"stopId":4599,"abbr":"D398","ivrNum":"","name":"EASTERN BLVD & HELENA AVE wb","point":{"lon":-76.481704,"lat":39.305856},"lineDirs":[{"lineDirId":95100}]},{"stopId":7585,"abbr":"9520","ivrNum":"","name":"EASTERN BLVD & ESSEX PARK & RIDE wb","point":{"lon":-76.485504,"lat":39.303808},"lineDirs":[{"lineDirId":95100}]},{"stopId":4602,"abbr":"D402","ivrNum":"","name":"EASTERN AVE & DIAMOND POINT RD wb","point":{"lon":-76.494016,"lat":39.3},"lineDirs":[{"lineDirId":95100}]},{"stopId":4607,"abbr":"9517","ivrNum":"","name":"EASTERN AVE & ROLLING MILL RD wb","point":{"lon":-76.509152,"lat":39.295808},"lineDirs":[{"lineDirId":95100}]},{"stopId":7587,"abbr":"7450","ivrNum":"","name":"EASTERN AVE & 54TH ST wb","point":{"lon":-76.511624,"lat":39.295112},"lineDirs":[{"lineDirId":95100}]},{"stopId":4610,"abbr":"D409","ivrNum":"","name":"EASTERN AVE & NORTH POINT BLVD wb","point":{"lon":-76.515712,"lat":39.294024},"lineDirs":[{"lineDirId":95100}]},{"stopId":4612,"abbr":"P946","ivrNum":"","name":"EASTERN AVE & NORTH PONT BLVD fs wb","point":{"lon":-76.519336,"lat":39.292816},"lineDirs":[{"lineDirId":95100}]},{"stopId":4613,"abbr":"D411","ivrNum":"","name":"EASTERN AVE & ASHBY AVE fs wb","point":{"lon":-76.521144,"lat":39.291504},"lineDirs":[{"lineDirId":95100}]},{"stopId":4614,"abbr":"D412","ivrNum":"","name":"EASTERN AVE & WESTHAM WAY fs wb","point":{"lon":-76.524184,"lat":39.290252},"lineDirs":[{"lineDirId":95100}]},{"stopId":10903,"abbr":"5592","ivrNum":"","name":"EASTERN AVE & PEMBROOKE BLVD mb wb","point":{"lon":-76.527856,"lat":39.28884},"lineDirs":[{"lineDirId":95100}]},{"stopId":4617,"abbr":"4586","ivrNum":"","name":"EASTERN AVE & 45TH ST wb","point":{"lon":-76.530288,"lat":39.28816},"lineDirs":[{"lineDirId":95100}]},{"stopId":12160,"abbr":"D716","ivrNum":"","name":"EASTERN AVE & KANE ST wb","point":{"lon":-76.536592,"lat":39.28792},"lineDirs":[{"lineDirId":95100}]},{"stopId":4623,"abbr":"D383","ivrNum":"","name":"EASTERN AVE & HORNEL ST fs wb","point":{"lon":-76.5402,"lat":39.28776},"lineDirs":[{"lineDirId":95100}]},{"stopId":6320,"abbr":"5489","ivrNum":"","name":"EASTERN AVE & DUNDALK AVE               ","point":{"lon":-76.543256,"lat":39.287656},"lineDirs":[{"lineDirId":95100}]},{"stopId":2022,"abbr":"D281","ivrNum":"","name":"EASTERN AVE & ANGLESEA ST wb","point":{"lon":-76.546464,"lat":39.287564},"lineDirs":[{"lineDirId":95100}]},{"stopId":10764,"abbr":"H617","ivrNum":"","name":"BAYVIEW BLVD & MASON LORD DR nb","point":{"lon":-76.548264,"lat":39.287964},"lineDirs":[{"lineDirId":95100}]},{"stopId":10542,"abbr":"5060","ivrNum":"","name":"BAYVIEW BLVD & HOPKINS BAYVIEW DR nb","point":{"lon":-76.549552,"lat":39.289652},"lineDirs":[{"lineDirId":95100}]},{"stopId":10543,"abbr":"5067","ivrNum":"","name":"LOMBARD ST & PONCA ST wb","point":{"lon":-76.55524,"lat":39.291984},"lineDirs":[{"lineDirId":95100}]},{"stopId":10689,"abbr":"E062","ivrNum":"","name":"LOMBARD ST & GRUNDY ST wb","point":{"lon":-76.56324,"lat":39.291624},"lineDirs":[{"lineDirId":95100}]},{"stopId":4635,"abbr":"D417","ivrNum":"","name":"LOMBARD ST & EATON ST wb","point":{"lon":-76.565488,"lat":39.291568},"lineDirs":[{"lineDirId":95100}]},{"stopId":4118,"abbr":"4582","ivrNum":"","name":"HIGHLAND AVE & BALTIMORE ST fs nb ","point":{"lon":-76.569312,"lat":39.292632},"lineDirs":[{"lineDirId":95100}]},{"stopId":4639,"abbr":"D420","ivrNum":"","name":"FAYETTE ST & HIGHLAND AVE fs wb","point":{"lon":-76.569928,"lat":39.294944},"lineDirs":[{"lineDirId":95100}]},{"stopId":4641,"abbr":"D422","ivrNum":"","name":"FAYETTE ST & ELLWOOD AVE wb","point":{"lon":-76.573816,"lat":39.294808},"lineDirs":[{"lineDirId":95100}]},{"stopId":4643,"abbr":"4581","ivrNum":"","name":"FAYETTE ST & LINWOOD AVE wb","point":{"lon":-76.576176,"lat":39.29472},"lineDirs":[{"lineDirId":95100}]},{"stopId":4645,"abbr":"D424","ivrNum":"","name":"FAYETTE ST & LAKEWOOD AVE wb","point":{"lon":-76.579008,"lat":39.294592},"lineDirs":[{"lineDirId":95100}]},{"stopId":4646,"abbr":"D425","ivrNum":"","name":"FAYETTE ST & ROSE ST wb","point":{"lon":-76.581216,"lat":39.294532},"lineDirs":[{"lineDirId":95100}]},{"stopId":4647,"abbr":"D426","ivrNum":"","name":"FAYETTE & MONTFORD W\/B","point":{"lon":-76.583304,"lat":39.294436},"lineDirs":[{"lineDirId":95100}]},{"stopId":4648,"abbr":"D427","ivrNum":"","name":"FAYETTE ST & PATTERSON PARK AVE wb","point":{"lon":-76.584696,"lat":39.294372},"lineDirs":[{"lineDirId":95100}]},{"stopId":4649,"abbr":"D429","ivrNum":"","name":"FAYETTE & CHESTER W\/B","point":{"lon":-76.587376,"lat":39.294288},"lineDirs":[{"lineDirId":95100}]},{"stopId":4650,"abbr":"D430","ivrNum":"","name":"FAYETTE ST & WASHINGTON ST wb","point":{"lon":-76.589144,"lat":39.294212},"lineDirs":[{"lineDirId":95100}]},{"stopId":4652,"abbr":"5434","ivrNum":"","name":"FAYETTE ST & WOLFE ST wb","point":{"lon":-76.590416,"lat":39.294152},"lineDirs":[{"lineDirId":95100}]},{"stopId":6326,"abbr":"5452","ivrNum":"","name":"FAYETTE ST & BROADWAY wb              ","point":{"lon":-76.594672,"lat":39.294048},"lineDirs":[{"lineDirId":95100}]},{"stopId":998,"abbr":"B631","ivrNum":"","name":"FAYETTE ST & CAROLINE ST wb","point":{"lon":-76.596792,"lat":39.293436},"lineDirs":[{"lineDirId":95100}]},{"stopId":4657,"abbr":"D434","ivrNum":"","name":"FAYETTE ST & CENTRAL AVE mb wb","point":{"lon":-76.600424,"lat":39.292492},"lineDirs":[{"lineDirId":95100}]},{"stopId":3894,"abbr":"D435","ivrNum":"","name":"FAYETTE ST & AISQUITH ST wb","point":{"lon":-76.601944,"lat":39.292048},"lineDirs":[{"lineDirId":95100}]},{"stopId":3897,"abbr":"5432","ivrNum":"","name":"FAYETTE ST & FRONT ST wb         ","point":{"lon":-76.605432,"lat":39.291084},"lineDirs":[{"lineDirId":95100}]},{"stopId":283,"abbr":"5407","ivrNum":"","name":"FAYETTE ST & GAY ST wb","point":{"lon":-76.608512,"lat":39.290744},"lineDirs":[{"lineDirId":95100}]},{"stopId":8928,"abbr":"R246","ivrNum":"","name":"FAYETTE ST & HOLLIDAY ST wb","point":{"lon":-76.609944,"lat":39.290656},"lineDirs":[{"lineDirId":95100}]},{"stopId":1009,"abbr":"2781","ivrNum":"","name":"FAYETTE ST & CALVERT ST wb","point":{"lon":-76.612064,"lat":39.29048},"lineDirs":[{"lineDirId":95100}]},{"stopId":285,"abbr":"4440","ivrNum":"","name":"FAYETTE ST & SAINT PAUL ST wb","point":{"lon":-76.613592,"lat":39.290536},"lineDirs":[{"lineDirId":95100}]},{"stopId":286,"abbr":"4420","ivrNum":"","name":"FAYETTE ST between SAINT PAUL ST & CHARLES ST wb","point":{"lon":-76.614248,"lat":39.290472},"lineDirs":[{"lineDirId":95100}]},{"stopId":10567,"abbr":"4323","ivrNum":"","name":"FAYETTE ST PLAZA wb","point":{"lon":-76.616288,"lat":39.290516},"lineDirs":[{"lineDirId":95100}]},{"stopId":125,"abbr":"4450","ivrNum":"","name":"FAYETTE ST & HOWARD ST wb","point":{"lon":-76.619248,"lat":39.290544},"lineDirs":[{"lineDirId":95100}]},{"stopId":126,"abbr":"4424","ivrNum":"","name":"FAYETTE ST & EUTAW ST wb","point":{"lon":-76.620768,"lat":39.29048},"lineDirs":[{"lineDirId":95100}]},{"stopId":127,"abbr":"4462","ivrNum":"","name":"FAYETTE ST & PACA ST wb            ","point":{"lon":-76.622008,"lat":39.29046},"lineDirs":[{"lineDirId":95100}]},{"stopId":128,"abbr":"4436","ivrNum":"","name":"FAYETTE ST & GREENE ST fs wb","point":{"lon":-76.624264,"lat":39.29032},"lineDirs":[{"lineDirId":95100}]},{"stopId":130,"abbr":"4433","ivrNum":"","name":"FAYETTE ST & FREMONT AVE wb","point":{"lon":-76.62916,"lat":39.290136},"lineDirs":[{"lineDirId":95100}]},{"stopId":131,"abbr":"4432","ivrNum":"","name":"FAYETTE ST & POPPLETON ST wb","point":{"lon":-76.631904,"lat":39.290032},"lineDirs":[{"lineDirId":95100}]},{"stopId":132,"abbr":"Z005","ivrNum":"","name":"FAYETTE ST & SCHROEDER ST wb","point":{"lon":-76.633464,"lat":39.289976},"lineDirs":[{"lineDirId":95100}]},{"stopId":13795,"abbr":"A760","ivrNum":"","name":"SCHROEDER ST & SARATOGA ST nb","point":{"lon":-76.633968,"lat":39.292412},"lineDirs":[{"lineDirId":95100}]},{"stopId":10867,"abbr":"H970","ivrNum":"","name":"FRANKLIN & ARLINGTON AVE wb","point":{"lon":-76.63532,"lat":39.294376},"lineDirs":[{"lineDirId":95100}]},{"stopId":10868,"abbr":"H971","ivrNum":"","name":"FRANKLIN ST & CAREY ST wb","point":{"lon":-76.638,"lat":39.294264},"lineDirs":[{"lineDirId":95100}]},{"stopId":10869,"abbr":"H972","ivrNum":"","name":"FRANKLIN ST & CALHOUN ST wb","point":{"lon":-76.63956,"lat":39.294196},"lineDirs":[{"lineDirId":95100}]},{"stopId":10675,"abbr":"6545","ivrNum":"","name":"FRANKLIN ST & FULTON AVE wb","point":{"lon":-76.645232,"lat":39.293972},"lineDirs":[{"lineDirId":95100}]},{"stopId":13789,"abbr":"A753","ivrNum":"","name":"WEST BALTIMORE MARC LOT A","point":{"lon":-76.6522,"lat":39.293064},"lineDirs":[{"lineDirId":95100}]},{"stopId":14109,"abbr":"Z555","ivrNum":"","name":"WEST BALTIMORE MARC STATION BAY 3","point":{"lon":-76.652144,"lat":39.293096},"lineDirs":[{"lineDirId":95100}]}]}}
+{
+  "version": "1.1",
+  "result": {
+    "stops": [
+      {
+        "stopId": 4541,
+        "abbr": "9503",
+        "ivrNum": "",
+        "name": "BAYNER RD & SANDALWOOD RD",
+        "point": {
+          "lon": -76.456688,
+          "lat": 39.296256
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 6514,
+        "abbr": "B928",
+        "ivrNum": "",
+        "name": "MARLYN AVE & FOXWOOD LN fs eb  ",
+        "point": {
+          "lon": -76.454304,
+          "lat": 39.294008
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 4571,
+        "abbr": "P817",
+        "ivrNum": "",
+        "name": "MIDDLEBOROUGH RD & MARLYN AVE fs ",
+        "point": {
+          "lon": -76.450936,
+          "lat": 39.29394
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 4573,
+        "abbr": "P819",
+        "ivrNum": "",
+        "name": "MIDDLEBOROUGH RD & FOX CHASE LN opp eb",
+        "point": {
+          "lon": -76.448928,
+          "lat": 39.29748
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 4574,
+        "abbr": "D503",
+        "ivrNum": "",
+        "name": "MIDDLEBOROUGH RD & GLEMSFORD RD eb",
+        "point": {
+          "lon": -76.44684,
+          "lat": 39.29948
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 4575,
+        "abbr": "D504",
+        "ivrNum": "",
+        "name": "MIDDLEBOROUGH RD & HARTLAND RD eb",
+        "point": {
+          "lon": -76.445952,
+          "lat": 39.300712
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 4576,
+        "abbr": "D505",
+        "ivrNum": "",
+        "name": "MIDDLEBOROUGH RD & HADWICK DR opp eb",
+        "point": {
+          "lon": -76.44464,
+          "lat": 39.301608
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 4577,
+        "abbr": "D506",
+        "ivrNum": "",
+        "name": "BACK RIVER NECK RD & LANFLAIR RD nb",
+        "point": {
+          "lon": -76.442088,
+          "lat": 39.305716
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 4578,
+        "abbr": "D507",
+        "ivrNum": "",
+        "name": "BACK RIVER NECK RD & POLES  RD nb",
+        "point": {
+          "lon": -76.443272,
+          "lat": 39.306952
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 4579,
+        "abbr": "P820",
+        "ivrNum": "",
+        "name": "BACK RIVER NECK RD & WILLIAMS AVE mid nb",
+        "point": {
+          "lon": -76.445424,
+          "lat": 39.309432
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 4581,
+        "abbr": "P822",
+        "ivrNum": "",
+        "name": "BACK RIVER NECK RD & HOPEWELL AVE opp",
+        "point": {
+          "lon": -76.447848,
+          "lat": 39.31206
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 7581,
+        "abbr": "B244",
+        "ivrNum": "",
+        "name": "BACK RIVER NECK RD & RENAISSANCE DR nb",
+        "point": {
+          "lon": -76.449392,
+          "lat": 39.314056
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 12233,
+        "abbr": "9509",
+        "ivrNum": "",
+        "name": "OLD EASTERN AVE & STEMMERS RUN BLVD fs wb",
+        "point": {
+          "lon": -76.452152,
+          "lat": 39.314884
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 4587,
+        "abbr": "D390",
+        "ivrNum": "",
+        "name": "OLD EASTERN AVE & ESSEX AVE wb",
+        "point": {
+          "lon": -76.456528,
+          "lat": 39.314176
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 4589,
+        "abbr": "D392",
+        "ivrNum": "",
+        "name": "OLD EASTERN AVE & SELIG AVE wb",
+        "point": {
+          "lon": -76.461792,
+          "lat": 39.313324
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 4591,
+        "abbr": "4588",
+        "ivrNum": "",
+        "name": "EASTERN BLVD & MARLYN AVE wb",
+        "point": {
+          "lon": -76.465112,
+          "lat": 39.312856
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 4594,
+        "abbr": "D394",
+        "ivrNum": "",
+        "name": "EASTERN BLVD & STUART ST wb",
+        "point": {
+          "lon": -76.470808,
+          "lat": 39.310696
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 4595,
+        "abbr": "D395",
+        "ivrNum": "",
+        "name": "EASTERN BLVD & WOODWARD DR wb",
+        "point": {
+          "lon": -76.473552,
+          "lat": 39.30942
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 4597,
+        "abbr": "9524",
+        "ivrNum": "",
+        "name": "EASTERN BLVD & TAYLOR AVE wb",
+        "point": {
+          "lon": -76.47612,
+          "lat": 39.308388
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 4598,
+        "abbr": "D397",
+        "ivrNum": "",
+        "name": "EASTERN BLVD & MACE AVE wb",
+        "point": {
+          "lon": -76.478896,
+          "lat": 39.307284
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 4599,
+        "abbr": "D398",
+        "ivrNum": "",
+        "name": "EASTERN BLVD & HELENA AVE wb",
+        "point": {
+          "lon": -76.481704,
+          "lat": 39.305856
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 7585,
+        "abbr": "9520",
+        "ivrNum": "",
+        "name": "EASTERN BLVD & ESSEX PARK & RIDE wb",
+        "point": {
+          "lon": -76.485504,
+          "lat": 39.303808
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 4602,
+        "abbr": "D402",
+        "ivrNum": "",
+        "name": "EASTERN AVE & DIAMOND POINT RD wb",
+        "point": {
+          "lon": -76.494016,
+          "lat": 39.3
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 4607,
+        "abbr": "9517",
+        "ivrNum": "",
+        "name": "EASTERN AVE & ROLLING MILL RD wb",
+        "point": {
+          "lon": -76.509152,
+          "lat": 39.295808
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 7587,
+        "abbr": "7450",
+        "ivrNum": "",
+        "name": "EASTERN AVE & 54TH ST wb",
+        "point": {
+          "lon": -76.511624,
+          "lat": 39.295112
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 4610,
+        "abbr": "D409",
+        "ivrNum": "",
+        "name": "EASTERN AVE & NORTH POINT BLVD wb",
+        "point": {
+          "lon": -76.515712,
+          "lat": 39.294024
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 4612,
+        "abbr": "P946",
+        "ivrNum": "",
+        "name": "EASTERN AVE & NORTH PONT BLVD fs wb",
+        "point": {
+          "lon": -76.519336,
+          "lat": 39.292816
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 4613,
+        "abbr": "D411",
+        "ivrNum": "",
+        "name": "EASTERN AVE & ASHBY AVE fs wb",
+        "point": {
+          "lon": -76.521144,
+          "lat": 39.291504
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 4614,
+        "abbr": "D412",
+        "ivrNum": "",
+        "name": "EASTERN AVE & WESTHAM WAY fs wb",
+        "point": {
+          "lon": -76.524184,
+          "lat": 39.290252
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 10903,
+        "abbr": "5592",
+        "ivrNum": "",
+        "name": "EASTERN AVE & PEMBROOKE BLVD mb wb",
+        "point": {
+          "lon": -76.527856,
+          "lat": 39.28884
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 4617,
+        "abbr": "4586",
+        "ivrNum": "",
+        "name": "EASTERN AVE & 45TH ST wb",
+        "point": {
+          "lon": -76.530288,
+          "lat": 39.28816
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 12160,
+        "abbr": "D716",
+        "ivrNum": "",
+        "name": "EASTERN AVE & KANE ST wb",
+        "point": {
+          "lon": -76.536592,
+          "lat": 39.28792
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 4623,
+        "abbr": "D383",
+        "ivrNum": "",
+        "name": "EASTERN AVE & HORNEL ST fs wb",
+        "point": {
+          "lon": -76.5402,
+          "lat": 39.28776
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 6320,
+        "abbr": "5489",
+        "ivrNum": "",
+        "name": "EASTERN AVE & DUNDALK AVE               ",
+        "point": {
+          "lon": -76.543256,
+          "lat": 39.287656
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 2022,
+        "abbr": "D281",
+        "ivrNum": "",
+        "name": "EASTERN AVE & ANGLESEA ST wb",
+        "point": {
+          "lon": -76.546464,
+          "lat": 39.287564
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 10764,
+        "abbr": "H617",
+        "ivrNum": "",
+        "name": "BAYVIEW BLVD & MASON LORD DR nb",
+        "point": {
+          "lon": -76.548264,
+          "lat": 39.287964
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 10542,
+        "abbr": "5060",
+        "ivrNum": "",
+        "name": "BAYVIEW BLVD & HOPKINS BAYVIEW DR nb",
+        "point": {
+          "lon": -76.549552,
+          "lat": 39.289652
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 10543,
+        "abbr": "5067",
+        "ivrNum": "",
+        "name": "LOMBARD ST & PONCA ST wb",
+        "point": {
+          "lon": -76.55524,
+          "lat": 39.291984
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 10689,
+        "abbr": "E062",
+        "ivrNum": "",
+        "name": "LOMBARD ST & GRUNDY ST wb",
+        "point": {
+          "lon": -76.56324,
+          "lat": 39.291624
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 4635,
+        "abbr": "D417",
+        "ivrNum": "",
+        "name": "LOMBARD ST & EATON ST wb",
+        "point": {
+          "lon": -76.565488,
+          "lat": 39.291568
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 4118,
+        "abbr": "4582",
+        "ivrNum": "",
+        "name": "HIGHLAND AVE & BALTIMORE ST fs nb ",
+        "point": {
+          "lon": -76.569312,
+          "lat": 39.292632
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 4639,
+        "abbr": "D420",
+        "ivrNum": "",
+        "name": "FAYETTE ST & HIGHLAND AVE fs wb",
+        "point": {
+          "lon": -76.569928,
+          "lat": 39.294944
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 4641,
+        "abbr": "D422",
+        "ivrNum": "",
+        "name": "FAYETTE ST & ELLWOOD AVE wb",
+        "point": {
+          "lon": -76.573816,
+          "lat": 39.294808
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 4643,
+        "abbr": "4581",
+        "ivrNum": "",
+        "name": "FAYETTE ST & LINWOOD AVE wb",
+        "point": {
+          "lon": -76.576176,
+          "lat": 39.29472
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 4645,
+        "abbr": "D424",
+        "ivrNum": "",
+        "name": "FAYETTE ST & LAKEWOOD AVE wb",
+        "point": {
+          "lon": -76.579008,
+          "lat": 39.294592
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 4646,
+        "abbr": "D425",
+        "ivrNum": "",
+        "name": "FAYETTE ST & ROSE ST wb",
+        "point": {
+          "lon": -76.581216,
+          "lat": 39.294532
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 4647,
+        "abbr": "D426",
+        "ivrNum": "",
+        "name": "FAYETTE & MONTFORD W\/B",
+        "point": {
+          "lon": -76.583304,
+          "lat": 39.294436
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 4648,
+        "abbr": "D427",
+        "ivrNum": "",
+        "name": "FAYETTE ST & PATTERSON PARK AVE wb",
+        "point": {
+          "lon": -76.584696,
+          "lat": 39.294372
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 4649,
+        "abbr": "D429",
+        "ivrNum": "",
+        "name": "FAYETTE & CHESTER W\/B",
+        "point": {
+          "lon": -76.587376,
+          "lat": 39.294288
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 4650,
+        "abbr": "D430",
+        "ivrNum": "",
+        "name": "FAYETTE ST & WASHINGTON ST wb",
+        "point": {
+          "lon": -76.589144,
+          "lat": 39.294212
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 4652,
+        "abbr": "5434",
+        "ivrNum": "",
+        "name": "FAYETTE ST & WOLFE ST wb",
+        "point": {
+          "lon": -76.590416,
+          "lat": 39.294152
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 6326,
+        "abbr": "5452",
+        "ivrNum": "",
+        "name": "FAYETTE ST & BROADWAY wb              ",
+        "point": {
+          "lon": -76.594672,
+          "lat": 39.294048
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 998,
+        "abbr": "B631",
+        "ivrNum": "",
+        "name": "FAYETTE ST & CAROLINE ST wb",
+        "point": {
+          "lon": -76.596792,
+          "lat": 39.293436
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 4657,
+        "abbr": "D434",
+        "ivrNum": "",
+        "name": "FAYETTE ST & CENTRAL AVE mb wb",
+        "point": {
+          "lon": -76.600424,
+          "lat": 39.292492
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 3894,
+        "abbr": "D435",
+        "ivrNum": "",
+        "name": "FAYETTE ST & AISQUITH ST wb",
+        "point": {
+          "lon": -76.601944,
+          "lat": 39.292048
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 3897,
+        "abbr": "5432",
+        "ivrNum": "",
+        "name": "FAYETTE ST & FRONT ST wb         ",
+        "point": {
+          "lon": -76.605432,
+          "lat": 39.291084
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 283,
+        "abbr": "5407",
+        "ivrNum": "",
+        "name": "FAYETTE ST & GAY ST wb",
+        "point": {
+          "lon": -76.608512,
+          "lat": 39.290744
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 8928,
+        "abbr": "R246",
+        "ivrNum": "",
+        "name": "FAYETTE ST & HOLLIDAY ST wb",
+        "point": {
+          "lon": -76.609944,
+          "lat": 39.290656
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 1009,
+        "abbr": "2781",
+        "ivrNum": "",
+        "name": "FAYETTE ST & CALVERT ST wb",
+        "point": {
+          "lon": -76.612064,
+          "lat": 39.29048
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 285,
+        "abbr": "4440",
+        "ivrNum": "",
+        "name": "FAYETTE ST & SAINT PAUL ST wb",
+        "point": {
+          "lon": -76.613592,
+          "lat": 39.290536
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 286,
+        "abbr": "4420",
+        "ivrNum": "",
+        "name": "FAYETTE ST between SAINT PAUL ST & CHARLES ST wb",
+        "point": {
+          "lon": -76.614248,
+          "lat": 39.290472
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 10567,
+        "abbr": "4323",
+        "ivrNum": "",
+        "name": "FAYETTE ST PLAZA wb",
+        "point": {
+          "lon": -76.616288,
+          "lat": 39.290516
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 125,
+        "abbr": "4450",
+        "ivrNum": "",
+        "name": "FAYETTE ST & HOWARD ST wb",
+        "point": {
+          "lon": -76.619248,
+          "lat": 39.290544
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 126,
+        "abbr": "4424",
+        "ivrNum": "",
+        "name": "FAYETTE ST & EUTAW ST wb",
+        "point": {
+          "lon": -76.620768,
+          "lat": 39.29048
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 127,
+        "abbr": "4462",
+        "ivrNum": "",
+        "name": "FAYETTE ST & PACA ST wb            ",
+        "point": {
+          "lon": -76.622008,
+          "lat": 39.29046
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 128,
+        "abbr": "4436",
+        "ivrNum": "",
+        "name": "FAYETTE ST & GREENE ST fs wb",
+        "point": {
+          "lon": -76.624264,
+          "lat": 39.29032
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 130,
+        "abbr": "4433",
+        "ivrNum": "",
+        "name": "FAYETTE ST & FREMONT AVE wb",
+        "point": {
+          "lon": -76.62916,
+          "lat": 39.290136
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 131,
+        "abbr": "4432",
+        "ivrNum": "",
+        "name": "FAYETTE ST & POPPLETON ST wb",
+        "point": {
+          "lon": -76.631904,
+          "lat": 39.290032
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 132,
+        "abbr": "Z005",
+        "ivrNum": "",
+        "name": "FAYETTE ST & SCHROEDER ST wb",
+        "point": {
+          "lon": -76.633464,
+          "lat": 39.289976
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 13795,
+        "abbr": "A760",
+        "ivrNum": "",
+        "name": "SCHROEDER ST & SARATOGA ST nb",
+        "point": {
+          "lon": -76.633968,
+          "lat": 39.292412
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 10867,
+        "abbr": "H970",
+        "ivrNum": "",
+        "name": "FRANKLIN & ARLINGTON AVE wb",
+        "point": {
+          "lon": -76.63532,
+          "lat": 39.294376
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 10868,
+        "abbr": "H971",
+        "ivrNum": "",
+        "name": "FRANKLIN ST & CAREY ST wb",
+        "point": {
+          "lon": -76.638,
+          "lat": 39.294264
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 10869,
+        "abbr": "H972",
+        "ivrNum": "",
+        "name": "FRANKLIN ST & CALHOUN ST wb",
+        "point": {
+          "lon": -76.63956,
+          "lat": 39.294196
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 10675,
+        "abbr": "6545",
+        "ivrNum": "",
+        "name": "FRANKLIN ST & FULTON AVE wb",
+        "point": {
+          "lon": -76.645232,
+          "lat": 39.293972
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 13789,
+        "abbr": "A753",
+        "ivrNum": "",
+        "name": "WEST BALTIMORE MARC LOT A",
+        "point": {
+          "lon": -76.6522,
+          "lat": 39.293064
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      },
+      {
+        "stopId": 14109,
+        "abbr": "Z555",
+        "ivrNum": "",
+        "name": "WEST BALTIMORE MARC STATION BAY 3",
+        "point": {
+          "lon": -76.652144,
+          "lat": 39.293096
+        },
+        "lineDirs": [
+          {
+            "lineDirId": 95100
+          }
+        ]
+      }
+    ]
+  }
+}
 

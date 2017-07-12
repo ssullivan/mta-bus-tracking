@@ -1,1 +1,13 @@
-{"version":"1.1","method":"GetTravelPoints","params":{"travelPointsReqs":[{"lineDirId":"95100","callingApp":"RMD"}],"interval":28}}
+{
+  "version": "1.1",
+  "method": "GetTravelPoints",
+  "params": {
+    "travelPointsReqs": [
+      {
+        "lineDirId": "95100",
+        "callingApp": "RMD"
+      }
+    ],
+    "interval": 28
+  }
+}

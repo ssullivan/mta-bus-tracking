@@ -1,1 +1,2930 @@
-{"version":"1.1","result":{"retLineWithDirInfos":[{"lineId":9521,"abbr":"021","name":"WOODBERRY - CANTON CROSSING","color":"#879a8c","drInfos":[{"lineDirId":95210,"dirName":"WESTBOUND","pttrnDestSigns":[{"patternId":98033,"destinationSign":"21 WOODBERRY LIGHT RAIL STATION"}]},{"lineDirId":95211,"dirName":"EASTBOUND","pttrnDestSigns":[{"patternId":98034,"destinationSign":"21 CANTON CROSSING"}]}]},{"lineId":9522,"abbr":"022","name":"MONDAWMIN - BAYVIEW","color":"#879a8c","drInfos":[{"lineDirId":95220,"dirName":"WESTBOUND","pttrnDestSigns":[{"patternId":98035,"destinationSign":"22 MONDAWMIN METRO STATION"}]},{"lineDirId":95221,"dirName":"EASTBOUND","pttrnDestSigns":[{"patternId":98036,"destinationSign":"22 BAYVIEW"}]}]},{"lineId":9523,"abbr":"026","name":"BROOKLYN - MONDAWMIN","color":"#879a8c","drInfos":[{"lineDirId":95230,"dirName":"SOUTHBOUND","pttrnDestSigns":[{"patternId":98037,"destinationSign":"26 SOUTH BALTIMORE P&R"}]},{"lineDirId":95231,"dirName":"NORTHBOUND","pttrnDestSigns":[{"patternId":98038,"destinationSign":"26 MONDAWMIN"}]}]},{"lineId":9524,"abbr":"028","name":"MORAVIA - ROGERS AVE METRO","color":"#879a8c","drInfos":[{"lineDirId":95240,"dirName":"WESTBOUND","pttrnDestSigns":[{"patternId":98039,"destinationSign":"28 ROGERS AVE METRO"}]},{"lineDirId":95241,"dirName":"EASTBOUND","pttrnDestSigns":[{"patternId":98994,"destinationSign":"28 MORAVIA"}]}]},{"lineId":9525,"abbr":"029","name":"MONDAWMIN - BROOKLYN","color":"#879a8c","drInfos":[{"lineDirId":95250,"dirName":"SOUTHBOUND","pttrnDestSigns":[{"patternId":99037,"destinationSign":"29 BROOKLYN"},{"patternId":99038,"destinationSign":"29 BROOKLYN"}]},{"lineDirId":95251,"dirName":"NORTHBOUND","pttrnDestSigns":[{"patternId":99035,"destinationSign":"29 MONDAWMIN METRO STATION"},{"patternId":99036,"destinationSign":"29 MONDAWMIN METRO STATION"}]}]},{"lineId":9526,"abbr":"030","name":"ROGERS AVE - ROSEDALE","color":"#879a8c","drInfos":[{"lineDirId":95260,"dirName":"WESTBOUND","pttrnDestSigns":[{"patternId":98043,"destinationSign":"30 ROGERS AVE METRO"}]},{"lineDirId":95261,"dirName":"EASTBOUND","pttrnDestSigns":[{"patternId":98044,"destinationSign":"30 ROSEDALE"}]}]},{"lineId":9527,"abbr":"031","name":"SINAI HOSPITAL - SECURITY SQ MALL","color":"#879a8c","drInfos":[{"lineDirId":95270,"dirName":"WESTBOUND","pttrnDestSigns":[{"patternId":98045,"destinationSign":"31 SOCIAL SECURITY ADMINISTRATION"},{"patternId":98046,"destinationSign":"31 SECURITY SQUARE MALL"}]},{"lineDirId":95271,"dirName":"EASTBOUND","pttrnDestSigns":[{"patternId":98047,"destinationSign":"31 SINAI HOSPITAL"},{"patternId":98048,"destinationSign":"31 SINAI HOSPITAL"}]}]},{"lineId":9528,"abbr":"033","name":"MT WASHINGTON LIGHT RAIL - OVERLEA","color":"#879a8c","drInfos":[{"lineDirId":95280,"dirName":"WESTBOUND","pttrnDestSigns":[{"patternId":98049,"destinationSign":"33 MT WASHINGTON LR"}]},{"lineDirId":95281,"dirName":"EASTBOUND","pttrnDestSigns":[{"patternId":98050,"destinationSign":"33 OVERLEA"}]}]},{"lineId":9529,"abbr":"034","name":"FALLS RD STATION - WESTVIEW MALL","color":"#879a8c","drInfos":[{"lineDirId":95290,"dirName":"SOUTHBOUND","pttrnDestSigns":[{"patternId":98051,"destinationSign":"34 WESTVIEW MALL"},{"patternId":100971,"destinationSign":"34 ROGERS AVE METRO"}]},{"lineDirId":95291,"dirName":"NORTHBOUND","pttrnDestSigns":[{"patternId":98052,"destinationSign":"34 FALLS RD LIGHT RAIL STATION"},{"patternId":100972,"destinationSign":"34 GREENSPRING STATION"}]}]},{"lineId":9530,"abbr":"036","name":"TOWSON TOWN CENTER - FOX RIDGE","color":"#879a8c","drInfos":[{"lineDirId":95300,"dirName":"WESTBOUND","pttrnDestSigns":[{"patternId":98053,"destinationSign":"36 TOWSON TOWN CENTER"}]},{"lineDirId":95301,"dirName":"EASTBOUND","pttrnDestSigns":[{"patternId":98054,"destinationSign":"36 ESSEX"}]}]},{"lineId":9531,"abbr":"037","name":"OLD COURT - UMBC","color":"#879a8c","drInfos":[{"lineDirId":95310,"dirName":"SOUTHBOUND","pttrnDestSigns":[{"patternId":98055,"destinationSign":"37 UMBC"}]},{"lineDirId":95311,"dirName":"NORTHBOUND","pttrnDestSigns":[{"patternId":98056,"destinationSign":"37 OLD COURT METRO STATION"}]}]},{"lineId":9532,"abbr":"051","name":"TOWSON - DOWNTOWN","color":"#879a8c","drInfos":[{"lineDirId":95320,"dirName":"SOUTHBOUND","pttrnDestSigns":[{"patternId":98057,"destinationSign":"51 DOWNTOWN"}]},{"lineDirId":95321,"dirName":"NORTHBOUND","pttrnDestSigns":[{"patternId":98058,"destinationSign":"51 TOWSON TOWN CENTER"}]}]},{"lineId":9533,"abbr":"052","name":"GREENMOUNT NORTH - STELLA MARIS","color":"#879a8c","drInfos":[{"lineDirId":95330,"dirName":"SOUTHBOUND","pttrnDestSigns":[{"patternId":98059,"destinationSign":"52 GREENMOUNT NORTH"}]},{"lineDirId":95331,"dirName":"NORTHBOUND","pttrnDestSigns":[{"patternId":98060,"destinationSign":"52 STELLA MARIS"}]}]},{"lineId":9534,"abbr":"053","name":"NORTH AVE LIGHT RAIL - TOWSON","color":"#879a8c","drInfos":[{"lineDirId":95340,"dirName":"SOUTHBOUND","pttrnDestSigns":[{"patternId":98061,"destinationSign":"53 NORTH AVE LIGHT RAIL STATION"},{"patternId":98062,"destinationSign":"53 NORTH AVE LIGHT RAIL STATION"}]},{"lineDirId":95341,"dirName":"NORTHBOUND","pttrnDestSigns":[{"patternId":98063,"destinationSign":"53 HILLENDALE"},{"patternId":98064,"destinationSign":"53 SHEPPARD PRATT"}]}]},{"lineId":9535,"abbr":"054","name":"STATE CENTER - CARNEY\/HILLENDALE","color":"#879a8c","drInfos":[{"lineDirId":95350,"dirName":"SOUTHBOUND","pttrnDestSigns":[{"patternId":98065,"destinationSign":"54 STATE CENTER"},{"patternId":98066,"destinationSign":"54 STATE CENTER"}]},{"lineDirId":95351,"dirName":"NORTHBOUND","pttrnDestSigns":[{"patternId":98067,"destinationSign":"54 HILLENDALE"},{"patternId":98068,"destinationSign":"54 CARNEY PARK AND RIDE"}]}]},{"lineId":9536,"abbr":"056","name":"DOWNTOWN - WHITE MARSH","color":"#879a8c","drInfos":[{"lineDirId":95360,"dirName":"WESTBOUND","pttrnDestSigns":[{"patternId":98069,"destinationSign":"56 DOWNTOWN"},{"patternId":98070,"destinationSign":"56 DOWNTOWN"}]},{"lineDirId":95361,"dirName":"EASTBOUND","pttrnDestSigns":[{"patternId":98071,"destinationSign":"56 WHITE MARSH"},{"patternId":98072,"destinationSign":"56 WHITE MARSH"}]}]},{"lineId":9537,"abbr":"057","name":"BELAIR-EDISON CIRCULATOR","color":"#879a8c","drInfos":[{"lineDirId":95370,"dirName":"CIRCULATOR","pttrnDestSigns":[{"patternId":98073,"destinationSign":"57 BELAIR EDISON LOOP"},{"patternId":98074,"destinationSign":"57 BELAIR EDISON LOOP"}]}]},{"lineId":9538,"abbr":"059","name":"MORAVIA - WHISPERING WOODS","color":"#879a8c","drInfos":[{"lineDirId":95380,"dirName":"WESTBOUND","pttrnDestSigns":[{"patternId":98075,"destinationSign":"59 MORAVIA"}]},{"lineDirId":95381,"dirName":"EASTBOUND","pttrnDestSigns":[{"patternId":98076,"destinationSign":"59 WHISPERING WOODS"}]}]},{"lineId":9539,"abbr":"062","name":"CCBC ESSEX - TURNER STATION","color":"#879a8c","drInfos":[{"lineDirId":95390,"dirName":"SOUTHBOUND","pttrnDestSigns":[{"patternId":99041,"destinationSign":"62 TURNER STATION"}]},{"lineDirId":95391,"dirName":"NORTHBOUND","pttrnDestSigns":[{"patternId":99042,"destinationSign":"62 CCBC ESSEX"}]}]},{"lineId":9540,"abbr":"065","name":"DOWNTOWN - DUNDALK","color":"#879a8c","drInfos":[{"lineDirId":95400,"dirName":"EASTBOUND","pttrnDestSigns":[{"patternId":98079,"destinationSign":"65 CCBC DUNDALK"}]},{"lineDirId":95401,"dirName":"WESTBOUND","pttrnDestSigns":[{"patternId":98080,"destinationSign":"65 DOWNTOWN"}]}]},{"lineId":9541,"abbr":"067","name":"DOWNTOWN - MARLEY NECK","color":"#879a8c","drInfos":[{"lineDirId":95410,"dirName":"SOUTHBOUND","pttrnDestSigns":[{"patternId":98081,"destinationSign":"67 MARLEY NECK"}]},{"lineDirId":95411,"dirName":"NORTHBOUND","pttrnDestSigns":[{"patternId":98082,"destinationSign":"67 DOWNTOWN"}]}]},{"lineId":9542,"abbr":"069","name":"PATAPSCO STATION - JUMPERS HOLE","color":"#879a8c","drInfos":[{"lineDirId":95420,"dirName":"SOUTHBOUND","pttrnDestSigns":[{"patternId":98083,"destinationSign":"69 JUMPERS HOLE"},{"patternId":98084,"destinationSign":"69 JUMPERS HOLE"}]},{"lineDirId":95421,"dirName":"NORTHBOUND","pttrnDestSigns":[{"patternId":98085,"destinationSign":"69 UNIVERSITY OF MD TRANSIT CENTER"},{"patternId":98086,"destinationSign":"69 PATAPSCO STATION"}]}]},{"lineId":9543,"abbr":"070","name":"PATAPSCO STATION - ANNAPOLIS","color":"#879a8c","drInfos":[{"lineDirId":95430,"dirName":"SOUTHBOUND","pttrnDestSigns":[{"patternId":98087,"destinationSign":"70 ANNAPOLIS"},{"patternId":98088,"destinationSign":"70 ANNAPOLIS"},{"patternId":98089,"destinationSign":"70 ANNAPOLIS"}]},{"lineDirId":95431,"dirName":"NORTHBOUND","pttrnDestSigns":[{"patternId":98090,"destinationSign":"70 UM MEDICAL CENTER"},{"patternId":98091,"destinationSign":"70 UM MEDICAL CENTER"},{"patternId":98092,"destinationSign":"70 PATAPSCO LIGHT RAIL"},{"patternId":98093,"destinationSign":"70 PATAPSCO LIGHT RAIL"}]}]},{"lineId":9544,"abbr":"071","name":"DOWNTOWN - PATAPSCO LIGHT RAIL","color":"#879a8c","drInfos":[{"lineDirId":95440,"dirName":"SOUTHBOUND","pttrnDestSigns":[{"patternId":98094,"destinationSign":"71 PATAPSCO STATION"}]},{"lineDirId":95441,"dirName":"NORTHBOUND","pttrnDestSigns":[{"patternId":98095,"destinationSign":"71 DOWNTOWN"}]}]},{"lineId":9545,"abbr":"073","name":"STATE CENTER - PATAPSCO STATION","color":"#879a8c","drInfos":[{"lineDirId":95450,"dirName":"SOUTHBOUND","pttrnDestSigns":[{"patternId":98096,"destinationSign":"73 PATAPSCO LIGHT RAIL"}]},{"lineDirId":95451,"dirName":"NORTHBOUND","pttrnDestSigns":[{"patternId":98097,"destinationSign":"73 STATE CENTER"}]}]},{"lineId":9546,"abbr":"075","name":"PATAPSCO LIGHT RAIL - ARUNDEL MILLS","color":"#879a8c","drInfos":[{"lineDirId":95460,"dirName":"SOUTHBOUND","pttrnDestSigns":[{"patternId":98098,"destinationSign":"75 ARUNDEL MILLS SHOPPING CENTER"},{"patternId":98099,"destinationSign":"75 ARUNDEL MILLS SHOPPING CENTER"},{"patternId":98100,"destinationSign":"75 PARKWAY CENTER"}]},{"lineDirId":95461,"dirName":"NORTHBOUND","pttrnDestSigns":[{"patternId":98101,"destinationSign":"75 UNIV OF MD TRANSIT CENTER"},{"patternId":98102,"destinationSign":"75 PATAPSCO STATION"},{"patternId":98103,"destinationSign":"75 PATAPSCO STATION"}]}]},{"lineId":9547,"abbr":"076","name":"CCBC - DOWNTOWN","color":"#879a8c","drInfos":[{"lineDirId":95470,"dirName":"WESTBOUND","pttrnDestSigns":[{"patternId":98104,"destinationSign":"76 UMBC - CCBC CATONSVILLE"},{"patternId":98105,"destinationSign":"76 UMBC - CCBC CATONSVILLE"}]},{"lineDirId":95471,"dirName":"EASTBOUND","pttrnDestSigns":[{"patternId":98106,"destinationSign":"76 DOWNTOWN"},{"patternId":98107,"destinationSign":"76 DOWNTOWN"}]}]},{"lineId":9548,"abbr":"077","name":"W BALTIMORE MARC - CATONSVILLE","color":"#879a8c","drInfos":[{"lineDirId":95480,"dirName":"WESTBOUND","pttrnDestSigns":[{"patternId":98108,"destinationSign":"77 CATONSVILLE"}]},{"lineDirId":95481,"dirName":"EASTBOUND","pttrnDestSigns":[{"patternId":98109,"destinationSign":"77 WEST BALTIMORE MARC STATION"}]}]},{"lineId":9549,"abbr":"078","name":"W BALTIMORE MARC - CMS","color":"#879a8c","drInfos":[{"lineDirId":95490,"dirName":"WESTBOUND","pttrnDestSigns":[{"patternId":98110,"destinationSign":"78 CMS"}]},{"lineDirId":95491,"dirName":"EASTBOUND","pttrnDestSigns":[{"patternId":98111,"destinationSign":"78 WEST BALTIMORE MARC STATION"}]}]},{"lineId":9550,"abbr":"079","name":"MONDAWMIN - CMS","color":"#879a8c","drInfos":[{"lineDirId":95500,"dirName":"WESTBOUND","pttrnDestSigns":[{"patternId":98112,"destinationSign":"79 CMS"}]},{"lineDirId":95501,"dirName":"EASTBOUND","pttrnDestSigns":[{"patternId":98113,"destinationSign":"79 MONDAWMIN METRO"}]}]},{"lineId":9551,"abbr":"080","name":"DOWNTOWN - ROGERS AVE METRO STATION","color":"#879a8c","drInfos":[{"lineDirId":95510,"dirName":"WESTBOUND","pttrnDestSigns":[{"patternId":98114,"destinationSign":"80 ROGERS AVE METRO"}]},{"lineDirId":95511,"dirName":"EASTBOUND","pttrnDestSigns":[{"patternId":98115,"destinationSign":"80 DOWNTOWN"}]}]},{"lineId":9552,"abbr":"081","name":"DEER PARK - MILFORD MILL METRO","color":"#879a8c","drInfos":[{"lineDirId":95520,"dirName":"WESTBOUND","pttrnDestSigns":[{"patternId":98116,"destinationSign":"81 DEER PARK "},{"patternId":99040,"destinationSign":"81 RANDALLSTOWN"}]},{"lineDirId":95521,"dirName":"EASTBOUND","pttrnDestSigns":[{"patternId":98117,"destinationSign":"81 MILFORD MILL METRO STATION"},{"patternId":99039,"destinationSign":"81 MILFORD MILL METRO STATION"}]}]},{"lineId":9553,"abbr":"082","name":"PARK CIRCLE - REISTERSTOWN PLAZA","color":"#879a8c","drInfos":[{"lineDirId":95530,"dirName":"SOUTHBOUND","pttrnDestSigns":[{"patternId":98118,"destinationSign":"82 PARK CIRCLE"}]},{"lineDirId":95531,"dirName":"NORTHBOUND","pttrnDestSigns":[{"patternId":98119,"destinationSign":"82 REISTERSTOWN PLAZA METRO STATION"}]}]},{"lineId":9554,"abbr":"083","name":"MONDAWMIN - OLD COURT METRO","color":"#879a8c","drInfos":[{"lineDirId":95540,"dirName":"SOUTHBOUND","pttrnDestSigns":[{"patternId":98120,"destinationSign":"83 MONDAWMIN METRO"}]},{"lineDirId":95541,"dirName":"NORTHBOUND","pttrnDestSigns":[{"patternId":98121,"destinationSign":"83 OLD COURT METRO"}]}]},{"lineId":9555,"abbr":"085","name":"PENN-NORTH - MILFORD MILL","color":"#879a8c","drInfos":[{"lineDirId":95550,"dirName":"SOUTHBOUND","pttrnDestSigns":[{"patternId":98122,"destinationSign":"85 PENN-NORTH METRO STATION"}]},{"lineDirId":95551,"dirName":"NORTHBOUND","pttrnDestSigns":[{"patternId":98123,"destinationSign":"85 MILFORD MILL METRO STATION"}]}]},{"lineId":9556,"abbr":"087","name":"GLYNDON - OWINGS MILLS","color":"#879a8c","drInfos":[{"lineDirId":95560,"dirName":"SOUTHBOUND","pttrnDestSigns":[{"patternId":98124,"destinationSign":"87 OWINGS MILLS"}]},{"lineDirId":95561,"dirName":"NORTHBOUND","pttrnDestSigns":[{"patternId":98125,"destinationSign":"87 GLYNDON"}]}]},{"lineId":9557,"abbr":"089","name":"ROGERS AVE - OWINGS MILLS","color":"#879a8c","drInfos":[{"lineDirId":95570,"dirName":"SOUTHBOUND","pttrnDestSigns":[{"patternId":98126,"destinationSign":"89 ROGERS AVE METRO STATION"},{"patternId":98127,"destinationSign":"89 ROGERS AVE METRO STATION"}]},{"lineDirId":95571,"dirName":"NORTHBOUND","pttrnDestSigns":[{"patternId":98128,"destinationSign":"89 OWINGS MILLS"},{"patternId":98129,"destinationSign":"89 REDLAND COURT "}]}]},{"lineId":9558,"abbr":"091","name":"MONDAWMIN - SINAI HOSPITAL","color":"#879a8c","drInfos":[{"lineDirId":95580,"dirName":"SOUTHBOUND","pttrnDestSigns":[{"patternId":98130,"destinationSign":"91 MONDAWMIN METRO"}]},{"lineDirId":95581,"dirName":"NORTHBOUND","pttrnDestSigns":[{"patternId":98131,"destinationSign":"91 SINAI HOSPITAL"}]}]},{"lineId":9559,"abbr":"092","name":"GLEN - BAAS & TALMUDICAL","color":"#879a8c","drInfos":[{"lineDirId":95590,"dirName":"NORTHBOUND","pttrnDestSigns":[{"patternId":98132,"destinationSign":"92 OWINGS MILLS METRO"},{"patternId":98133,"destinationSign":"92 SCOTTS HILL"},{"patternId":98134,"destinationSign":"92 COPPER RIDGE"},{"patternId":98135,"destinationSign":"92 VELVET VALLEY"}]},{"lineDirId":95591,"dirName":"SOUTHBOUND","pttrnDestSigns":[{"patternId":98136,"destinationSign":"92 LUCKMAN PARK"},{"patternId":98137,"destinationSign":"92 LUCKMAN PARK"},{"patternId":98138,"destinationSign":"92 LUCKMAN PARK"},{"patternId":98139,"destinationSign":"92 LUCKMAN PARK"}]}]},{"lineId":9560,"abbr":"093","name":"TOWSON - HUNT VALLEY","color":"#879a8c","drInfos":[{"lineDirId":95600,"dirName":"SOUTHBOUND","pttrnDestSigns":[{"patternId":98140,"destinationSign":"93 TOWSON"}]},{"lineDirId":95601,"dirName":"NORTHBOUND","pttrnDestSigns":[{"patternId":98141,"destinationSign":"93 HUNT VALLEY"}]}]},{"lineId":9561,"abbr":"094","name":"FORT MCHENRY - SINAI HOSPITAL","color":"#879a8c","drInfos":[{"lineDirId":95610,"dirName":"SOUTHBOUND","pttrnDestSigns":[{"patternId":98142,"destinationSign":"94 FORT McHENRY"}]},{"lineDirId":95611,"dirName":"NORTHBOUND","pttrnDestSigns":[{"patternId":98143,"destinationSign":"94 SINAI HOSPITAL"}]}]},{"lineId":9562,"abbr":"095","name":"DOWNTOWN - ROLAND PARK","color":"#879a8c","drInfos":[{"lineDirId":95620,"dirName":"SOUTHBOUND","pttrnDestSigns":[{"patternId":98144,"destinationSign":"95 DOWNTOWN"}]},{"lineDirId":95621,"dirName":"NORTHBOUND","pttrnDestSigns":[{"patternId":98145,"destinationSign":"95 ROLAND PARK"}]}]},{"lineId":9687,"abbr":"100","name":"METRO","color":"#008000","drInfos":[{"lineDirId":96870,"dirName":"SOUTHBOUND","pttrnDestSigns":[{"patternId":98997,"destinationSign":"JOHNS HOPKINS"},{"patternId":98998,"destinationSign":"JOHNS HOPKINS"},{"patternId":98999,"destinationSign":"JOHNS HOPKINS"},{"patternId":99000,"destinationSign":"JOHNS HOPKINS"},{"patternId":99001,"destinationSign":"REISTERSTOWN PLAZA STATION"}]},{"lineDirId":96871,"dirName":"NORTHBOUND","pttrnDestSigns":[{"patternId":99002,"destinationSign":"ROGERS AVE STATION"},{"patternId":99003,"destinationSign":"REISTERSTOWN PLAZA STATION"},{"patternId":99004,"destinationSign":"OWINGS MILLS"},{"patternId":99005,"destinationSign":"OWINGS MILLS"},{"patternId":99006,"destinationSign":"OWINGS MILLS"}]}]},{"lineId":9563,"abbr":"102","name":"TOWSON - WHITE MARSH","color":"#000000","drInfos":[{"lineDirId":95630,"dirName":"EASTBOUND","pttrnDestSigns":[{"patternId":98146,"destinationSign":"102 WHITE MARSH"}]},{"lineDirId":95631,"dirName":"WESTBOUND","pttrnDestSigns":[{"patternId":98147,"destinationSign":"102 TOWSON"}]}]},{"lineId":9564,"abbr":"103","name":"DOWNTOWN - CROMWELL BRIDGE","color":"#000000","drInfos":[{"lineDirId":95640,"dirName":"SOUTHBOUND","pttrnDestSigns":[{"patternId":98148,"destinationSign":"103 DOWNTOWN"},{"patternId":99048,"destinationSign":"103 KIRK AVE"}]},{"lineDirId":95641,"dirName":"NORTHBOUND","pttrnDestSigns":[{"patternId":98149,"destinationSign":"103 CROMWELL BRIDGE PARK & RIDE"},{"patternId":99043,"destinationSign":"103 CROMWELL BRIDGE PARK & RIDE"}]}]},{"lineId":9565,"abbr":"105","name":"CEDONIA - DOWNTOWN","color":"#000000","drInfos":[{"lineDirId":95650,"dirName":"SOUTHBOUND","pttrnDestSigns":[{"patternId":98150,"destinationSign":"105 DOWNTOWN"}]},{"lineDirId":95651,"dirName":"NORTHBOUND","pttrnDestSigns":[{"patternId":98151,"destinationSign":"105 CEDONIA"}]}]},{"lineId":9566,"abbr":"106","name":"OWINGS MILLS METRO - TOWSON","color":"#000000","drInfos":[{"lineDirId":95660,"dirName":"WESTBOUND","pttrnDestSigns":[{"patternId":98152,"destinationSign":"106 OWINGS MILLS METRO"}]},{"lineDirId":95661,"dirName":"EASTBOUND","pttrnDestSigns":[{"patternId":98153,"destinationSign":"106 TOWSON"}]}]},{"lineId":9567,"abbr":"107","name":"OLD COURT METRO - BWI AIRPORT\/MARC","color":"#000000","drInfos":[{"lineDirId":95670,"dirName":"SOUTHBOUND","pttrnDestSigns":[{"patternId":98154,"destinationSign":"107 BWI MARSHALL AIRPORT\/MARC STATION"}]},{"lineDirId":95671,"dirName":"NORTHBOUND","pttrnDestSigns":[{"patternId":98155,"destinationSign":"107 OLD COURT METRO STATION"}]}]},{"lineId":9568,"abbr":"115","name":"DOWNTOWN - PERRY HALL","color":"#000000","drInfos":[{"lineDirId":95680,"dirName":"SOUTHBOUND","pttrnDestSigns":[{"patternId":98156,"destinationSign":"115 NORTH AVE"},{"patternId":98157,"destinationSign":"115 DOWNTOWN"}]},{"lineDirId":95681,"dirName":"NORTHBOUND","pttrnDestSigns":[{"patternId":98158,"destinationSign":"115 PERRY HALL"},{"patternId":98159,"destinationSign":"115 PERRY HALL"}]}]},{"lineId":9569,"abbr":"120","name":"WHITE MARSH - DOWNTOWN\/HOPKINS HOSP","color":"#000000","drInfos":[{"lineDirId":95690,"dirName":"SOUTHBOUND  ","pttrnDestSigns":[{"patternId":98160,"destinationSign":"120 HOPKINS HOSPITAL"},{"patternId":98161,"destinationSign":"120 DOWNTOWN"}]},{"lineDirId":95691,"dirName":"NORTHBOUND","pttrnDestSigns":[{"patternId":98162,"destinationSign":"120 WHITE MARSH"},{"patternId":98163,"destinationSign":"120 WHITE MARSH"}]}]},{"lineId":9570,"abbr":"150","name":"COLUMBIA - DOWNTOWN\/HARBOR EAST","color":"#000000","drInfos":[{"lineDirId":95700,"dirName":"EASTBOUND   ","pttrnDestSigns":[{"patternId":98164,"destinationSign":"150 DOWNTOWN\/HARBOR EAST"}]},{"lineDirId":95701,"dirName":"WESTBOUND","pttrnDestSigns":[{"patternId":98165,"destinationSign":"150 COLUMBIA"}]}]},{"lineId":9571,"abbr":"154","name":"STATE CENTER - CARNEY\/HILLENDALE","color":"#000000","drInfos":[{"lineDirId":95710,"dirName":"SOUTHBOUND","pttrnDestSigns":[{"patternId":98166,"destinationSign":"154 STATE CENTER"},{"patternId":98167,"destinationSign":"154 STATE CENTER"}]},{"lineDirId":95711,"dirName":"NORTHBOUND","pttrnDestSigns":[{"patternId":98168,"destinationSign":"154 HILLENDALE"},{"patternId":98169,"destinationSign":"154 CARNEY"}]}]},{"lineId":9572,"abbr":"160","name":"DOWNTOWN\/HOPKINS HOSPITAL - ESSEX","color":"#000000","drInfos":[{"lineDirId":95720,"dirName":"EASTBOUND","pttrnDestSigns":[{"patternId":98170,"destinationSign":"160 ESSEX"},{"patternId":98171,"destinationSign":"160 WHISPERING WOODS"}]},{"lineDirId":95721,"dirName":"WESTBOUND","pttrnDestSigns":[{"patternId":98172,"destinationSign":"160 JOHNS HOPKINS HOSPITAL"},{"patternId":98173,"destinationSign":"160 JOHNS HOPKINS HOSPITAL"}]}]},{"lineId":9573,"abbr":"164","name":"RIVIERA BEACH - DOWNTOWN","color":"#000000","drInfos":[{"lineDirId":95730,"dirName":"SOUTHBOUND","pttrnDestSigns":[{"patternId":98174,"destinationSign":"164 RIVIERA BEACH"}]},{"lineDirId":95731,"dirName":"NORTHBOUND","pttrnDestSigns":[{"patternId":98175,"destinationSign":"164 DOWNTOWN"}]}]},{"lineId":9688,"abbr":"200","name":"LIGHT RAIL","color":"#00ffff","drInfos":[{"lineDirId":96880,"dirName":"NORTHBOUND","pttrnDestSigns":[{"patternId":99007,"destinationSign":"HUNT VALLEY"},{"patternId":99008,"destinationSign":"PENN STATION"},{"patternId":99009,"destinationSign":"FAIRGROUNDS"},{"patternId":99010,"destinationSign":"FAIRGROUNDS"},{"patternId":99011,"destinationSign":"FAIRGROUNDS"},{"patternId":99012,"destinationSign":"HUNT VALLEY"},{"patternId":99013,"destinationSign":"NORTH AVE STATION"},{"patternId":99014,"destinationSign":"HUNT VALLEY"},{"patternId":99015,"destinationSign":"NORTH AVE STATION"},{"patternId":99016,"destinationSign":"NORTH AVE STATION"},{"patternId":99017,"destinationSign":"HUNT VALLEY"},{"patternId":99018,"destinationSign":"HUNT VALLEY"}]},{"lineDirId":96881,"dirName":"SOUTHBOUND","pttrnDestSigns":[{"patternId":99019,"destinationSign":"CROMWELL STATION"},{"patternId":99020,"destinationSign":"CAMDEN YARDS"},{"patternId":99021,"destinationSign":"NORTH AVE"},{"patternId":99022,"destinationSign":"CROMWELL STATION"},{"patternId":99023,"destinationSign":"BWI AIRPORT"},{"patternId":99024,"destinationSign":"PENN STATION"},{"patternId":99025,"destinationSign":"BWI AIRPORT"},{"patternId":99026,"destinationSign":"CAMDEN STATION"},{"patternId":99027,"destinationSign":"CAMDEN STATION"},{"patternId":99028,"destinationSign":"NORTH AVE STATION"},{"patternId":99029,"destinationSign":"CROMWELL STATION"},{"patternId":99030,"destinationSign":"CROMWELL STATION"}]}]},{"lineId":9739,"abbr":"210","name":"KENT ISLAND - ANNAPOLIS\/BALTIMORE","color":"#a6caf0","drInfos":[{"lineDirId":97390,"dirName":"WESTBOUND","pttrnDestSigns":[{"patternId":99340,"destinationSign":"BALTIMORE"},{"patternId":99341,"destinationSign":"ANNAPOLIS\/BALTIMORE"}]},{"lineDirId":97391,"dirName":"EASTBOUND","pttrnDestSigns":[{"patternId":99342,"destinationSign":"ANNAPOLIS"},{"patternId":99343,"destinationSign":"KENT ISLAND"}]}]},{"lineId":9740,"abbr":"215","name":"BALTIMORE - ANNAPOLIS","color":"#a6caf0","drInfos":[{"lineDirId":97400,"dirName":"SOUTHBOUND","pttrnDestSigns":[{"patternId":99344,"destinationSign":"ANNAPOLIS"}]},{"lineDirId":97401,"dirName":"NORTHBOUND","pttrnDestSigns":[{"patternId":99345,"destinationSign":"BALTIMORE"}]}]},{"lineId":9814,"abbr":"300","name":"BRUNSWICK - WASHINGTON","color":"#ff8000","drInfos":[{"lineDirId":98140,"dirName":"EASTBOUND","pttrnDestSigns":[{"patternId":99760,"destinationSign":"UNION STATION"},{"patternId":99761,"destinationSign":"UNION STATION"},{"patternId":99762,"destinationSign":"UNION STATION"},{"patternId":99763,"destinationSign":"UNION STATION"},{"patternId":99764,"destinationSign":"UNION STATION"},{"patternId":99765,"destinationSign":"UNION STATION"},{"patternId":99766,"destinationSign":"UNION STATION"},{"patternId":99767,"destinationSign":"UNION STATION"},{"patternId":99768,"destinationSign":"UNION STATION"}]},{"lineDirId":98141,"dirName":"WESTBOUND","pttrnDestSigns":[{"patternId":99769,"destinationSign":"FREDERICK STA"},{"patternId":99770,"destinationSign":"FREDERICK STA"},{"patternId":99771,"destinationSign":"FREDERICK STA."},{"patternId":99772,"destinationSign":"MARTINSBURG STA"},{"patternId":99773,"destinationSign":"MARTINSBURG STA"},{"patternId":99774,"destinationSign":"MARTINSBURG STA"},{"patternId":99775,"destinationSign":"BRUNSWICK STA."},{"patternId":99776,"destinationSign":"MARTINSBURG STA"},{"patternId":99777,"destinationSign":"MARTINSBURG STA"},{"patternId":99778,"destinationSign":"BRUNSWICK STA."}]}]},{"lineId":9773,"abbr":"301","name":"PENN - WASHINGTON","color":"#ff8000","drInfos":[{"lineDirId":97730,"dirName":"SOUTHBOUND","pttrnDestSigns":[{"patternId":99448,"destinationSign":"WASHINGTON (TRAIN 689)"},{"patternId":99449,"destinationSign":"WASHINGTON (TRAIN 683) "},{"patternId":99450,"destinationSign":"WASHINGTON (TRAIN 681) WS"},{"patternId":99451,"destinationSign":"WASHINGTON (TRAIN 677)"},{"patternId":99452,"destinationSign":"WASHINGTON (TRAIN 675)"},{"patternId":99453,"destinationSign":"WASHINGTON LOCAL (Train 641)"},{"patternId":99454,"destinationSign":"BALTIMORE LOCAL (Train 579)"},{"patternId":99455,"destinationSign":"WASHINGTON EXPRESS (Train 537)"},{"patternId":99456,"destinationSign":"WASHINGTON LOCAL (Train 523)"},{"patternId":99457,"destinationSign":"WASHINGTON LOCAL (Train 517)"},{"patternId":99458,"destinationSign":"WASHINGTON LOCAL (Train 511)"},{"patternId":99459,"destinationSign":"WASHINGTON LOCAL (Train 505)"},{"patternId":99460,"destinationSign":"WASHINGTON (TRAIN 499)"},{"patternId":99461,"destinationSign":"WASHINGTON (TRAIN 497)"},{"patternId":99462,"destinationSign":"WASHINGTON (TRAIN 495)"},{"patternId":99463,"destinationSign":"WASHINGTON (TRAIN 493)"},{"patternId":99464,"destinationSign":"WASHINGTON (TRAIN 491)"},{"patternId":99465,"destinationSign":"WASHINGTON (TRAIN 487)"},{"patternId":99466,"destinationSign":"WASHINGTON (TRAIN 485)"},{"patternId":99467,"destinationSign":"WASHINGTON (TRAIN 481)"},{"patternId":99468,"destinationSign":"WASHINGTON LOCAL (Train 453)"},{"patternId":99469,"destinationSign":"WASHINGTON LOCAL (Train 451)"},{"patternId":99470,"destinationSign":"WASHINGTON LOCAL (Train 449)"},{"patternId":99471,"destinationSign":"WASHINGTON LOCAL (Train 447)"},{"patternId":99472,"destinationSign":"WASHINGTON EXPRESS (Train 445)"},{"patternId":99473,"destinationSign":"WASHINGTON LOCAL (Train 443)"},{"patternId":99474,"destinationSign":"WASHINGTON LOCAL (Train 439)"},{"patternId":99475,"destinationSign":"WASHINGTON LOCAL (Train 435)"},{"patternId":99476,"destinationSign":"WASHINGTON LOCAL (Train 433)"},{"patternId":99477,"destinationSign":"WASHINGTON LOCAL (Train 431)"},{"patternId":99478,"destinationSign":"WASHINGTON LOCAL (Train 429)"},{"patternId":99479,"destinationSign":"WASHINGTON LOCAL (Train 427)"},{"patternId":99480,"destinationSign":"WASHINGTON LOCAL (Train 425)"},{"patternId":99481,"destinationSign":"WASHINGTON LOCAL (Train 421)"},{"patternId":99482,"destinationSign":"WASHINGTON LOCAL (Train 419)"},{"patternId":99483,"destinationSign":"WASHINGTON LOCAL (Train 415)"},{"patternId":99484,"destinationSign":"WASHINGTON LOCAL (Train 413)"},{"patternId":99485,"destinationSign":"WASHINGTON LOCAL (Train 409)"},{"patternId":99486,"destinationSign":"WASHINGTON LOCAL (Train 407)"},{"patternId":99487,"destinationSign":"WASHINGTON LOCAL (Train 403)"},{"patternId":99488,"destinationSign":"WASHINGTON LOCAL (Train 401)"}]},{"lineDirId":97731,"dirName":"NORTHBOUND","pttrnDestSigns":[{"patternId":99489,"destinationSign":"MARTIN AIRPORT (TRAIN 698)"},{"patternId":99490,"destinationSign":"MARTIN AIRPORT (TRAIN 696)"},{"patternId":99491,"destinationSign":"MARTIN AIRPORT (TRAIN 694)"},{"patternId":99492,"destinationSign":"MARTIN AIRPORT (TRAIN 692)"},{"patternId":99493,"destinationSign":"MARTIN AIRPORT (TRAIN 688)"},{"patternId":99494,"destinationSign":"BALTIMORE LOCAL (Train 642)"},{"patternId":99495,"destinationSign":"MARTIN AIRPORT LOCAL (Train 634)"},{"patternId":99496,"destinationSign":"MARTIN AIRPORT LOCAL (Train 612)"},{"patternId":99497,"destinationSign":"MARTIN AIRPORT LOCAL (Train 634)"},{"patternId":99498,"destinationSign":"PERRYVILLE LIMITED (Train 554)"},{"patternId":99499,"destinationSign":"PERRYVILLE LOCAL (Train 548)"},{"patternId":99500,"destinationSign":"PERRYVILLE LOCAL (Train 544)"},{"patternId":99501,"destinationSign":"PERRYVILLE LIMITED (Train 536)"},{"patternId":99502,"destinationSign":"PERRYVILLE LOCAL (Train 532)"},{"patternId":99503,"destinationSign":"PERRYVILLE LOCAL (Train 520)"},{"patternId":99504,"destinationSign":"PERRYVILLE LOCAL (Train 504)"},{"patternId":99505,"destinationSign":"PENN STATION BALTIMORE (TRAIN 494)"},{"patternId":99506,"destinationSign":"PENN STATION BALTIMORE (TRAIN 492)"},{"patternId":99507,"destinationSign":"PENN STATION BALTIMORE (TRAIN 490)"},{"patternId":99508,"destinationSign":"PENN STATION BALTIMORE (TRAIN 488)"},{"patternId":99509,"destinationSign":"PENN STATION BALTIMORE (TRAIN 486)"},{"patternId":99510,"destinationSign":"PENN STATION BALTIMORE (TRAIN 484)"},{"patternId":99511,"destinationSign":"PENN STATION BALTIMORE (TRAIN 482)"},{"patternId":99512,"destinationSign":"PENN STATION BALTIMORE (TRAIN 480)"},{"patternId":99513,"destinationSign":"PENN STATION BALTIMORE (TRAIN 478)"},{"patternId":99514,"destinationSign":"PENN STATION BALTIMORE (TRAIN 476)"},{"patternId":99515,"destinationSign":"BALTIMORE LOCAL (Train 452)"},{"patternId":99516,"destinationSign":"BALTIMORE LOCAL (Train 448)"},{"patternId":99517,"destinationSign":"BALTIMORE LOCAL (Train 446)"},{"patternId":99518,"destinationSign":"BALTIMORE LOCAL (Train 440)"},{"patternId":99519,"destinationSign":"BALTIMORE LOCAL (Train 438)"},{"patternId":99520,"destinationSign":"BALTIMORE EXPRESS (Train 430)"},{"patternId":99521,"destinationSign":"BALTIMORE EXPRESS (Train 428)"},{"patternId":99522,"destinationSign":"BALTIMORE LOCAL (Train 426)"},{"patternId":99523,"destinationSign":"BALTIMORE LOCAL (Train 424)"},{"patternId":99524,"destinationSign":"BALTIMORE LOCAL (Train 422)"},{"patternId":99525,"destinationSign":"BALTIMORE LOCAL (Train 418)"},{"patternId":99526,"destinationSign":"BALTIMORE LOCAL (Train 416)"},{"patternId":99527,"destinationSign":"BALTIMORE LOCAL (Train 414)"},{"patternId":99528,"destinationSign":"BALTIMORE LOCAL (Train 412)"},{"patternId":99529,"destinationSign":"BALTIMORE EXPRESS (Train 408)"},{"patternId":99530,"destinationSign":"BALTIMORE LOCAL (Train 406)"},{"patternId":99531,"destinationSign":"BALTIMORE EXPRESS (Train 404)"},{"patternId":99532,"destinationSign":"BALTIMORE LOCAL (Train 400)"}]}]},{"lineId":9813,"abbr":"302","name":"CAMDEN - WASHINGTON","color":"#ff8000","drInfos":[{"lineDirId":98130,"dirName":"WESTBOUND","pttrnDestSigns":[{"patternId":99740,"destinationSign":"TRAIN 857 TO WASHINGTON UNION STA"},{"patternId":99741,"destinationSign":"TRAIN 855 TO WASHINGTON UNION STA"},{"patternId":99742,"destinationSign":"TRAIN 853 TO WASHINGTON UNION STA"},{"patternId":99743,"destinationSign":"TRAIN 851 TO WASHINGTON UNION STA"},{"patternId":99744,"destinationSign":"TRAIN 849 TO WASHINGTON UNION STA"},{"patternId":99745,"destinationSign":"TRAIN 847 TO WASHINGTON UNION STA"},{"patternId":99746,"destinationSign":"TRAIN 845 TO WASHINGTON UNION STA"},{"patternId":99747,"destinationSign":"TRAIN 843 TO WASHINGTON UNION STA"},{"patternId":99748,"destinationSign":"TRAIN 841 TO WASHINGTON UNION STA"}]},{"lineDirId":98131,"dirName":"EASTBOUND","pttrnDestSigns":[{"patternId":99749,"destinationSign":"TRAIN 856 TO BALTIMORE CAMDEN STA"},{"patternId":99750,"destinationSign":"TRAIN 854 TO BALTIMORE CAMDEN STA"},{"patternId":99751,"destinationSign":"TRAIN 852 TO BALTIMORE CAMDEN STA"},{"patternId":99752,"destinationSign":"TRAIN 850 TO BALTIMORE CAMDEN STA"},{"patternId":99753,"destinationSign":"TRAIN 848 TO BALTIMORE CAMDEN STA"},{"patternId":99754,"destinationSign":"TRAIN 846 TO BALTIMORE CAMDEN STA"},{"patternId":99755,"destinationSign":"TRAIN 844 TO BALTIMORE CAMDEN STA"},{"patternId":99756,"destinationSign":"TRAIN 842 TO BALTIMORE CAMDEN STA"},{"patternId":99757,"destinationSign":"TRAIN 840 TO BALTIMORE CAMDEN STA"},{"patternId":99758,"destinationSign":"CAMDEN YARDS"},{"patternId":99759,"destinationSign":""}]}]},{"lineId":9756,"abbr":"425","name":"ABERDEEN PROVING GROUND - DOWNTOWN","color":"#a6caf0","drInfos":[{"lineDirId":97560,"dirName":"SOUTHBOUND","pttrnDestSigns":[{"patternId":99397,"destinationSign":"DOWNTOWN BALTIMORE"}]},{"lineDirId":97561,"dirName":"NORTHBOUND","pttrnDestSigns":[{"patternId":99398,"destinationSign":"ABERDEEN PROVING GROUND"}]}]},{"lineId":9512,"abbr":"BL","name":"CMS - JOHNS HOPKINS BAYVIEW","color":"#0080ff","drInfos":[{"lineDirId":95120,"dirName":"EASTBOUND","pttrnDestSigns":[{"patternId":97997,"destinationSign":"BL HOPKINS BAYVIEW"},{"patternId":97998,"destinationSign":"BL HOPKINS BAYVIEW"}]},{"lineDirId":95121,"dirName":"WESTBOUND","pttrnDestSigns":[{"patternId":97999,"destinationSign":"BL CMS"},{"patternId":98000,"destinationSign":"BL WESTGATE"}]}]},{"lineId":9520,"abbr":"BR","name":"WHITE MARSH - DOWNTOWN","color":"#5b3a19","drInfos":[{"lineDirId":95200,"dirName":"SOUTHBOUND","pttrnDestSigns":[{"patternId":98029,"destinationSign":"BR UM MEDICAL CENTER"},{"patternId":98030,"destinationSign":"BR UM MEDICAL CENTER"}]},{"lineDirId":95201,"dirName":"NORTHBOUND","pttrnDestSigns":[{"patternId":98031,"destinationSign":"BR WHITE MARSH"},{"patternId":98032,"destinationSign":"BR OVERLEA"}]}]},{"lineId":9519,"abbr":"GD","name":"WALBROOK JUNCTION - CANTON","color":"#7a7a14","drInfos":[{"lineDirId":95190,"dirName":"WESTBOUND","pttrnDestSigns":[{"patternId":98025,"destinationSign":"GD WALBROOK JUNCTION"},{"patternId":98026,"destinationSign":"GD WALBROOK JUNCTION"}]},{"lineDirId":95191,"dirName":"EASTBOUND","pttrnDestSigns":[{"patternId":98027,"destinationSign":"GD BEREA"},{"patternId":98028,"destinationSign":"GD CANTON CROSSING"}]}]},{"lineId":9511,"abbr":"GR","name":"WEST BALTIMORE MARC - TOWSON","color":"#00b800","drInfos":[{"lineDirId":95110,"dirName":"SOUTHBOUND","pttrnDestSigns":[{"patternId":97995,"destinationSign":"GR WEST BALTIMORE MARC"}]},{"lineDirId":95111,"dirName":"NORTHBOUND","pttrnDestSigns":[{"patternId":97996,"destinationSign":"GR TOWSON"}]}]},{"lineId":9515,"abbr":"LM","name":"NW HOSPITAL - HARBOR EAST","color":"#59cc00","drInfos":[{"lineDirId":95150,"dirName":"EASTBOUND","pttrnDestSigns":[{"patternId":98007,"destinationSign":"LM DRUID HILL PARK"},{"patternId":98008,"destinationSign":"LM HARBOR EAST"}]},{"lineDirId":95151,"dirName":"WESTBOUND","pttrnDestSigns":[{"patternId":98009,"destinationSign":"LM NORTHWEST HOSPITAL"},{"patternId":98010,"destinationSign":"LM NORTHWEST HOSPITAL"}]}]},{"lineId":9509,"abbr":"NV","name":"MONDAWMIN - DUNDALK","color":"#0000ff","drInfos":[{"lineDirId":95090,"dirName":"WESTBOUND","pttrnDestSigns":[{"patternId":97987,"destinationSign":"NV MONDAWMIN"},{"patternId":97988,"destinationSign":"NV MONDAWMIN"},{"patternId":97989,"destinationSign":"NV MONDAWMIN"}]},{"lineDirId":95091,"dirName":"EASTBOUND","pttrnDestSigns":[{"patternId":97990,"destinationSign":"NV TURNER STATION"},{"patternId":97991,"destinationSign":"NV DUNDALK"},{"patternId":97992,"destinationSign":"NV WATERSEDGE"}]}]},{"lineId":9510,"abbr":"OR","name":"ESSEX - WEST BALTIMORE MARC","color":"#f25500","drInfos":[{"lineDirId":95100,"dirName":"WESTBOUND","pttrnDestSigns":[{"patternId":97993,"destinationSign":"OR WEST BALTIMORE MARC"}]},{"lineDirId":95101,"dirName":"EASTBOUND","pttrnDestSigns":[{"patternId":97994,"destinationSign":"OR ESSEX"}]}]},{"lineId":9513,"abbr":"PK","name":"CEDONIA - WEST BALTIMORE MARC","color":"#e600e6","drInfos":[{"lineDirId":95130,"dirName":"WESTBOUND","pttrnDestSigns":[{"patternId":98001,"destinationSign":"PK WEST BALTIMORE MARC "}]},{"lineDirId":95131,"dirName":"EASTBOUND","pttrnDestSigns":[{"patternId":98002,"destinationSign":"PK CEDONIA"}]}]},{"lineId":9518,"abbr":"PR","name":"HOPKINS HOSPITAL - CATONSVILLE","color":"#7300e6","drInfos":[{"lineDirId":95180,"dirName":"WESTBOUND","pttrnDestSigns":[{"patternId":98021,"destinationSign":"PR CATONSVILLE"},{"patternId":98022,"destinationSign":"PR PARADISE LOOP"}]},{"lineDirId":95181,"dirName":"EASTBOUND","pttrnDestSigns":[{"patternId":98023,"destinationSign":"PR JOHNS HOPKINS HOSPITAL"},{"patternId":98024,"destinationSign":"PR JOHNS HOPKINS HOSPITAL"}]}]},{"lineId":9516,"abbr":"RD","name":"DOWNTOWN - TOWSON\/LUTHERVILLE","color":"#ff0000","drInfos":[{"lineDirId":95160,"dirName":"SOUTHBOUND","pttrnDestSigns":[{"patternId":98011,"destinationSign":"RD UM MEDICAL CENTER"},{"patternId":98012,"destinationSign":"RD UM MEDICAL CENTER"}]},{"lineDirId":95161,"dirName":"NORTHBOUND","pttrnDestSigns":[{"patternId":98013,"destinationSign":"RD LUTHERVILLE STATION"},{"patternId":98014,"destinationSign":"RD TOWSON"}]}]},{"lineId":9514,"abbr":"SV","name":"CURTIS BAY - HOPKINS UNIVERSITY","color":"#364d4d","drInfos":[{"lineDirId":95140,"dirName":"SOUTHBOUND","pttrnDestSigns":[{"patternId":98003,"destinationSign":"SV CURTIS BAY"},{"patternId":98004,"destinationSign":"SV CURTIS BAY"}]},{"lineDirId":95141,"dirName":"NORTHBOUND","pttrnDestSigns":[{"patternId":98005,"destinationSign":"SV MORGAN STATE UNIVERSITY"},{"patternId":98006,"destinationSign":"SV HOPKINS UNIVERSITY"}]}]},{"lineId":9517,"abbr":"YW","name":"MONDAWMIN - UMBC\/RIVERVIEW","color":"#f2f200","drInfos":[{"lineDirId":95170,"dirName":"WESTBOUND","pttrnDestSigns":[{"patternId":98015,"destinationSign":"YW RIVERVIEW"},{"patternId":98016,"destinationSign":"YW RIVERVIEW"},{"patternId":98017,"destinationSign":"YW UMBC"},{"patternId":99044,"destinationSign":"YW BELTWAY BUSINESS PARK"},{"patternId":99046,"destinationSign":"YW BELTWAY BUSINESS PARK"}]},{"lineDirId":95171,"dirName":"EASTBOUND","pttrnDestSigns":[{"patternId":98018,"destinationSign":"YW MONDAWMIN"},{"patternId":98019,"destinationSign":"YW MONDAWMIN"},{"patternId":98020,"destinationSign":"YW MONDAWMIN"},{"patternId":99045,"destinationSign":"YW MONDAWMIN"},{"patternId":99047,"destinationSign":"YW MONDAWMIN"}]}]}],"responseCode":""}}
+{
+  "version": "1.1",
+  "result": {
+    "retLineWithDirInfos": [
+      {
+        "lineId": 9521,
+        "abbr": "021",
+        "name": "WOODBERRY - CANTON CROSSING",
+        "color": "#879a8c",
+        "drInfos": [
+          {
+            "lineDirId": 95210,
+            "dirName": "WESTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98033,
+                "destinationSign": "21 WOODBERRY LIGHT RAIL STATION"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95211,
+            "dirName": "EASTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98034,
+                "destinationSign": "21 CANTON CROSSING"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9522,
+        "abbr": "022",
+        "name": "MONDAWMIN - BAYVIEW",
+        "color": "#879a8c",
+        "drInfos": [
+          {
+            "lineDirId": 95220,
+            "dirName": "WESTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98035,
+                "destinationSign": "22 MONDAWMIN METRO STATION"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95221,
+            "dirName": "EASTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98036,
+                "destinationSign": "22 BAYVIEW"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9523,
+        "abbr": "026",
+        "name": "BROOKLYN - MONDAWMIN",
+        "color": "#879a8c",
+        "drInfos": [
+          {
+            "lineDirId": 95230,
+            "dirName": "SOUTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98037,
+                "destinationSign": "26 SOUTH BALTIMORE P&R"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95231,
+            "dirName": "NORTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98038,
+                "destinationSign": "26 MONDAWMIN"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9524,
+        "abbr": "028",
+        "name": "MORAVIA - ROGERS AVE METRO",
+        "color": "#879a8c",
+        "drInfos": [
+          {
+            "lineDirId": 95240,
+            "dirName": "WESTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98039,
+                "destinationSign": "28 ROGERS AVE METRO"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95241,
+            "dirName": "EASTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98994,
+                "destinationSign": "28 MORAVIA"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9525,
+        "abbr": "029",
+        "name": "MONDAWMIN - BROOKLYN",
+        "color": "#879a8c",
+        "drInfos": [
+          {
+            "lineDirId": 95250,
+            "dirName": "SOUTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 99037,
+                "destinationSign": "29 BROOKLYN"
+              },
+              {
+                "patternId": 99038,
+                "destinationSign": "29 BROOKLYN"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95251,
+            "dirName": "NORTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 99035,
+                "destinationSign": "29 MONDAWMIN METRO STATION"
+              },
+              {
+                "patternId": 99036,
+                "destinationSign": "29 MONDAWMIN METRO STATION"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9526,
+        "abbr": "030",
+        "name": "ROGERS AVE - ROSEDALE",
+        "color": "#879a8c",
+        "drInfos": [
+          {
+            "lineDirId": 95260,
+            "dirName": "WESTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98043,
+                "destinationSign": "30 ROGERS AVE METRO"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95261,
+            "dirName": "EASTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98044,
+                "destinationSign": "30 ROSEDALE"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9527,
+        "abbr": "031",
+        "name": "SINAI HOSPITAL - SECURITY SQ MALL",
+        "color": "#879a8c",
+        "drInfos": [
+          {
+            "lineDirId": 95270,
+            "dirName": "WESTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98045,
+                "destinationSign": "31 SOCIAL SECURITY ADMINISTRATION"
+              },
+              {
+                "patternId": 98046,
+                "destinationSign": "31 SECURITY SQUARE MALL"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95271,
+            "dirName": "EASTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98047,
+                "destinationSign": "31 SINAI HOSPITAL"
+              },
+              {
+                "patternId": 98048,
+                "destinationSign": "31 SINAI HOSPITAL"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9528,
+        "abbr": "033",
+        "name": "MT WASHINGTON LIGHT RAIL - OVERLEA",
+        "color": "#879a8c",
+        "drInfos": [
+          {
+            "lineDirId": 95280,
+            "dirName": "WESTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98049,
+                "destinationSign": "33 MT WASHINGTON LR"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95281,
+            "dirName": "EASTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98050,
+                "destinationSign": "33 OVERLEA"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9529,
+        "abbr": "034",
+        "name": "FALLS RD STATION - WESTVIEW MALL",
+        "color": "#879a8c",
+        "drInfos": [
+          {
+            "lineDirId": 95290,
+            "dirName": "SOUTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98051,
+                "destinationSign": "34 WESTVIEW MALL"
+              },
+              {
+                "patternId": 100971,
+                "destinationSign": "34 ROGERS AVE METRO"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95291,
+            "dirName": "NORTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98052,
+                "destinationSign": "34 FALLS RD LIGHT RAIL STATION"
+              },
+              {
+                "patternId": 100972,
+                "destinationSign": "34 GREENSPRING STATION"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9530,
+        "abbr": "036",
+        "name": "TOWSON TOWN CENTER - FOX RIDGE",
+        "color": "#879a8c",
+        "drInfos": [
+          {
+            "lineDirId": 95300,
+            "dirName": "WESTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98053,
+                "destinationSign": "36 TOWSON TOWN CENTER"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95301,
+            "dirName": "EASTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98054,
+                "destinationSign": "36 ESSEX"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9531,
+        "abbr": "037",
+        "name": "OLD COURT - UMBC",
+        "color": "#879a8c",
+        "drInfos": [
+          {
+            "lineDirId": 95310,
+            "dirName": "SOUTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98055,
+                "destinationSign": "37 UMBC"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95311,
+            "dirName": "NORTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98056,
+                "destinationSign": "37 OLD COURT METRO STATION"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9532,
+        "abbr": "051",
+        "name": "TOWSON - DOWNTOWN",
+        "color": "#879a8c",
+        "drInfos": [
+          {
+            "lineDirId": 95320,
+            "dirName": "SOUTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98057,
+                "destinationSign": "51 DOWNTOWN"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95321,
+            "dirName": "NORTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98058,
+                "destinationSign": "51 TOWSON TOWN CENTER"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9533,
+        "abbr": "052",
+        "name": "GREENMOUNT NORTH - STELLA MARIS",
+        "color": "#879a8c",
+        "drInfos": [
+          {
+            "lineDirId": 95330,
+            "dirName": "SOUTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98059,
+                "destinationSign": "52 GREENMOUNT NORTH"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95331,
+            "dirName": "NORTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98060,
+                "destinationSign": "52 STELLA MARIS"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9534,
+        "abbr": "053",
+        "name": "NORTH AVE LIGHT RAIL - TOWSON",
+        "color": "#879a8c",
+        "drInfos": [
+          {
+            "lineDirId": 95340,
+            "dirName": "SOUTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98061,
+                "destinationSign": "53 NORTH AVE LIGHT RAIL STATION"
+              },
+              {
+                "patternId": 98062,
+                "destinationSign": "53 NORTH AVE LIGHT RAIL STATION"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95341,
+            "dirName": "NORTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98063,
+                "destinationSign": "53 HILLENDALE"
+              },
+              {
+                "patternId": 98064,
+                "destinationSign": "53 SHEPPARD PRATT"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9535,
+        "abbr": "054",
+        "name": "STATE CENTER - CARNEY\/HILLENDALE",
+        "color": "#879a8c",
+        "drInfos": [
+          {
+            "lineDirId": 95350,
+            "dirName": "SOUTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98065,
+                "destinationSign": "54 STATE CENTER"
+              },
+              {
+                "patternId": 98066,
+                "destinationSign": "54 STATE CENTER"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95351,
+            "dirName": "NORTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98067,
+                "destinationSign": "54 HILLENDALE"
+              },
+              {
+                "patternId": 98068,
+                "destinationSign": "54 CARNEY PARK AND RIDE"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9536,
+        "abbr": "056",
+        "name": "DOWNTOWN - WHITE MARSH",
+        "color": "#879a8c",
+        "drInfos": [
+          {
+            "lineDirId": 95360,
+            "dirName": "WESTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98069,
+                "destinationSign": "56 DOWNTOWN"
+              },
+              {
+                "patternId": 98070,
+                "destinationSign": "56 DOWNTOWN"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95361,
+            "dirName": "EASTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98071,
+                "destinationSign": "56 WHITE MARSH"
+              },
+              {
+                "patternId": 98072,
+                "destinationSign": "56 WHITE MARSH"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9537,
+        "abbr": "057",
+        "name": "BELAIR-EDISON CIRCULATOR",
+        "color": "#879a8c",
+        "drInfos": [
+          {
+            "lineDirId": 95370,
+            "dirName": "CIRCULATOR",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98073,
+                "destinationSign": "57 BELAIR EDISON LOOP"
+              },
+              {
+                "patternId": 98074,
+                "destinationSign": "57 BELAIR EDISON LOOP"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9538,
+        "abbr": "059",
+        "name": "MORAVIA - WHISPERING WOODS",
+        "color": "#879a8c",
+        "drInfos": [
+          {
+            "lineDirId": 95380,
+            "dirName": "WESTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98075,
+                "destinationSign": "59 MORAVIA"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95381,
+            "dirName": "EASTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98076,
+                "destinationSign": "59 WHISPERING WOODS"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9539,
+        "abbr": "062",
+        "name": "CCBC ESSEX - TURNER STATION",
+        "color": "#879a8c",
+        "drInfos": [
+          {
+            "lineDirId": 95390,
+            "dirName": "SOUTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 99041,
+                "destinationSign": "62 TURNER STATION"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95391,
+            "dirName": "NORTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 99042,
+                "destinationSign": "62 CCBC ESSEX"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9540,
+        "abbr": "065",
+        "name": "DOWNTOWN - DUNDALK",
+        "color": "#879a8c",
+        "drInfos": [
+          {
+            "lineDirId": 95400,
+            "dirName": "EASTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98079,
+                "destinationSign": "65 CCBC DUNDALK"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95401,
+            "dirName": "WESTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98080,
+                "destinationSign": "65 DOWNTOWN"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9541,
+        "abbr": "067",
+        "name": "DOWNTOWN - MARLEY NECK",
+        "color": "#879a8c",
+        "drInfos": [
+          {
+            "lineDirId": 95410,
+            "dirName": "SOUTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98081,
+                "destinationSign": "67 MARLEY NECK"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95411,
+            "dirName": "NORTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98082,
+                "destinationSign": "67 DOWNTOWN"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9542,
+        "abbr": "069",
+        "name": "PATAPSCO STATION - JUMPERS HOLE",
+        "color": "#879a8c",
+        "drInfos": [
+          {
+            "lineDirId": 95420,
+            "dirName": "SOUTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98083,
+                "destinationSign": "69 JUMPERS HOLE"
+              },
+              {
+                "patternId": 98084,
+                "destinationSign": "69 JUMPERS HOLE"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95421,
+            "dirName": "NORTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98085,
+                "destinationSign": "69 UNIVERSITY OF MD TRANSIT CENTER"
+              },
+              {
+                "patternId": 98086,
+                "destinationSign": "69 PATAPSCO STATION"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9543,
+        "abbr": "070",
+        "name": "PATAPSCO STATION - ANNAPOLIS",
+        "color": "#879a8c",
+        "drInfos": [
+          {
+            "lineDirId": 95430,
+            "dirName": "SOUTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98087,
+                "destinationSign": "70 ANNAPOLIS"
+              },
+              {
+                "patternId": 98088,
+                "destinationSign": "70 ANNAPOLIS"
+              },
+              {
+                "patternId": 98089,
+                "destinationSign": "70 ANNAPOLIS"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95431,
+            "dirName": "NORTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98090,
+                "destinationSign": "70 UM MEDICAL CENTER"
+              },
+              {
+                "patternId": 98091,
+                "destinationSign": "70 UM MEDICAL CENTER"
+              },
+              {
+                "patternId": 98092,
+                "destinationSign": "70 PATAPSCO LIGHT RAIL"
+              },
+              {
+                "patternId": 98093,
+                "destinationSign": "70 PATAPSCO LIGHT RAIL"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9544,
+        "abbr": "071",
+        "name": "DOWNTOWN - PATAPSCO LIGHT RAIL",
+        "color": "#879a8c",
+        "drInfos": [
+          {
+            "lineDirId": 95440,
+            "dirName": "SOUTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98094,
+                "destinationSign": "71 PATAPSCO STATION"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95441,
+            "dirName": "NORTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98095,
+                "destinationSign": "71 DOWNTOWN"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9545,
+        "abbr": "073",
+        "name": "STATE CENTER - PATAPSCO STATION",
+        "color": "#879a8c",
+        "drInfos": [
+          {
+            "lineDirId": 95450,
+            "dirName": "SOUTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98096,
+                "destinationSign": "73 PATAPSCO LIGHT RAIL"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95451,
+            "dirName": "NORTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98097,
+                "destinationSign": "73 STATE CENTER"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9546,
+        "abbr": "075",
+        "name": "PATAPSCO LIGHT RAIL - ARUNDEL MILLS",
+        "color": "#879a8c",
+        "drInfos": [
+          {
+            "lineDirId": 95460,
+            "dirName": "SOUTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98098,
+                "destinationSign": "75 ARUNDEL MILLS SHOPPING CENTER"
+              },
+              {
+                "patternId": 98099,
+                "destinationSign": "75 ARUNDEL MILLS SHOPPING CENTER"
+              },
+              {
+                "patternId": 98100,
+                "destinationSign": "75 PARKWAY CENTER"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95461,
+            "dirName": "NORTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98101,
+                "destinationSign": "75 UNIV OF MD TRANSIT CENTER"
+              },
+              {
+                "patternId": 98102,
+                "destinationSign": "75 PATAPSCO STATION"
+              },
+              {
+                "patternId": 98103,
+                "destinationSign": "75 PATAPSCO STATION"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9547,
+        "abbr": "076",
+        "name": "CCBC - DOWNTOWN",
+        "color": "#879a8c",
+        "drInfos": [
+          {
+            "lineDirId": 95470,
+            "dirName": "WESTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98104,
+                "destinationSign": "76 UMBC - CCBC CATONSVILLE"
+              },
+              {
+                "patternId": 98105,
+                "destinationSign": "76 UMBC - CCBC CATONSVILLE"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95471,
+            "dirName": "EASTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98106,
+                "destinationSign": "76 DOWNTOWN"
+              },
+              {
+                "patternId": 98107,
+                "destinationSign": "76 DOWNTOWN"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9548,
+        "abbr": "077",
+        "name": "W BALTIMORE MARC - CATONSVILLE",
+        "color": "#879a8c",
+        "drInfos": [
+          {
+            "lineDirId": 95480,
+            "dirName": "WESTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98108,
+                "destinationSign": "77 CATONSVILLE"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95481,
+            "dirName": "EASTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98109,
+                "destinationSign": "77 WEST BALTIMORE MARC STATION"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9549,
+        "abbr": "078",
+        "name": "W BALTIMORE MARC - CMS",
+        "color": "#879a8c",
+        "drInfos": [
+          {
+            "lineDirId": 95490,
+            "dirName": "WESTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98110,
+                "destinationSign": "78 CMS"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95491,
+            "dirName": "EASTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98111,
+                "destinationSign": "78 WEST BALTIMORE MARC STATION"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9550,
+        "abbr": "079",
+        "name": "MONDAWMIN - CMS",
+        "color": "#879a8c",
+        "drInfos": [
+          {
+            "lineDirId": 95500,
+            "dirName": "WESTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98112,
+                "destinationSign": "79 CMS"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95501,
+            "dirName": "EASTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98113,
+                "destinationSign": "79 MONDAWMIN METRO"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9551,
+        "abbr": "080",
+        "name": "DOWNTOWN - ROGERS AVE METRO STATION",
+        "color": "#879a8c",
+        "drInfos": [
+          {
+            "lineDirId": 95510,
+            "dirName": "WESTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98114,
+                "destinationSign": "80 ROGERS AVE METRO"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95511,
+            "dirName": "EASTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98115,
+                "destinationSign": "80 DOWNTOWN"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9552,
+        "abbr": "081",
+        "name": "DEER PARK - MILFORD MILL METRO",
+        "color": "#879a8c",
+        "drInfos": [
+          {
+            "lineDirId": 95520,
+            "dirName": "WESTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98116,
+                "destinationSign": "81 DEER PARK "
+              },
+              {
+                "patternId": 99040,
+                "destinationSign": "81 RANDALLSTOWN"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95521,
+            "dirName": "EASTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98117,
+                "destinationSign": "81 MILFORD MILL METRO STATION"
+              },
+              {
+                "patternId": 99039,
+                "destinationSign": "81 MILFORD MILL METRO STATION"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9553,
+        "abbr": "082",
+        "name": "PARK CIRCLE - REISTERSTOWN PLAZA",
+        "color": "#879a8c",
+        "drInfos": [
+          {
+            "lineDirId": 95530,
+            "dirName": "SOUTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98118,
+                "destinationSign": "82 PARK CIRCLE"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95531,
+            "dirName": "NORTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98119,
+                "destinationSign": "82 REISTERSTOWN PLAZA METRO STATION"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9554,
+        "abbr": "083",
+        "name": "MONDAWMIN - OLD COURT METRO",
+        "color": "#879a8c",
+        "drInfos": [
+          {
+            "lineDirId": 95540,
+            "dirName": "SOUTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98120,
+                "destinationSign": "83 MONDAWMIN METRO"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95541,
+            "dirName": "NORTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98121,
+                "destinationSign": "83 OLD COURT METRO"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9555,
+        "abbr": "085",
+        "name": "PENN-NORTH - MILFORD MILL",
+        "color": "#879a8c",
+        "drInfos": [
+          {
+            "lineDirId": 95550,
+            "dirName": "SOUTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98122,
+                "destinationSign": "85 PENN-NORTH METRO STATION"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95551,
+            "dirName": "NORTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98123,
+                "destinationSign": "85 MILFORD MILL METRO STATION"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9556,
+        "abbr": "087",
+        "name": "GLYNDON - OWINGS MILLS",
+        "color": "#879a8c",
+        "drInfos": [
+          {
+            "lineDirId": 95560,
+            "dirName": "SOUTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98124,
+                "destinationSign": "87 OWINGS MILLS"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95561,
+            "dirName": "NORTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98125,
+                "destinationSign": "87 GLYNDON"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9557,
+        "abbr": "089",
+        "name": "ROGERS AVE - OWINGS MILLS",
+        "color": "#879a8c",
+        "drInfos": [
+          {
+            "lineDirId": 95570,
+            "dirName": "SOUTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98126,
+                "destinationSign": "89 ROGERS AVE METRO STATION"
+              },
+              {
+                "patternId": 98127,
+                "destinationSign": "89 ROGERS AVE METRO STATION"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95571,
+            "dirName": "NORTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98128,
+                "destinationSign": "89 OWINGS MILLS"
+              },
+              {
+                "patternId": 98129,
+                "destinationSign": "89 REDLAND COURT "
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9558,
+        "abbr": "091",
+        "name": "MONDAWMIN - SINAI HOSPITAL",
+        "color": "#879a8c",
+        "drInfos": [
+          {
+            "lineDirId": 95580,
+            "dirName": "SOUTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98130,
+                "destinationSign": "91 MONDAWMIN METRO"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95581,
+            "dirName": "NORTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98131,
+                "destinationSign": "91 SINAI HOSPITAL"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9559,
+        "abbr": "092",
+        "name": "GLEN - BAAS & TALMUDICAL",
+        "color": "#879a8c",
+        "drInfos": [
+          {
+            "lineDirId": 95590,
+            "dirName": "NORTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98132,
+                "destinationSign": "92 OWINGS MILLS METRO"
+              },
+              {
+                "patternId": 98133,
+                "destinationSign": "92 SCOTTS HILL"
+              },
+              {
+                "patternId": 98134,
+                "destinationSign": "92 COPPER RIDGE"
+              },
+              {
+                "patternId": 98135,
+                "destinationSign": "92 VELVET VALLEY"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95591,
+            "dirName": "SOUTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98136,
+                "destinationSign": "92 LUCKMAN PARK"
+              },
+              {
+                "patternId": 98137,
+                "destinationSign": "92 LUCKMAN PARK"
+              },
+              {
+                "patternId": 98138,
+                "destinationSign": "92 LUCKMAN PARK"
+              },
+              {
+                "patternId": 98139,
+                "destinationSign": "92 LUCKMAN PARK"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9560,
+        "abbr": "093",
+        "name": "TOWSON - HUNT VALLEY",
+        "color": "#879a8c",
+        "drInfos": [
+          {
+            "lineDirId": 95600,
+            "dirName": "SOUTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98140,
+                "destinationSign": "93 TOWSON"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95601,
+            "dirName": "NORTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98141,
+                "destinationSign": "93 HUNT VALLEY"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9561,
+        "abbr": "094",
+        "name": "FORT MCHENRY - SINAI HOSPITAL",
+        "color": "#879a8c",
+        "drInfos": [
+          {
+            "lineDirId": 95610,
+            "dirName": "SOUTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98142,
+                "destinationSign": "94 FORT McHENRY"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95611,
+            "dirName": "NORTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98143,
+                "destinationSign": "94 SINAI HOSPITAL"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9562,
+        "abbr": "095",
+        "name": "DOWNTOWN - ROLAND PARK",
+        "color": "#879a8c",
+        "drInfos": [
+          {
+            "lineDirId": 95620,
+            "dirName": "SOUTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98144,
+                "destinationSign": "95 DOWNTOWN"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95621,
+            "dirName": "NORTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98145,
+                "destinationSign": "95 ROLAND PARK"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9687,
+        "abbr": "100",
+        "name": "METRO",
+        "color": "#008000",
+        "drInfos": [
+          {
+            "lineDirId": 96870,
+            "dirName": "SOUTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98997,
+                "destinationSign": "JOHNS HOPKINS"
+              },
+              {
+                "patternId": 98998,
+                "destinationSign": "JOHNS HOPKINS"
+              },
+              {
+                "patternId": 98999,
+                "destinationSign": "JOHNS HOPKINS"
+              },
+              {
+                "patternId": 99000,
+                "destinationSign": "JOHNS HOPKINS"
+              },
+              {
+                "patternId": 99001,
+                "destinationSign": "REISTERSTOWN PLAZA STATION"
+              }
+            ]
+          },
+          {
+            "lineDirId": 96871,
+            "dirName": "NORTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 99002,
+                "destinationSign": "ROGERS AVE STATION"
+              },
+              {
+                "patternId": 99003,
+                "destinationSign": "REISTERSTOWN PLAZA STATION"
+              },
+              {
+                "patternId": 99004,
+                "destinationSign": "OWINGS MILLS"
+              },
+              {
+                "patternId": 99005,
+                "destinationSign": "OWINGS MILLS"
+              },
+              {
+                "patternId": 99006,
+                "destinationSign": "OWINGS MILLS"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9563,
+        "abbr": "102",
+        "name": "TOWSON - WHITE MARSH",
+        "color": "#000000",
+        "drInfos": [
+          {
+            "lineDirId": 95630,
+            "dirName": "EASTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98146,
+                "destinationSign": "102 WHITE MARSH"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95631,
+            "dirName": "WESTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98147,
+                "destinationSign": "102 TOWSON"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9564,
+        "abbr": "103",
+        "name": "DOWNTOWN - CROMWELL BRIDGE",
+        "color": "#000000",
+        "drInfos": [
+          {
+            "lineDirId": 95640,
+            "dirName": "SOUTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98148,
+                "destinationSign": "103 DOWNTOWN"
+              },
+              {
+                "patternId": 99048,
+                "destinationSign": "103 KIRK AVE"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95641,
+            "dirName": "NORTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98149,
+                "destinationSign": "103 CROMWELL BRIDGE PARK & RIDE"
+              },
+              {
+                "patternId": 99043,
+                "destinationSign": "103 CROMWELL BRIDGE PARK & RIDE"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9565,
+        "abbr": "105",
+        "name": "CEDONIA - DOWNTOWN",
+        "color": "#000000",
+        "drInfos": [
+          {
+            "lineDirId": 95650,
+            "dirName": "SOUTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98150,
+                "destinationSign": "105 DOWNTOWN"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95651,
+            "dirName": "NORTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98151,
+                "destinationSign": "105 CEDONIA"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9566,
+        "abbr": "106",
+        "name": "OWINGS MILLS METRO - TOWSON",
+        "color": "#000000",
+        "drInfos": [
+          {
+            "lineDirId": 95660,
+            "dirName": "WESTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98152,
+                "destinationSign": "106 OWINGS MILLS METRO"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95661,
+            "dirName": "EASTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98153,
+                "destinationSign": "106 TOWSON"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9567,
+        "abbr": "107",
+        "name": "OLD COURT METRO - BWI AIRPORT\/MARC",
+        "color": "#000000",
+        "drInfos": [
+          {
+            "lineDirId": 95670,
+            "dirName": "SOUTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98154,
+                "destinationSign": "107 BWI MARSHALL AIRPORT\/MARC STATION"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95671,
+            "dirName": "NORTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98155,
+                "destinationSign": "107 OLD COURT METRO STATION"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9568,
+        "abbr": "115",
+        "name": "DOWNTOWN - PERRY HALL",
+        "color": "#000000",
+        "drInfos": [
+          {
+            "lineDirId": 95680,
+            "dirName": "SOUTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98156,
+                "destinationSign": "115 NORTH AVE"
+              },
+              {
+                "patternId": 98157,
+                "destinationSign": "115 DOWNTOWN"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95681,
+            "dirName": "NORTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98158,
+                "destinationSign": "115 PERRY HALL"
+              },
+              {
+                "patternId": 98159,
+                "destinationSign": "115 PERRY HALL"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9569,
+        "abbr": "120",
+        "name": "WHITE MARSH - DOWNTOWN\/HOPKINS HOSP",
+        "color": "#000000",
+        "drInfos": [
+          {
+            "lineDirId": 95690,
+            "dirName": "SOUTHBOUND  ",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98160,
+                "destinationSign": "120 HOPKINS HOSPITAL"
+              },
+              {
+                "patternId": 98161,
+                "destinationSign": "120 DOWNTOWN"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95691,
+            "dirName": "NORTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98162,
+                "destinationSign": "120 WHITE MARSH"
+              },
+              {
+                "patternId": 98163,
+                "destinationSign": "120 WHITE MARSH"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9570,
+        "abbr": "150",
+        "name": "COLUMBIA - DOWNTOWN\/HARBOR EAST",
+        "color": "#000000",
+        "drInfos": [
+          {
+            "lineDirId": 95700,
+            "dirName": "EASTBOUND   ",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98164,
+                "destinationSign": "150 DOWNTOWN\/HARBOR EAST"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95701,
+            "dirName": "WESTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98165,
+                "destinationSign": "150 COLUMBIA"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9571,
+        "abbr": "154",
+        "name": "STATE CENTER - CARNEY\/HILLENDALE",
+        "color": "#000000",
+        "drInfos": [
+          {
+            "lineDirId": 95710,
+            "dirName": "SOUTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98166,
+                "destinationSign": "154 STATE CENTER"
+              },
+              {
+                "patternId": 98167,
+                "destinationSign": "154 STATE CENTER"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95711,
+            "dirName": "NORTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98168,
+                "destinationSign": "154 HILLENDALE"
+              },
+              {
+                "patternId": 98169,
+                "destinationSign": "154 CARNEY"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9572,
+        "abbr": "160",
+        "name": "DOWNTOWN\/HOPKINS HOSPITAL - ESSEX",
+        "color": "#000000",
+        "drInfos": [
+          {
+            "lineDirId": 95720,
+            "dirName": "EASTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98170,
+                "destinationSign": "160 ESSEX"
+              },
+              {
+                "patternId": 98171,
+                "destinationSign": "160 WHISPERING WOODS"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95721,
+            "dirName": "WESTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98172,
+                "destinationSign": "160 JOHNS HOPKINS HOSPITAL"
+              },
+              {
+                "patternId": 98173,
+                "destinationSign": "160 JOHNS HOPKINS HOSPITAL"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9573,
+        "abbr": "164",
+        "name": "RIVIERA BEACH - DOWNTOWN",
+        "color": "#000000",
+        "drInfos": [
+          {
+            "lineDirId": 95730,
+            "dirName": "SOUTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98174,
+                "destinationSign": "164 RIVIERA BEACH"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95731,
+            "dirName": "NORTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98175,
+                "destinationSign": "164 DOWNTOWN"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9688,
+        "abbr": "200",
+        "name": "LIGHT RAIL",
+        "color": "#00ffff",
+        "drInfos": [
+          {
+            "lineDirId": 96880,
+            "dirName": "NORTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 99007,
+                "destinationSign": "HUNT VALLEY"
+              },
+              {
+                "patternId": 99008,
+                "destinationSign": "PENN STATION"
+              },
+              {
+                "patternId": 99009,
+                "destinationSign": "FAIRGROUNDS"
+              },
+              {
+                "patternId": 99010,
+                "destinationSign": "FAIRGROUNDS"
+              },
+              {
+                "patternId": 99011,
+                "destinationSign": "FAIRGROUNDS"
+              },
+              {
+                "patternId": 99012,
+                "destinationSign": "HUNT VALLEY"
+              },
+              {
+                "patternId": 99013,
+                "destinationSign": "NORTH AVE STATION"
+              },
+              {
+                "patternId": 99014,
+                "destinationSign": "HUNT VALLEY"
+              },
+              {
+                "patternId": 99015,
+                "destinationSign": "NORTH AVE STATION"
+              },
+              {
+                "patternId": 99016,
+                "destinationSign": "NORTH AVE STATION"
+              },
+              {
+                "patternId": 99017,
+                "destinationSign": "HUNT VALLEY"
+              },
+              {
+                "patternId": 99018,
+                "destinationSign": "HUNT VALLEY"
+              }
+            ]
+          },
+          {
+            "lineDirId": 96881,
+            "dirName": "SOUTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 99019,
+                "destinationSign": "CROMWELL STATION"
+              },
+              {
+                "patternId": 99020,
+                "destinationSign": "CAMDEN YARDS"
+              },
+              {
+                "patternId": 99021,
+                "destinationSign": "NORTH AVE"
+              },
+              {
+                "patternId": 99022,
+                "destinationSign": "CROMWELL STATION"
+              },
+              {
+                "patternId": 99023,
+                "destinationSign": "BWI AIRPORT"
+              },
+              {
+                "patternId": 99024,
+                "destinationSign": "PENN STATION"
+              },
+              {
+                "patternId": 99025,
+                "destinationSign": "BWI AIRPORT"
+              },
+              {
+                "patternId": 99026,
+                "destinationSign": "CAMDEN STATION"
+              },
+              {
+                "patternId": 99027,
+                "destinationSign": "CAMDEN STATION"
+              },
+              {
+                "patternId": 99028,
+                "destinationSign": "NORTH AVE STATION"
+              },
+              {
+                "patternId": 99029,
+                "destinationSign": "CROMWELL STATION"
+              },
+              {
+                "patternId": 99030,
+                "destinationSign": "CROMWELL STATION"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9739,
+        "abbr": "210",
+        "name": "KENT ISLAND - ANNAPOLIS\/BALTIMORE",
+        "color": "#a6caf0",
+        "drInfos": [
+          {
+            "lineDirId": 97390,
+            "dirName": "WESTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 99340,
+                "destinationSign": "BALTIMORE"
+              },
+              {
+                "patternId": 99341,
+                "destinationSign": "ANNAPOLIS\/BALTIMORE"
+              }
+            ]
+          },
+          {
+            "lineDirId": 97391,
+            "dirName": "EASTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 99342,
+                "destinationSign": "ANNAPOLIS"
+              },
+              {
+                "patternId": 99343,
+                "destinationSign": "KENT ISLAND"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9740,
+        "abbr": "215",
+        "name": "BALTIMORE - ANNAPOLIS",
+        "color": "#a6caf0",
+        "drInfos": [
+          {
+            "lineDirId": 97400,
+            "dirName": "SOUTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 99344,
+                "destinationSign": "ANNAPOLIS"
+              }
+            ]
+          },
+          {
+            "lineDirId": 97401,
+            "dirName": "NORTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 99345,
+                "destinationSign": "BALTIMORE"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9814,
+        "abbr": "300",
+        "name": "BRUNSWICK - WASHINGTON",
+        "color": "#ff8000",
+        "drInfos": [
+          {
+            "lineDirId": 98140,
+            "dirName": "EASTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 99760,
+                "destinationSign": "UNION STATION"
+              },
+              {
+                "patternId": 99761,
+                "destinationSign": "UNION STATION"
+              },
+              {
+                "patternId": 99762,
+                "destinationSign": "UNION STATION"
+              },
+              {
+                "patternId": 99763,
+                "destinationSign": "UNION STATION"
+              },
+              {
+                "patternId": 99764,
+                "destinationSign": "UNION STATION"
+              },
+              {
+                "patternId": 99765,
+                "destinationSign": "UNION STATION"
+              },
+              {
+                "patternId": 99766,
+                "destinationSign": "UNION STATION"
+              },
+              {
+                "patternId": 99767,
+                "destinationSign": "UNION STATION"
+              },
+              {
+                "patternId": 99768,
+                "destinationSign": "UNION STATION"
+              }
+            ]
+          },
+          {
+            "lineDirId": 98141,
+            "dirName": "WESTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 99769,
+                "destinationSign": "FREDERICK STA"
+              },
+              {
+                "patternId": 99770,
+                "destinationSign": "FREDERICK STA"
+              },
+              {
+                "patternId": 99771,
+                "destinationSign": "FREDERICK STA."
+              },
+              {
+                "patternId": 99772,
+                "destinationSign": "MARTINSBURG STA"
+              },
+              {
+                "patternId": 99773,
+                "destinationSign": "MARTINSBURG STA"
+              },
+              {
+                "patternId": 99774,
+                "destinationSign": "MARTINSBURG STA"
+              },
+              {
+                "patternId": 99775,
+                "destinationSign": "BRUNSWICK STA."
+              },
+              {
+                "patternId": 99776,
+                "destinationSign": "MARTINSBURG STA"
+              },
+              {
+                "patternId": 99777,
+                "destinationSign": "MARTINSBURG STA"
+              },
+              {
+                "patternId": 99778,
+                "destinationSign": "BRUNSWICK STA."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9773,
+        "abbr": "301",
+        "name": "PENN - WASHINGTON",
+        "color": "#ff8000",
+        "drInfos": [
+          {
+            "lineDirId": 97730,
+            "dirName": "SOUTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 99448,
+                "destinationSign": "WASHINGTON (TRAIN 689)"
+              },
+              {
+                "patternId": 99449,
+                "destinationSign": "WASHINGTON (TRAIN 683) "
+              },
+              {
+                "patternId": 99450,
+                "destinationSign": "WASHINGTON (TRAIN 681) WS"
+              },
+              {
+                "patternId": 99451,
+                "destinationSign": "WASHINGTON (TRAIN 677)"
+              },
+              {
+                "patternId": 99452,
+                "destinationSign": "WASHINGTON (TRAIN 675)"
+              },
+              {
+                "patternId": 99453,
+                "destinationSign": "WASHINGTON LOCAL (Train 641)"
+              },
+              {
+                "patternId": 99454,
+                "destinationSign": "BALTIMORE LOCAL (Train 579)"
+              },
+              {
+                "patternId": 99455,
+                "destinationSign": "WASHINGTON EXPRESS (Train 537)"
+              },
+              {
+                "patternId": 99456,
+                "destinationSign": "WASHINGTON LOCAL (Train 523)"
+              },
+              {
+                "patternId": 99457,
+                "destinationSign": "WASHINGTON LOCAL (Train 517)"
+              },
+              {
+                "patternId": 99458,
+                "destinationSign": "WASHINGTON LOCAL (Train 511)"
+              },
+              {
+                "patternId": 99459,
+                "destinationSign": "WASHINGTON LOCAL (Train 505)"
+              },
+              {
+                "patternId": 99460,
+                "destinationSign": "WASHINGTON (TRAIN 499)"
+              },
+              {
+                "patternId": 99461,
+                "destinationSign": "WASHINGTON (TRAIN 497)"
+              },
+              {
+                "patternId": 99462,
+                "destinationSign": "WASHINGTON (TRAIN 495)"
+              },
+              {
+                "patternId": 99463,
+                "destinationSign": "WASHINGTON (TRAIN 493)"
+              },
+              {
+                "patternId": 99464,
+                "destinationSign": "WASHINGTON (TRAIN 491)"
+              },
+              {
+                "patternId": 99465,
+                "destinationSign": "WASHINGTON (TRAIN 487)"
+              },
+              {
+                "patternId": 99466,
+                "destinationSign": "WASHINGTON (TRAIN 485)"
+              },
+              {
+                "patternId": 99467,
+                "destinationSign": "WASHINGTON (TRAIN 481)"
+              },
+              {
+                "patternId": 99468,
+                "destinationSign": "WASHINGTON LOCAL (Train 453)"
+              },
+              {
+                "patternId": 99469,
+                "destinationSign": "WASHINGTON LOCAL (Train 451)"
+              },
+              {
+                "patternId": 99470,
+                "destinationSign": "WASHINGTON LOCAL (Train 449)"
+              },
+              {
+                "patternId": 99471,
+                "destinationSign": "WASHINGTON LOCAL (Train 447)"
+              },
+              {
+                "patternId": 99472,
+                "destinationSign": "WASHINGTON EXPRESS (Train 445)"
+              },
+              {
+                "patternId": 99473,
+                "destinationSign": "WASHINGTON LOCAL (Train 443)"
+              },
+              {
+                "patternId": 99474,
+                "destinationSign": "WASHINGTON LOCAL (Train 439)"
+              },
+              {
+                "patternId": 99475,
+                "destinationSign": "WASHINGTON LOCAL (Train 435)"
+              },
+              {
+                "patternId": 99476,
+                "destinationSign": "WASHINGTON LOCAL (Train 433)"
+              },
+              {
+                "patternId": 99477,
+                "destinationSign": "WASHINGTON LOCAL (Train 431)"
+              },
+              {
+                "patternId": 99478,
+                "destinationSign": "WASHINGTON LOCAL (Train 429)"
+              },
+              {
+                "patternId": 99479,
+                "destinationSign": "WASHINGTON LOCAL (Train 427)"
+              },
+              {
+                "patternId": 99480,
+                "destinationSign": "WASHINGTON LOCAL (Train 425)"
+              },
+              {
+                "patternId": 99481,
+                "destinationSign": "WASHINGTON LOCAL (Train 421)"
+              },
+              {
+                "patternId": 99482,
+                "destinationSign": "WASHINGTON LOCAL (Train 419)"
+              },
+              {
+                "patternId": 99483,
+                "destinationSign": "WASHINGTON LOCAL (Train 415)"
+              },
+              {
+                "patternId": 99484,
+                "destinationSign": "WASHINGTON LOCAL (Train 413)"
+              },
+              {
+                "patternId": 99485,
+                "destinationSign": "WASHINGTON LOCAL (Train 409)"
+              },
+              {
+                "patternId": 99486,
+                "destinationSign": "WASHINGTON LOCAL (Train 407)"
+              },
+              {
+                "patternId": 99487,
+                "destinationSign": "WASHINGTON LOCAL (Train 403)"
+              },
+              {
+                "patternId": 99488,
+                "destinationSign": "WASHINGTON LOCAL (Train 401)"
+              }
+            ]
+          },
+          {
+            "lineDirId": 97731,
+            "dirName": "NORTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 99489,
+                "destinationSign": "MARTIN AIRPORT (TRAIN 698)"
+              },
+              {
+                "patternId": 99490,
+                "destinationSign": "MARTIN AIRPORT (TRAIN 696)"
+              },
+              {
+                "patternId": 99491,
+                "destinationSign": "MARTIN AIRPORT (TRAIN 694)"
+              },
+              {
+                "patternId": 99492,
+                "destinationSign": "MARTIN AIRPORT (TRAIN 692)"
+              },
+              {
+                "patternId": 99493,
+                "destinationSign": "MARTIN AIRPORT (TRAIN 688)"
+              },
+              {
+                "patternId": 99494,
+                "destinationSign": "BALTIMORE LOCAL (Train 642)"
+              },
+              {
+                "patternId": 99495,
+                "destinationSign": "MARTIN AIRPORT LOCAL (Train 634)"
+              },
+              {
+                "patternId": 99496,
+                "destinationSign": "MARTIN AIRPORT LOCAL (Train 612)"
+              },
+              {
+                "patternId": 99497,
+                "destinationSign": "MARTIN AIRPORT LOCAL (Train 634)"
+              },
+              {
+                "patternId": 99498,
+                "destinationSign": "PERRYVILLE LIMITED (Train 554)"
+              },
+              {
+                "patternId": 99499,
+                "destinationSign": "PERRYVILLE LOCAL (Train 548)"
+              },
+              {
+                "patternId": 99500,
+                "destinationSign": "PERRYVILLE LOCAL (Train 544)"
+              },
+              {
+                "patternId": 99501,
+                "destinationSign": "PERRYVILLE LIMITED (Train 536)"
+              },
+              {
+                "patternId": 99502,
+                "destinationSign": "PERRYVILLE LOCAL (Train 532)"
+              },
+              {
+                "patternId": 99503,
+                "destinationSign": "PERRYVILLE LOCAL (Train 520)"
+              },
+              {
+                "patternId": 99504,
+                "destinationSign": "PERRYVILLE LOCAL (Train 504)"
+              },
+              {
+                "patternId": 99505,
+                "destinationSign": "PENN STATION BALTIMORE (TRAIN 494)"
+              },
+              {
+                "patternId": 99506,
+                "destinationSign": "PENN STATION BALTIMORE (TRAIN 492)"
+              },
+              {
+                "patternId": 99507,
+                "destinationSign": "PENN STATION BALTIMORE (TRAIN 490)"
+              },
+              {
+                "patternId": 99508,
+                "destinationSign": "PENN STATION BALTIMORE (TRAIN 488)"
+              },
+              {
+                "patternId": 99509,
+                "destinationSign": "PENN STATION BALTIMORE (TRAIN 486)"
+              },
+              {
+                "patternId": 99510,
+                "destinationSign": "PENN STATION BALTIMORE (TRAIN 484)"
+              },
+              {
+                "patternId": 99511,
+                "destinationSign": "PENN STATION BALTIMORE (TRAIN 482)"
+              },
+              {
+                "patternId": 99512,
+                "destinationSign": "PENN STATION BALTIMORE (TRAIN 480)"
+              },
+              {
+                "patternId": 99513,
+                "destinationSign": "PENN STATION BALTIMORE (TRAIN 478)"
+              },
+              {
+                "patternId": 99514,
+                "destinationSign": "PENN STATION BALTIMORE (TRAIN 476)"
+              },
+              {
+                "patternId": 99515,
+                "destinationSign": "BALTIMORE LOCAL (Train 452)"
+              },
+              {
+                "patternId": 99516,
+                "destinationSign": "BALTIMORE LOCAL (Train 448)"
+              },
+              {
+                "patternId": 99517,
+                "destinationSign": "BALTIMORE LOCAL (Train 446)"
+              },
+              {
+                "patternId": 99518,
+                "destinationSign": "BALTIMORE LOCAL (Train 440)"
+              },
+              {
+                "patternId": 99519,
+                "destinationSign": "BALTIMORE LOCAL (Train 438)"
+              },
+              {
+                "patternId": 99520,
+                "destinationSign": "BALTIMORE EXPRESS (Train 430)"
+              },
+              {
+                "patternId": 99521,
+                "destinationSign": "BALTIMORE EXPRESS (Train 428)"
+              },
+              {
+                "patternId": 99522,
+                "destinationSign": "BALTIMORE LOCAL (Train 426)"
+              },
+              {
+                "patternId": 99523,
+                "destinationSign": "BALTIMORE LOCAL (Train 424)"
+              },
+              {
+                "patternId": 99524,
+                "destinationSign": "BALTIMORE LOCAL (Train 422)"
+              },
+              {
+                "patternId": 99525,
+                "destinationSign": "BALTIMORE LOCAL (Train 418)"
+              },
+              {
+                "patternId": 99526,
+                "destinationSign": "BALTIMORE LOCAL (Train 416)"
+              },
+              {
+                "patternId": 99527,
+                "destinationSign": "BALTIMORE LOCAL (Train 414)"
+              },
+              {
+                "patternId": 99528,
+                "destinationSign": "BALTIMORE LOCAL (Train 412)"
+              },
+              {
+                "patternId": 99529,
+                "destinationSign": "BALTIMORE EXPRESS (Train 408)"
+              },
+              {
+                "patternId": 99530,
+                "destinationSign": "BALTIMORE LOCAL (Train 406)"
+              },
+              {
+                "patternId": 99531,
+                "destinationSign": "BALTIMORE EXPRESS (Train 404)"
+              },
+              {
+                "patternId": 99532,
+                "destinationSign": "BALTIMORE LOCAL (Train 400)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9813,
+        "abbr": "302",
+        "name": "CAMDEN - WASHINGTON",
+        "color": "#ff8000",
+        "drInfos": [
+          {
+            "lineDirId": 98130,
+            "dirName": "WESTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 99740,
+                "destinationSign": "TRAIN 857 TO WASHINGTON UNION STA"
+              },
+              {
+                "patternId": 99741,
+                "destinationSign": "TRAIN 855 TO WASHINGTON UNION STA"
+              },
+              {
+                "patternId": 99742,
+                "destinationSign": "TRAIN 853 TO WASHINGTON UNION STA"
+              },
+              {
+                "patternId": 99743,
+                "destinationSign": "TRAIN 851 TO WASHINGTON UNION STA"
+              },
+              {
+                "patternId": 99744,
+                "destinationSign": "TRAIN 849 TO WASHINGTON UNION STA"
+              },
+              {
+                "patternId": 99745,
+                "destinationSign": "TRAIN 847 TO WASHINGTON UNION STA"
+              },
+              {
+                "patternId": 99746,
+                "destinationSign": "TRAIN 845 TO WASHINGTON UNION STA"
+              },
+              {
+                "patternId": 99747,
+                "destinationSign": "TRAIN 843 TO WASHINGTON UNION STA"
+              },
+              {
+                "patternId": 99748,
+                "destinationSign": "TRAIN 841 TO WASHINGTON UNION STA"
+              }
+            ]
+          },
+          {
+            "lineDirId": 98131,
+            "dirName": "EASTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 99749,
+                "destinationSign": "TRAIN 856 TO BALTIMORE CAMDEN STA"
+              },
+              {
+                "patternId": 99750,
+                "destinationSign": "TRAIN 854 TO BALTIMORE CAMDEN STA"
+              },
+              {
+                "patternId": 99751,
+                "destinationSign": "TRAIN 852 TO BALTIMORE CAMDEN STA"
+              },
+              {
+                "patternId": 99752,
+                "destinationSign": "TRAIN 850 TO BALTIMORE CAMDEN STA"
+              },
+              {
+                "patternId": 99753,
+                "destinationSign": "TRAIN 848 TO BALTIMORE CAMDEN STA"
+              },
+              {
+                "patternId": 99754,
+                "destinationSign": "TRAIN 846 TO BALTIMORE CAMDEN STA"
+              },
+              {
+                "patternId": 99755,
+                "destinationSign": "TRAIN 844 TO BALTIMORE CAMDEN STA"
+              },
+              {
+                "patternId": 99756,
+                "destinationSign": "TRAIN 842 TO BALTIMORE CAMDEN STA"
+              },
+              {
+                "patternId": 99757,
+                "destinationSign": "TRAIN 840 TO BALTIMORE CAMDEN STA"
+              },
+              {
+                "patternId": 99758,
+                "destinationSign": "CAMDEN YARDS"
+              },
+              {
+                "patternId": 99759,
+                "destinationSign": ""
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9756,
+        "abbr": "425",
+        "name": "ABERDEEN PROVING GROUND - DOWNTOWN",
+        "color": "#a6caf0",
+        "drInfos": [
+          {
+            "lineDirId": 97560,
+            "dirName": "SOUTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 99397,
+                "destinationSign": "DOWNTOWN BALTIMORE"
+              }
+            ]
+          },
+          {
+            "lineDirId": 97561,
+            "dirName": "NORTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 99398,
+                "destinationSign": "ABERDEEN PROVING GROUND"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9512,
+        "abbr": "BL",
+        "name": "CMS - JOHNS HOPKINS BAYVIEW",
+        "color": "#0080ff",
+        "drInfos": [
+          {
+            "lineDirId": 95120,
+            "dirName": "EASTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 97997,
+                "destinationSign": "BL HOPKINS BAYVIEW"
+              },
+              {
+                "patternId": 97998,
+                "destinationSign": "BL HOPKINS BAYVIEW"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95121,
+            "dirName": "WESTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 97999,
+                "destinationSign": "BL CMS"
+              },
+              {
+                "patternId": 98000,
+                "destinationSign": "BL WESTGATE"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9520,
+        "abbr": "BR",
+        "name": "WHITE MARSH - DOWNTOWN",
+        "color": "#5b3a19",
+        "drInfos": [
+          {
+            "lineDirId": 95200,
+            "dirName": "SOUTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98029,
+                "destinationSign": "BR UM MEDICAL CENTER"
+              },
+              {
+                "patternId": 98030,
+                "destinationSign": "BR UM MEDICAL CENTER"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95201,
+            "dirName": "NORTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98031,
+                "destinationSign": "BR WHITE MARSH"
+              },
+              {
+                "patternId": 98032,
+                "destinationSign": "BR OVERLEA"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9519,
+        "abbr": "GD",
+        "name": "WALBROOK JUNCTION - CANTON",
+        "color": "#7a7a14",
+        "drInfos": [
+          {
+            "lineDirId": 95190,
+            "dirName": "WESTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98025,
+                "destinationSign": "GD WALBROOK JUNCTION"
+              },
+              {
+                "patternId": 98026,
+                "destinationSign": "GD WALBROOK JUNCTION"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95191,
+            "dirName": "EASTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98027,
+                "destinationSign": "GD BEREA"
+              },
+              {
+                "patternId": 98028,
+                "destinationSign": "GD CANTON CROSSING"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9511,
+        "abbr": "GR",
+        "name": "WEST BALTIMORE MARC - TOWSON",
+        "color": "#00b800",
+        "drInfos": [
+          {
+            "lineDirId": 95110,
+            "dirName": "SOUTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 97995,
+                "destinationSign": "GR WEST BALTIMORE MARC"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95111,
+            "dirName": "NORTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 97996,
+                "destinationSign": "GR TOWSON"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9515,
+        "abbr": "LM",
+        "name": "NW HOSPITAL - HARBOR EAST",
+        "color": "#59cc00",
+        "drInfos": [
+          {
+            "lineDirId": 95150,
+            "dirName": "EASTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98007,
+                "destinationSign": "LM DRUID HILL PARK"
+              },
+              {
+                "patternId": 98008,
+                "destinationSign": "LM HARBOR EAST"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95151,
+            "dirName": "WESTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98009,
+                "destinationSign": "LM NORTHWEST HOSPITAL"
+              },
+              {
+                "patternId": 98010,
+                "destinationSign": "LM NORTHWEST HOSPITAL"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9509,
+        "abbr": "NV",
+        "name": "MONDAWMIN - DUNDALK",
+        "color": "#0000ff",
+        "drInfos": [
+          {
+            "lineDirId": 95090,
+            "dirName": "WESTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 97987,
+                "destinationSign": "NV MONDAWMIN"
+              },
+              {
+                "patternId": 97988,
+                "destinationSign": "NV MONDAWMIN"
+              },
+              {
+                "patternId": 97989,
+                "destinationSign": "NV MONDAWMIN"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95091,
+            "dirName": "EASTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 97990,
+                "destinationSign": "NV TURNER STATION"
+              },
+              {
+                "patternId": 97991,
+                "destinationSign": "NV DUNDALK"
+              },
+              {
+                "patternId": 97992,
+                "destinationSign": "NV WATERSEDGE"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9510,
+        "abbr": "OR",
+        "name": "ESSEX - WEST BALTIMORE MARC",
+        "color": "#f25500",
+        "drInfos": [
+          {
+            "lineDirId": 95100,
+            "dirName": "WESTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 97993,
+                "destinationSign": "OR WEST BALTIMORE MARC"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95101,
+            "dirName": "EASTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 97994,
+                "destinationSign": "OR ESSEX"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9513,
+        "abbr": "PK",
+        "name": "CEDONIA - WEST BALTIMORE MARC",
+        "color": "#e600e6",
+        "drInfos": [
+          {
+            "lineDirId": 95130,
+            "dirName": "WESTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98001,
+                "destinationSign": "PK WEST BALTIMORE MARC "
+              }
+            ]
+          },
+          {
+            "lineDirId": 95131,
+            "dirName": "EASTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98002,
+                "destinationSign": "PK CEDONIA"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9518,
+        "abbr": "PR",
+        "name": "HOPKINS HOSPITAL - CATONSVILLE",
+        "color": "#7300e6",
+        "drInfos": [
+          {
+            "lineDirId": 95180,
+            "dirName": "WESTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98021,
+                "destinationSign": "PR CATONSVILLE"
+              },
+              {
+                "patternId": 98022,
+                "destinationSign": "PR PARADISE LOOP"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95181,
+            "dirName": "EASTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98023,
+                "destinationSign": "PR JOHNS HOPKINS HOSPITAL"
+              },
+              {
+                "patternId": 98024,
+                "destinationSign": "PR JOHNS HOPKINS HOSPITAL"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9516,
+        "abbr": "RD",
+        "name": "DOWNTOWN - TOWSON\/LUTHERVILLE",
+        "color": "#ff0000",
+        "drInfos": [
+          {
+            "lineDirId": 95160,
+            "dirName": "SOUTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98011,
+                "destinationSign": "RD UM MEDICAL CENTER"
+              },
+              {
+                "patternId": 98012,
+                "destinationSign": "RD UM MEDICAL CENTER"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95161,
+            "dirName": "NORTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98013,
+                "destinationSign": "RD LUTHERVILLE STATION"
+              },
+              {
+                "patternId": 98014,
+                "destinationSign": "RD TOWSON"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9514,
+        "abbr": "SV",
+        "name": "CURTIS BAY - HOPKINS UNIVERSITY",
+        "color": "#364d4d",
+        "drInfos": [
+          {
+            "lineDirId": 95140,
+            "dirName": "SOUTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98003,
+                "destinationSign": "SV CURTIS BAY"
+              },
+              {
+                "patternId": 98004,
+                "destinationSign": "SV CURTIS BAY"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95141,
+            "dirName": "NORTHBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98005,
+                "destinationSign": "SV MORGAN STATE UNIVERSITY"
+              },
+              {
+                "patternId": 98006,
+                "destinationSign": "SV HOPKINS UNIVERSITY"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "lineId": 9517,
+        "abbr": "YW",
+        "name": "MONDAWMIN - UMBC\/RIVERVIEW",
+        "color": "#f2f200",
+        "drInfos": [
+          {
+            "lineDirId": 95170,
+            "dirName": "WESTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98015,
+                "destinationSign": "YW RIVERVIEW"
+              },
+              {
+                "patternId": 98016,
+                "destinationSign": "YW RIVERVIEW"
+              },
+              {
+                "patternId": 98017,
+                "destinationSign": "YW UMBC"
+              },
+              {
+                "patternId": 99044,
+                "destinationSign": "YW BELTWAY BUSINESS PARK"
+              },
+              {
+                "patternId": 99046,
+                "destinationSign": "YW BELTWAY BUSINESS PARK"
+              }
+            ]
+          },
+          {
+            "lineDirId": 95171,
+            "dirName": "EASTBOUND",
+            "pttrnDestSigns": [
+              {
+                "patternId": 98018,
+                "destinationSign": "YW MONDAWMIN"
+              },
+              {
+                "patternId": 98019,
+                "destinationSign": "YW MONDAWMIN"
+              },
+              {
+                "patternId": 98020,
+                "destinationSign": "YW MONDAWMIN"
+              },
+              {
+                "patternId": 99045,
+                "destinationSign": "YW MONDAWMIN"
+              },
+              {
+                "patternId": 99047,
+                "destinationSign": "YW MONDAWMIN"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "responseCode": ""
+  }
+}

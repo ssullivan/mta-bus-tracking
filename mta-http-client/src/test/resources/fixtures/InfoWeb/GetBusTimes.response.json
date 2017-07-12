@@ -1,2 +1,1254 @@
-{"version":"1.1","result":[{"StopTimeResult":[{"Lines":[{"LineDirId":95121,"StopId":6326,"StopName":"FAYETTE ST & BROADWAY wb              ","StopAbbr":"5452","DirectionName":"WESTBOUND","LineDirIdConst":95121,"LineName":"CMS - JOHNS HOPKINS BAYVIEW","LineAbbr":"BL","LineIdConst":9512,"ML_AccessibilityMask":1,"TransportationModeAbbr":"Fixed","TransportationModeDescr":"Fixed Route Bus","NoService":false,"AgencyId":1,"AgencyAbbr":"","AgencyName":""},{"LineDirId":95100,"StopId":6326,"StopName":"FAYETTE ST & BROADWAY wb              ","StopAbbr":"5452","DirectionName":"WESTBOUND","LineDirIdConst":95100,"LineName":"ESSEX - WEST BALTIMORE MARC","LineAbbr":"OR","LineIdConst":9510,"ML_AccessibilityMask":1,"TransportationModeAbbr":"Fixed","TransportationModeDescr":"Fixed Route Bus","NoService":false,"AgencyId":1,"AgencyAbbr":"","AgencyName":""},{"LineDirId":95180,"StopId":6326,"StopName":"FAYETTE ST & BROADWAY wb              ","StopAbbr":"5452","DirectionName":"WESTBOUND","LineDirIdConst":95180,"LineName":"HOPKINS HOSPITAL - CATONSVILLE","LineAbbr":"PR","LineIdConst":9518,"ML_AccessibilityMask":1,"TransportationModeAbbr":"Fixed","TransportationModeDescr":"Fixed Route Bus","NoService":false,"AgencyId":1,"AgencyAbbr":"","AgencyName":""}],"StopTimes":[{"ETime":76860,"ETimeSPC":193,"Date":20170711,"ETimeUnadjusted":76860,"BayNum":0,"DateUnadjusted":20170711,"TripId":1985042,"BlockId":322029,"BlockNum":2717,"LineGroup":10870,"ServiceGroupId":1,"StopFlag":0,"StopTimesIndex":4,"DestinationSign":"OR WEST BALTIMORE MARC","LastTripOfDayLineDir":"No","LastTripOfDayPattern":"No","SignId":121,"LineDirId":95100,"PatternId":97993,"StopNum":43,"IvrNum":0,"NodeId":1398,"NodeName":"WASHINGTON HILL       ","StopName":"FAYETTE ST & BROADWAY wb              ","StopAbbr":"5452","LineName":"ESSEX - WEST BALTIMORE MARC","LineAbbr":"OR","DirectionName":"WESTBOUND","StopId":"6326"},{"ETime":77028,"ETimeSPC":361,"Date":20170711,"ETimeUnadjusted":77028,"BayNum":0,"DateUnadjusted":20170711,"TripId":1988150,"BlockId":322899,"BlockNum":3603,"LineGroup":10872,"ServiceGroupId":1,"StopFlag":0,"StopTimesIndex":5,"DestinationSign":"PR PARADISE LOOP","LastTripOfDayLineDir":"No","LastTripOfDayPattern":"No","SignId":121,"LineDirId":95180,"PatternId":98022,"StopNum":80,"IvrNum":0,"NodeId":0,"NodeName":"","StopName":"FAYETTE ST & BROADWAY wb              ","StopAbbr":"5452","LineName":"HOPKINS HOSPITAL - CATONSVILLE","LineAbbr":"PR","DirectionName":"WESTBOUND","StopId":"6326"},{"ETime":77160,"ETimeSPC":493,"Date":20170711,"ETimeUnadjusted":77160,"BayNum":0,"DateUnadjusted":20170711,"TripId":1985828,"BlockId":317828,"BlockNum":1765,"LineGroup":10864,"ServiceGroupId":1,"StopFlag":0,"StopTimesIndex":6,"DestinationSign":"BL CMS","LastTripOfDayLineDir":"No","LastTripOfDayPattern":"No","SignId":121,"LineDirId":95121,"PatternId":97999,"StopNum":20,"IvrNum":0,"NodeId":1398,"NodeName":"WASHINGTON HILL       ","StopName":"FAYETTE ST & BROADWAY wb              ","StopAbbr":"5452","LineName":"CMS - JOHNS HOPKINS BAYVIEW","LineAbbr":"BL","DirectionName":"WESTBOUND","StopId":"6326"},{"ETime":78060,"ETimeSPC":1393,"Date":20170711,"ETimeUnadjusted":78060,"BayNum":0,"DateUnadjusted":20170711,"TripId":1985041,"BlockId":317730,"BlockNum":1875,"LineGroup":10870,"ServiceGroupId":1,"StopFlag":0,"StopTimesIndex":7,"DestinationSign":"OR WEST BALTIMORE MARC","LastTripOfDayLineDir":"No","LastTripOfDayPattern":"No","SignId":121,"LineDirId":95100,"PatternId":97993,"StopNum":43,"IvrNum":0,"NodeId":1398,"NodeName":"WASHINGTON HILL       ","StopName":"FAYETTE ST & BROADWAY wb              ","StopAbbr":"5452","LineName":"ESSEX - WEST BALTIMORE MARC","LineAbbr":"OR","DirectionName":"WESTBOUND","StopId":"6326"},{"ETime":78228,"ETimeSPC":1561,"Date":20170711,"ETimeUnadjusted":78228,"BayNum":0,"DateUnadjusted":20170711,"TripId":1988108,"BlockId":318098,"BlockNum":1990,"LineGroup":10872,"ServiceGroupId":1,"StopFlag":0,"StopTimesIndex":8,"DestinationSign":"PR CATONSVILLE","LastTripOfDayLineDir":"No","LastTripOfDayPattern":"No","SignId":121,"LineDirId":95180,"PatternId":98021,"StopNum":80,"IvrNum":0,"NodeId":0,"NodeName":"","StopName":"FAYETTE ST & BROADWAY wb              ","StopAbbr":"5452","LineName":"HOPKINS HOSPITAL - CATONSVILLE","LineAbbr":"PR","DirectionName":"WESTBOUND","StopId":"6326"},{"ETime":78360,"ETimeSPC":1693,"Date":20170711,"ETimeUnadjusted":78360,"BayNum":0,"DateUnadjusted":20170711,"TripId":1985819,"BlockId":317817,"BlockNum":1762,"LineGroup":10864,"ServiceGroupId":1,"StopFlag":0,"StopTimesIndex":9,"DestinationSign":"BL WESTGATE","LastTripOfDayLineDir":"No","LastTripOfDayPattern":"No","SignId":121,"LineDirId":95121,"PatternId":98000,"StopNum":20,"IvrNum":0,"NodeId":1398,"NodeName":"WASHINGTON HILL       ","StopName":"FAYETTE ST & BROADWAY wb              ","StopAbbr":"5452","LineName":"CMS - JOHNS HOPKINS BAYVIEW","LineAbbr":"BL","DirectionName":"WESTBOUND","StopId":"6326"},{"ETime":79080,"ETimeSPC":2413,"Date":20170711,"ETimeUnadjusted":79080,"BayNum":0,"DateUnadjusted":20170711,"TripId":1985827,"BlockId":317812,"BlockNum":1769,"LineGroup":10864,"ServiceGroupId":1,"StopFlag":0,"StopTimesIndex":10,"DestinationSign":"BL CMS","LastTripOfDayLineDir":"No","LastTripOfDayPattern":"No","SignId":121,"LineDirId":95121,"PatternId":97999,"StopNum":20,"IvrNum":0,"NodeId":1398,"NodeName":"WASHINGTON HILL       ","StopName":"FAYETTE ST & BROADWAY wb              ","StopAbbr":"5452","LineName":"CMS - JOHNS HOPKINS BAYVIEW","LineAbbr":"BL","DirectionName":"WESTBOUND","StopId":"6326"},{"ETime":79728,"ETimeSPC":3061,"Date":20170711,"ETimeUnadjusted":79728,"BayNum":0,"DateUnadjusted":20170711,"TripId":1988149,"BlockId":318099,"BlockNum":1993,"LineGroup":10872,"ServiceGroupId":1,"StopFlag":0,"StopTimesIndex":11,"DestinationSign":"PR PARADISE LOOP","LastTripOfDayLineDir":"No","LastTripOfDayPattern":"No","SignId":121,"LineDirId":95180,"PatternId":98022,"StopNum":80,"IvrNum":0,"NodeId":0,"NodeName":"","StopName":"FAYETTE ST & BROADWAY wb              ","StopAbbr":"5452","LineName":"HOPKINS HOSPITAL - CATONSVILLE","LineAbbr":"PR","DirectionName":"WESTBOUND","StopId":"6326"},{"ETime":79860,"ETimeSPC":3193,"Date":20170711,"ETimeUnadjusted":79860,"BayNum":0,"DateUnadjusted":20170711,"TripId":1985040,"BlockId":317724,"BlockNum":2712,"LineGroup":10870,"ServiceGroupId":1,"StopFlag":0,"StopTimesIndex":12,"DestinationSign":"OR WEST BALTIMORE MARC","LastTripOfDayLineDir":"No","LastTripOfDayPattern":"No","SignId":121,"LineDirId":95100,"PatternId":97993,"StopNum":43,"IvrNum":0,"NodeId":1398,"NodeName":"WASHINGTON HILL       ","StopName":"FAYETTE ST & BROADWAY wb              ","StopAbbr":"5452","LineName":"ESSEX - WEST BALTIMORE MARC","LineAbbr":"OR","DirectionName":"WESTBOUND","StopId":"6326"},{"ETime":80760,"ETimeSPC":4093,"Date":20170711,"ETimeUnadjusted":80760,"BayNum":0,"DateUnadjusted":20170711,"TripId":1985818,"BlockId":317833,"BlockNum":1764,"LineGroup":10864,"ServiceGroupId":1,"StopFlag":0,"StopTimesIndex":13,"DestinationSign":"BL WESTGATE","LastTripOfDayLineDir":"No","LastTripOfDayPattern":"No","SignId":121,"LineDirId":95121,"PatternId":98000,"StopNum":20,"IvrNum":0,"NodeId":1398,"NodeName":"WASHINGTON HILL       ","StopName":"FAYETTE ST & BROADWAY wb              ","StopAbbr":"5452","LineName":"CMS - JOHNS HOPKINS BAYVIEW","LineAbbr":"BL","DirectionName":"WESTBOUND","StopId":"6326"},{"ETime":81180,"ETimeSPC":4513,"Date":20170711,"ETimeUnadjusted":81180,"BayNum":0,"DateUnadjusted":20170711,"TripId":1985039,"BlockId":322028,"BlockNum":2716,"LineGroup":10870,"ServiceGroupId":1,"StopFlag":0,"StopTimesIndex":14,"DestinationSign":"OR WEST BALTIMORE MARC","LastTripOfDayLineDir":"No","LastTripOfDayPattern":"No","SignId":121,"LineDirId":95100,"PatternId":97993,"StopNum":43,"IvrNum":0,"NodeId":1398,"NodeName":"WASHINGTON HILL       ","StopName":"FAYETTE ST & BROADWAY wb              ","StopAbbr":"5452","LineName":"ESSEX - WEST BALTIMORE MARC","LineAbbr":"OR","DirectionName":"WESTBOUND","StopId":"6326"},{"ETime":81528,"ETimeSPC":4861,"Date":20170711,"ETimeUnadjusted":81528,"BayNum":0,"DateUnadjusted":20170711,"TripId":1988107,"BlockId":318097,"BlockNum":1992,"LineGroup":10872,"ServiceGroupId":1,"StopFlag":0,"StopTimesIndex":15,"DestinationSign":"PR CATONSVILLE","LastTripOfDayLineDir":"No","LastTripOfDayPattern":"Yes","SignId":121,"LineDirId":95180,"PatternId":98021,"StopNum":80,"IvrNum":0,"NodeId":0,"NodeName":"","StopName":"FAYETTE ST & BROADWAY wb              ","StopAbbr":"5452","LineName":"HOPKINS HOSPITAL - CATONSVILLE","LineAbbr":"PR","DirectionName":"WESTBOUND","StopId":"6326"}],"ServiceResumesTimes":[],"Validation":[{"Name":"Service","Instance":1,"Type":"message","Code":"CONTEXTOK","Message":"Context successfully found for date 20170711:  SignUp=121, ServiceGroup=1 [ExcCombo=-1]","Action":"none"},{"Name":"Service","Instance":1,"Type":"message","Code":"CONTEXTOK","Message":"Context successfully found for date 20170711:  SignUp=121, ServiceGroup=1 [ExcCombo=-1]","Action":"none"},{"Name":"Service","Instance":1,"Type":"message","Code":"CONTEXTOK","Message":"Context successfully found for date 20170711:  SignUp=121, ServiceGroup=1 [ExcCombo=-1]","Action":"none"},{"Name":"Request","Instance":1,"Type":"message","Code":"TR","Message":"240 stop times were found","Action":"none"},{"Name":"Request","Instance":1,"Type":"message","Code":"QH","Message":"212 historical times were suppressed","Action":"none"},{"Name":"Request","Instance":1,"Type":"message","Code":"QX","Message":"13 excess times were suppressed","Action":"none"},{"Name":"Request","Instance":1,"Type":"message","Code":"QE","Message":"0 empty times were suppressed","Action":"none"},{"Name":"Request","Instance":1,"Type":"message","Code":"QV","Message":"0 previously viewed times were suppressed","Action":"none"},{"Name":"Request","Instance":1,"Type":"message","Code":"QU","Message":"0 unload-only times were suppressed","Action":"none"},{"Name":"Request","Instance":1,"Type":"message","Code":"ST","Message":"15 stop times were reported","Action":"none"},{"Name":"Service","Instance":1,"Type":"message","Code":"CONTEXTOK","Message":"Context successfully found for date 20170711:  SignUp=121, ServiceGroup=1 [ExcCombo=-1]","Action":"none"},{"Name":"Service","Instance":1,"Type":"message","Code":"CONTEXTOK","Message":"Context successfully found for date 20170711:  SignUp=121, ServiceGroup=1 [ExcCombo=-1]","Action":"none"},{"Name":"Request","Instance":1,"Type":"message","Code":"RS","Message":"3 solutions were found for the request","Action":"none"}]}],"TripResult":[{"Trips":[{"Results":[{"BlockId":322026,"TripId":0,"LastUpdateDate":20170711,"LastUpdateTime":76518,"DeviceId":1411,"EstimatedScheduleAdherence":-300,"Lat":39290000,"Lon":-76621000,"MeasuredScheduleAdherence":0,"LastTimingPointId":1528,"LastTimingPointName":"FAYETTE PLAZA","LastTimingPointScheduleTime":0,"LastStopName":"NULL","VehicleNumber":"14011","CurrentTime":76667,"CurrentDate":20170711,"ForeCastThreshold":10}],"Validation":[]}]},{"Trips":[{"Results":[{"BlockId":318093,"TripId":0,"LastUpdateDate":20170711,"LastUpdateTime":76573,"DeviceId":1428,"EstimatedScheduleAdherence":-9999,"Lat":39290000,"Lon":-76619000,"MeasuredScheduleAdherence":0,"LastTimingPointId":0,"LastTimingPointName":"NULL","LastTimingPointScheduleTime":0,"LastStopName":"NULL","VehicleNumber":"14028","AdherenceThreshold":true,"CurrentTime":76667,"CurrentDate":20170711,"ForeCastThreshold":10}],"Validation":[]}]},{"Trips":[{"Results":[{"BlockId":317818,"TripId":0,"LastUpdateDate":20170711,"LastUpdateTime":76550,"DeviceId":1218,"EstimatedScheduleAdherence":-180,"Lat":39292000,"Lon":-76613000,"MeasuredScheduleAdherence":0,"LastTimingPointId":1636,"LastTimingPointName":"FAYETTE & BROADWAY wb","LastTimingPointScheduleTime":0,"LastStopName":"NULL","VehicleNumber":"12018","CurrentTime":76667,"CurrentDate":20170711,"ForeCastThreshold":10}],"Validation":[]}]},{"Trips":[{"Results":[{"BlockId":322029,"TripId":0,"LastUpdateDate":20170711,"LastUpdateTime":76548,"DeviceId":8028,"EstimatedScheduleAdherence":-330,"Lat":39292000,"Lon":-76557000,"MeasuredScheduleAdherence":0,"LastTimingPointId":3167,"LastTimingPointName":"NULL","LastTimingPointScheduleTime":0,"LastStopName":"NULL","VehicleNumber":"08028","CurrentTime":76667,"CurrentDate":20170711,"ForeCastThreshold":10}],"Validation":[]}]},{"Trips":[{"Results":[{"BlockId":322899,"TripId":0,"LastUpdateDate":20170711,"LastUpdateTime":76551,"DeviceId":5050,"EstimatedScheduleAdherence":0,"Lat":39299000,"Lon":-76591000,"MeasuredScheduleAdherence":0,"LastTimingPointId":0,"LastTimingPointName":"NULL","LastTimingPointScheduleTime":0,"LastStopName":"NULL","VehicleNumber":"05050","CurrentTime":76667,"CurrentDate":20170711,"ForeCastThreshold":10}],"Validation":[]}]},{"Trips":[{"Results":[{"BlockId":317828,"TripId":0,"LastUpdateDate":20170711,"LastUpdateTime":76575,"DeviceId":1302,"EstimatedScheduleAdherence":-330,"Lat":39287000,"Lon":-76564000,"MeasuredScheduleAdherence":0,"LastTimingPointId":1752,"LastTimingPointName":"EASTERN & PONCA W\/B","LastTimingPointScheduleTime":0,"LastStopName":"NULL","VehicleNumber":"13002","CurrentTime":76667,"CurrentDate":20170711,"ForeCastThreshold":10}],"Validation":[]}]},{"Trips":[{"Results":[{"BlockId":317730,"TripId":0,"LastUpdateDate":20170711,"LastUpdateTime":76576,"DeviceId":1252,"EstimatedScheduleAdherence":-450,"Lat":39311000,"Lon":-76447000,"MeasuredScheduleAdherence":0,"LastTimingPointId":1833,"LastTimingPointName":"BAYNER & SANDLEWOOD N\/B","LastTimingPointScheduleTime":0,"LastStopName":"NULL","VehicleNumber":"12052","CurrentTime":76667,"CurrentDate":20170711,"ForeCastThreshold":10}],"Validation":[]}]},{"Trips":[{"Results":[{"BlockId":318098,"TripId":0,"LastUpdateDate":20170711,"LastUpdateTime":76559,"DeviceId":1604,"EstimatedScheduleAdherence":-630,"Lat":39288000,"Lon":-76640000,"MeasuredScheduleAdherence":0,"LastTimingPointId":1281,"LastTimingPointName":"PRATT & PULASKI E\/B","LastTimingPointScheduleTime":0,"VehicleNumber":"16004","CurrentTime":76667,"CurrentDate":20170711,"ForeCastThreshold":10}],"Validation":[]}]},{"Trips":[{"Results":[{"BlockId":317817,"TripId":0,"LastUpdateDate":20170710,"LastUpdateTime":49241,"DeviceId":8007,"EstimatedScheduleAdherence":0,"Lat":39277000,"Lon":-76638000,"MeasuredScheduleAdherence":0,"LastTimingPointId":0,"LastTimingPointName":"NULL","LastTimingPointScheduleTime":0,"LastStopName":"NULL","VehicleNumber":"08007","LastUpdateThreshold":true,"CurrentTime":76667,"CurrentDate":20170711,"ForeCastThreshold":10}],"Validation":[]}]},{"Trips":[{"Results":[{"BlockId":317812,"TripId":0,"LastUpdateDate":20170711,"LastUpdateTime":76552,"DeviceId":1247,"EstimatedScheduleAdherence":-780,"Lat":39294000,"Lon":-76628000,"MeasuredScheduleAdherence":0,"LastTimingPointId":1596,"LastTimingPointName":"MULBERRY & SMALLWOOD (MARC) eb","LastTimingPointScheduleTime":0,"LastStopName":"NULL","VehicleNumber":"12047","CurrentTime":76667,"CurrentDate":20170711,"ForeCastThreshold":10}],"Validation":[]}]},{"Trips":[{"Results":[{"BlockId":318099,"TripId":0,"LastUpdateDate":20170711,"LastUpdateTime":76559,"DeviceId":1201,"EstimatedScheduleAdherence":0,"Lat":39281000,"Lon":-76706000,"MeasuredScheduleAdherence":0,"LastTimingPointId":0,"LastTimingPointName":"NULL","LastTimingPointScheduleTime":0,"LastStopName":"NULL","VehicleNumber":"12001","CurrentTime":76667,"CurrentDate":20170711,"ForeCastThreshold":10}],"Validation":[]}]},{"Trips":[{"Results":[{"BlockId":317724,"TripId":0,"LastUpdateDate":20170711,"LastUpdateTime":76549,"DeviceId":1227,"EstimatedScheduleAdherence":-240,"Lat":39296000,"Lon":-76456000,"MeasuredScheduleAdherence":0,"LastTimingPointId":3150,"LastTimingPointName":"EASTERN & TAYLOR E\/B","LastTimingPointScheduleTime":0,"LastStopName":"NULL","VehicleNumber":"12027","CurrentTime":76667,"CurrentDate":20170711,"ForeCastThreshold":10}],"Validation":[]}]},{"Trips":[{"Results":[{"BlockId":317833,"TripId":0,"LastUpdateDate":20170711,"LastUpdateTime":76578,"DeviceId":1186,"EstimatedScheduleAdherence":-210,"Lat":39293000,"Lon":-76694000,"MeasuredScheduleAdherence":0,"LastTimingPointId":2887,"LastTimingPointName":"NORTH BEND LOOP","LastTimingPointScheduleTime":0,"LastStopName":"NULL","VehicleNumber":"11086","CurrentTime":76667,"CurrentDate":20170711,"ForeCastThreshold":10}],"Validation":[]}]},{"Trips":[{"Results":[{"BlockId":322028,"TripId":0,"LastUpdateDate":20170711,"LastUpdateTime":76551,"DeviceId":8027,"EstimatedScheduleAdherence":-420,"Lat":39295000,"Lon":-76577000,"MeasuredScheduleAdherence":0,"LastTimingPointId":1635,"LastTimingPointName":"FAYETTE & BROADWAY en n\/s","LastTimingPointScheduleTime":0,"VehicleNumber":"08027","CurrentTime":76667,"CurrentDate":20170711,"ForeCastThreshold":10}],"Validation":[]}]},{"Trips":[{"Results":[{"BlockId":318097,"TripId":0,"LastUpdateDate":20170711,"LastUpdateTime":76521,"DeviceId":1206,"EstimatedScheduleAdherence":-540,"Lat":39268000,"Lon":-76757000,"MeasuredScheduleAdherence":0,"LastTimingPointId":1285,"LastTimingPointName":"FREDERICK & PARADISE W\/B","LastTimingPointScheduleTime":0,"LastStopName":"NULL","VehicleNumber":"12006","CurrentTime":76667,"CurrentDate":20170711,"ForeCastThreshold":10}],"Validation":[]}]}],"RealTimeResults":[{"RealTime":77190,"RealTimeSPC":523,"RealTimeMPC":8,"ETime":76860,"ETimeSPC":193,"StopId":6326,"TripId":1985042,"BlockId":322029,"BayNum":0,"EstimatedScheduleAdherence":-330,"LastTimingPointId":3167,"LastTimingPointName":"NULL","LastTimingPointScheduleTime":0,"LastUpdateThreshold":false,"AdherenceThreshold":false,"IgnoreAdherence":false,"LineDirId":95100,"Lon":-76557000,"Lat":39292000,"VehicleNumber":"08028","RealTimeExtraBusEnabled":true,"NumberOfResults":12},{"RealTime":77028,"RealTimeSPC":361,"RealTimeMPC":6,"ETime":77028,"ETimeSPC":361,"StopId":6326,"TripId":1988150,"BlockId":322899,"BayNum":0,"EstimatedScheduleAdherence":0,"LastTimingPointId":0,"LastTimingPointName":"NULL","LastTimingPointScheduleTime":0,"LastUpdateThreshold":false,"AdherenceThreshold":false,"IgnoreAdherence":false,"LineDirId":95180,"Lon":-76591000,"Lat":39299000,"VehicleNumber":"05050","RealTimeExtraBusEnabled":true},{"RealTime":77490,"RealTimeSPC":823,"RealTimeMPC":13,"ETime":77160,"ETimeSPC":493,"StopId":6326,"TripId":1985828,"BlockId":317828,"BayNum":0,"EstimatedScheduleAdherence":-330,"LastTimingPointId":1752,"LastTimingPointName":"EASTERN & PONCA W\/B","LastTimingPointScheduleTime":0,"LastUpdateThreshold":false,"AdherenceThreshold":false,"IgnoreAdherence":false,"LineDirId":95121,"Lon":-76564000,"Lat":39287000,"VehicleNumber":"13002","RealTimeExtraBusEnabled":true},{"RealTime":78510,"RealTimeSPC":1843,"RealTimeMPC":30,"ETime":78060,"ETimeSPC":1393,"StopId":6326,"TripId":1985041,"BlockId":317730,"BayNum":0,"EstimatedScheduleAdherence":-450,"LastTimingPointId":1833,"LastTimingPointName":"BAYNER & SANDLEWOOD N\/B","LastTimingPointScheduleTime":0,"LastUpdateThreshold":false,"AdherenceThreshold":false,"IgnoreAdherence":false,"LineDirId":95100,"Lon":-76447000,"Lat":39311000,"VehicleNumber":"12052","RealTimeExtraBusEnabled":true},{"RealTime":78858,"RealTimeSPC":2191,"RealTimeMPC":36,"ETime":78228,"ETimeSPC":1561,"StopId":6326,"TripId":1988108,"BlockId":318098,"BayNum":0,"EstimatedScheduleAdherence":-630,"LastTimingPointId":1281,"LastTimingPointName":"PRATT & PULASKI E\/B","LastTimingPointScheduleTime":0,"LastUpdateThreshold":false,"AdherenceThreshold":false,"IgnoreAdherence":false,"LineDirId":95180,"Lon":-76640000,"Lat":39288000,"VehicleNumber":"16004","RealTimeExtraBusEnabled":true},{"RealTime":78360,"RealTimeSPC":1693,"RealTimeMPC":28,"ETime":78360,"ETimeSPC":1693,"StopId":6326,"TripId":1985819,"BlockId":317817,"BayNum":0,"EstimatedScheduleAdherence":0,"LastTimingPointId":0,"LastTimingPointName":"NULL","LastTimingPointScheduleTime":0,"LastUpdateThreshold":true,"AdherenceThreshold":false,"IgnoreAdherence":true,"LineDirId":95121,"Lon":-76638000,"Lat":39277000,"VehicleNumber":"08007","RealTimeExtraBusEnabled":true},{"RealTime":79860,"RealTimeSPC":3193,"RealTimeMPC":53,"ETime":79080,"ETimeSPC":2413,"StopId":6326,"TripId":1985827,"BlockId":317812,"BayNum":0,"EstimatedScheduleAdherence":-780,"LastTimingPointId":1596,"LastTimingPointName":"MULBERRY & SMALLWOOD (MARC) eb","LastTimingPointScheduleTime":0,"LastUpdateThreshold":false,"AdherenceThreshold":false,"IgnoreAdherence":false,"LineDirId":95121,"Lon":-76628000,"Lat":39294000,"VehicleNumber":"12047","RealTimeExtraBusEnabled":true},{"RealTime":79728,"RealTimeSPC":3061,"RealTimeMPC":51,"ETime":79728,"ETimeSPC":3061,"StopId":6326,"TripId":1988149,"BlockId":318099,"BayNum":0,"EstimatedScheduleAdherence":0,"LastTimingPointId":0,"LastTimingPointName":"NULL","LastTimingPointScheduleTime":0,"LastUpdateThreshold":false,"AdherenceThreshold":false,"IgnoreAdherence":false,"LineDirId":95180,"Lon":-76706000,"Lat":39281000,"VehicleNumber":"12001","RealTimeExtraBusEnabled":true},{"RealTime":80100,"RealTimeSPC":3433,"RealTimeMPC":57,"ETime":79860,"ETimeSPC":3193,"StopId":6326,"TripId":1985040,"BlockId":317724,"BayNum":0,"EstimatedScheduleAdherence":-240,"LastTimingPointId":3150,"LastTimingPointName":"EASTERN & TAYLOR E\/B","LastTimingPointScheduleTime":0,"LastUpdateThreshold":false,"AdherenceThreshold":false,"IgnoreAdherence":false,"LineDirId":95100,"Lon":-76456000,"Lat":39296000,"VehicleNumber":"12027","RealTimeExtraBusEnabled":true},{"RealTime":80760,"RealTimeSPC":4093,"RealTimeMPC":68,"ETime":80760,"ETimeSPC":4093,"StopId":6326,"TripId":1985818,"BlockId":317833,"BayNum":0,"EstimatedScheduleAdherence":-210,"LastTimingPointId":2887,"LastTimingPointName":"NORTH BEND LOOP","LastTimingPointScheduleTime":0,"LastUpdateThreshold":false,"AdherenceThreshold":false,"IgnoreAdherence":true,"LineDirId":95121,"Lon":-76694000,"Lat":39293000,"VehicleNumber":"11086","RealTimeExtraBusEnabled":true},{"RealTime":81180,"RealTimeSPC":4513,"RealTimeMPC":75,"ETime":81180,"ETimeSPC":4513,"StopId":6326,"TripId":1985039,"BlockId":322028,"BayNum":0,"EstimatedScheduleAdherence":-420,"LastTimingPointId":1635,"LastTimingPointName":"FAYETTE & BROADWAY en n\/s","LastTimingPointScheduleTime":0,"LastUpdateThreshold":false,"AdherenceThreshold":false,"IgnoreAdherence":true,"LineDirId":95100,"Lon":-76577000,"Lat":39295000,"VehicleNumber":"08027","RealTimeExtraBusEnabled":true},{"RealTime":81528,"RealTimeSPC":4861,"RealTimeMPC":81,"ETime":81528,"ETimeSPC":4861,"StopId":6326,"TripId":1988107,"BlockId":318097,"BayNum":0,"EstimatedScheduleAdherence":-540,"LastTimingPointId":1285,"LastTimingPointName":"FREDERICK & PARADISE W\/B","LastTimingPointScheduleTime":0,"LastUpdateThreshold":false,"AdherenceThreshold":false,"IgnoreAdherence":true,"LineDirId":95180,"Lon":-76757000,"Lat":39268000,"VehicleNumber":"12006","RealTimeExtraBusEnabled":true}],"BusTimeStatus":-3,"BusTimeCount":0,"BusTimeSummary":"","SystemTime":" 9:17p"}]}
+{
+  "version": "1.1",
+  "result": [
+    {
+      "StopTimeResult": [
+        {
+          "Lines": [
+            {
+              "LineDirId": 95121,
+              "StopId": 6326,
+              "StopName": "FAYETTE ST & BROADWAY wb              ",
+              "StopAbbr": "5452",
+              "DirectionName": "WESTBOUND",
+              "LineDirIdConst": 95121,
+              "LineName": "CMS - JOHNS HOPKINS BAYVIEW",
+              "LineAbbr": "BL",
+              "LineIdConst": 9512,
+              "ML_AccessibilityMask": 1,
+              "TransportationModeAbbr": "Fixed",
+              "TransportationModeDescr": "Fixed Route Bus",
+              "NoService": false,
+              "AgencyId": 1,
+              "AgencyAbbr": "",
+              "AgencyName": ""
+            },
+            {
+              "LineDirId": 95100,
+              "StopId": 6326,
+              "StopName": "FAYETTE ST & BROADWAY wb              ",
+              "StopAbbr": "5452",
+              "DirectionName": "WESTBOUND",
+              "LineDirIdConst": 95100,
+              "LineName": "ESSEX - WEST BALTIMORE MARC",
+              "LineAbbr": "OR",
+              "LineIdConst": 9510,
+              "ML_AccessibilityMask": 1,
+              "TransportationModeAbbr": "Fixed",
+              "TransportationModeDescr": "Fixed Route Bus",
+              "NoService": false,
+              "AgencyId": 1,
+              "AgencyAbbr": "",
+              "AgencyName": ""
+            },
+            {
+              "LineDirId": 95180,
+              "StopId": 6326,
+              "StopName": "FAYETTE ST & BROADWAY wb              ",
+              "StopAbbr": "5452",
+              "DirectionName": "WESTBOUND",
+              "LineDirIdConst": 95180,
+              "LineName": "HOPKINS HOSPITAL - CATONSVILLE",
+              "LineAbbr": "PR",
+              "LineIdConst": 9518,
+              "ML_AccessibilityMask": 1,
+              "TransportationModeAbbr": "Fixed",
+              "TransportationModeDescr": "Fixed Route Bus",
+              "NoService": false,
+              "AgencyId": 1,
+              "AgencyAbbr": "",
+              "AgencyName": ""
+            }
+          ],
+          "StopTimes": [
+            {
+              "ETime": 76860,
+              "ETimeSPC": 193,
+              "Date": 20170711,
+              "ETimeUnadjusted": 76860,
+              "BayNum": 0,
+              "DateUnadjusted": 20170711,
+              "TripId": 1985042,
+              "BlockId": 322029,
+              "BlockNum": 2717,
+              "LineGroup": 10870,
+              "ServiceGroupId": 1,
+              "StopFlag": 0,
+              "StopTimesIndex": 4,
+              "DestinationSign": "OR WEST BALTIMORE MARC",
+              "LastTripOfDayLineDir": "No",
+              "LastTripOfDayPattern": "No",
+              "SignId": 121,
+              "LineDirId": 95100,
+              "PatternId": 97993,
+              "StopNum": 43,
+              "IvrNum": 0,
+              "NodeId": 1398,
+              "NodeName": "WASHINGTON HILL       ",
+              "StopName": "FAYETTE ST & BROADWAY wb              ",
+              "StopAbbr": "5452",
+              "LineName": "ESSEX - WEST BALTIMORE MARC",
+              "LineAbbr": "OR",
+              "DirectionName": "WESTBOUND",
+              "StopId": "6326"
+            },
+            {
+              "ETime": 77028,
+              "ETimeSPC": 361,
+              "Date": 20170711,
+              "ETimeUnadjusted": 77028,
+              "BayNum": 0,
+              "DateUnadjusted": 20170711,
+              "TripId": 1988150,
+              "BlockId": 322899,
+              "BlockNum": 3603,
+              "LineGroup": 10872,
+              "ServiceGroupId": 1,
+              "StopFlag": 0,
+              "StopTimesIndex": 5,
+              "DestinationSign": "PR PARADISE LOOP",
+              "LastTripOfDayLineDir": "No",
+              "LastTripOfDayPattern": "No",
+              "SignId": 121,
+              "LineDirId": 95180,
+              "PatternId": 98022,
+              "StopNum": 80,
+              "IvrNum": 0,
+              "NodeId": 0,
+              "NodeName": "",
+              "StopName": "FAYETTE ST & BROADWAY wb              ",
+              "StopAbbr": "5452",
+              "LineName": "HOPKINS HOSPITAL - CATONSVILLE",
+              "LineAbbr": "PR",
+              "DirectionName": "WESTBOUND",
+              "StopId": "6326"
+            },
+            {
+              "ETime": 77160,
+              "ETimeSPC": 493,
+              "Date": 20170711,
+              "ETimeUnadjusted": 77160,
+              "BayNum": 0,
+              "DateUnadjusted": 20170711,
+              "TripId": 1985828,
+              "BlockId": 317828,
+              "BlockNum": 1765,
+              "LineGroup": 10864,
+              "ServiceGroupId": 1,
+              "StopFlag": 0,
+              "StopTimesIndex": 6,
+              "DestinationSign": "BL CMS",
+              "LastTripOfDayLineDir": "No",
+              "LastTripOfDayPattern": "No",
+              "SignId": 121,
+              "LineDirId": 95121,
+              "PatternId": 97999,
+              "StopNum": 20,
+              "IvrNum": 0,
+              "NodeId": 1398,
+              "NodeName": "WASHINGTON HILL       ",
+              "StopName": "FAYETTE ST & BROADWAY wb              ",
+              "StopAbbr": "5452",
+              "LineName": "CMS - JOHNS HOPKINS BAYVIEW",
+              "LineAbbr": "BL",
+              "DirectionName": "WESTBOUND",
+              "StopId": "6326"
+            },
+            {
+              "ETime": 78060,
+              "ETimeSPC": 1393,
+              "Date": 20170711,
+              "ETimeUnadjusted": 78060,
+              "BayNum": 0,
+              "DateUnadjusted": 20170711,
+              "TripId": 1985041,
+              "BlockId": 317730,
+              "BlockNum": 1875,
+              "LineGroup": 10870,
+              "ServiceGroupId": 1,
+              "StopFlag": 0,
+              "StopTimesIndex": 7,
+              "DestinationSign": "OR WEST BALTIMORE MARC",
+              "LastTripOfDayLineDir": "No",
+              "LastTripOfDayPattern": "No",
+              "SignId": 121,
+              "LineDirId": 95100,
+              "PatternId": 97993,
+              "StopNum": 43,
+              "IvrNum": 0,
+              "NodeId": 1398,
+              "NodeName": "WASHINGTON HILL       ",
+              "StopName": "FAYETTE ST & BROADWAY wb              ",
+              "StopAbbr": "5452",
+              "LineName": "ESSEX - WEST BALTIMORE MARC",
+              "LineAbbr": "OR",
+              "DirectionName": "WESTBOUND",
+              "StopId": "6326"
+            },
+            {
+              "ETime": 78228,
+              "ETimeSPC": 1561,
+              "Date": 20170711,
+              "ETimeUnadjusted": 78228,
+              "BayNum": 0,
+              "DateUnadjusted": 20170711,
+              "TripId": 1988108,
+              "BlockId": 318098,
+              "BlockNum": 1990,
+              "LineGroup": 10872,
+              "ServiceGroupId": 1,
+              "StopFlag": 0,
+              "StopTimesIndex": 8,
+              "DestinationSign": "PR CATONSVILLE",
+              "LastTripOfDayLineDir": "No",
+              "LastTripOfDayPattern": "No",
+              "SignId": 121,
+              "LineDirId": 95180,
+              "PatternId": 98021,
+              "StopNum": 80,
+              "IvrNum": 0,
+              "NodeId": 0,
+              "NodeName": "",
+              "StopName": "FAYETTE ST & BROADWAY wb              ",
+              "StopAbbr": "5452",
+              "LineName": "HOPKINS HOSPITAL - CATONSVILLE",
+              "LineAbbr": "PR",
+              "DirectionName": "WESTBOUND",
+              "StopId": "6326"
+            },
+            {
+              "ETime": 78360,
+              "ETimeSPC": 1693,
+              "Date": 20170711,
+              "ETimeUnadjusted": 78360,
+              "BayNum": 0,
+              "DateUnadjusted": 20170711,
+              "TripId": 1985819,
+              "BlockId": 317817,
+              "BlockNum": 1762,
+              "LineGroup": 10864,
+              "ServiceGroupId": 1,
+              "StopFlag": 0,
+              "StopTimesIndex": 9,
+              "DestinationSign": "BL WESTGATE",
+              "LastTripOfDayLineDir": "No",
+              "LastTripOfDayPattern": "No",
+              "SignId": 121,
+              "LineDirId": 95121,
+              "PatternId": 98000,
+              "StopNum": 20,
+              "IvrNum": 0,
+              "NodeId": 1398,
+              "NodeName": "WASHINGTON HILL       ",
+              "StopName": "FAYETTE ST & BROADWAY wb              ",
+              "StopAbbr": "5452",
+              "LineName": "CMS - JOHNS HOPKINS BAYVIEW",
+              "LineAbbr": "BL",
+              "DirectionName": "WESTBOUND",
+              "StopId": "6326"
+            },
+            {
+              "ETime": 79080,
+              "ETimeSPC": 2413,
+              "Date": 20170711,
+              "ETimeUnadjusted": 79080,
+              "BayNum": 0,
+              "DateUnadjusted": 20170711,
+              "TripId": 1985827,
+              "BlockId": 317812,
+              "BlockNum": 1769,
+              "LineGroup": 10864,
+              "ServiceGroupId": 1,
+              "StopFlag": 0,
+              "StopTimesIndex": 10,
+              "DestinationSign": "BL CMS",
+              "LastTripOfDayLineDir": "No",
+              "LastTripOfDayPattern": "No",
+              "SignId": 121,
+              "LineDirId": 95121,
+              "PatternId": 97999,
+              "StopNum": 20,
+              "IvrNum": 0,
+              "NodeId": 1398,
+              "NodeName": "WASHINGTON HILL       ",
+              "StopName": "FAYETTE ST & BROADWAY wb              ",
+              "StopAbbr": "5452",
+              "LineName": "CMS - JOHNS HOPKINS BAYVIEW",
+              "LineAbbr": "BL",
+              "DirectionName": "WESTBOUND",
+              "StopId": "6326"
+            },
+            {
+              "ETime": 79728,
+              "ETimeSPC": 3061,
+              "Date": 20170711,
+              "ETimeUnadjusted": 79728,
+              "BayNum": 0,
+              "DateUnadjusted": 20170711,
+              "TripId": 1988149,
+              "BlockId": 318099,
+              "BlockNum": 1993,
+              "LineGroup": 10872,
+              "ServiceGroupId": 1,
+              "StopFlag": 0,
+              "StopTimesIndex": 11,
+              "DestinationSign": "PR PARADISE LOOP",
+              "LastTripOfDayLineDir": "No",
+              "LastTripOfDayPattern": "No",
+              "SignId": 121,
+              "LineDirId": 95180,
+              "PatternId": 98022,
+              "StopNum": 80,
+              "IvrNum": 0,
+              "NodeId": 0,
+              "NodeName": "",
+              "StopName": "FAYETTE ST & BROADWAY wb              ",
+              "StopAbbr": "5452",
+              "LineName": "HOPKINS HOSPITAL - CATONSVILLE",
+              "LineAbbr": "PR",
+              "DirectionName": "WESTBOUND",
+              "StopId": "6326"
+            },
+            {
+              "ETime": 79860,
+              "ETimeSPC": 3193,
+              "Date": 20170711,
+              "ETimeUnadjusted": 79860,
+              "BayNum": 0,
+              "DateUnadjusted": 20170711,
+              "TripId": 1985040,
+              "BlockId": 317724,
+              "BlockNum": 2712,
+              "LineGroup": 10870,
+              "ServiceGroupId": 1,
+              "StopFlag": 0,
+              "StopTimesIndex": 12,
+              "DestinationSign": "OR WEST BALTIMORE MARC",
+              "LastTripOfDayLineDir": "No",
+              "LastTripOfDayPattern": "No",
+              "SignId": 121,
+              "LineDirId": 95100,
+              "PatternId": 97993,
+              "StopNum": 43,
+              "IvrNum": 0,
+              "NodeId": 1398,
+              "NodeName": "WASHINGTON HILL       ",
+              "StopName": "FAYETTE ST & BROADWAY wb              ",
+              "StopAbbr": "5452",
+              "LineName": "ESSEX - WEST BALTIMORE MARC",
+              "LineAbbr": "OR",
+              "DirectionName": "WESTBOUND",
+              "StopId": "6326"
+            },
+            {
+              "ETime": 80760,
+              "ETimeSPC": 4093,
+              "Date": 20170711,
+              "ETimeUnadjusted": 80760,
+              "BayNum": 0,
+              "DateUnadjusted": 20170711,
+              "TripId": 1985818,
+              "BlockId": 317833,
+              "BlockNum": 1764,
+              "LineGroup": 10864,
+              "ServiceGroupId": 1,
+              "StopFlag": 0,
+              "StopTimesIndex": 13,
+              "DestinationSign": "BL WESTGATE",
+              "LastTripOfDayLineDir": "No",
+              "LastTripOfDayPattern": "No",
+              "SignId": 121,
+              "LineDirId": 95121,
+              "PatternId": 98000,
+              "StopNum": 20,
+              "IvrNum": 0,
+              "NodeId": 1398,
+              "NodeName": "WASHINGTON HILL       ",
+              "StopName": "FAYETTE ST & BROADWAY wb              ",
+              "StopAbbr": "5452",
+              "LineName": "CMS - JOHNS HOPKINS BAYVIEW",
+              "LineAbbr": "BL",
+              "DirectionName": "WESTBOUND",
+              "StopId": "6326"
+            },
+            {
+              "ETime": 81180,
+              "ETimeSPC": 4513,
+              "Date": 20170711,
+              "ETimeUnadjusted": 81180,
+              "BayNum": 0,
+              "DateUnadjusted": 20170711,
+              "TripId": 1985039,
+              "BlockId": 322028,
+              "BlockNum": 2716,
+              "LineGroup": 10870,
+              "ServiceGroupId": 1,
+              "StopFlag": 0,
+              "StopTimesIndex": 14,
+              "DestinationSign": "OR WEST BALTIMORE MARC",
+              "LastTripOfDayLineDir": "No",
+              "LastTripOfDayPattern": "No",
+              "SignId": 121,
+              "LineDirId": 95100,
+              "PatternId": 97993,
+              "StopNum": 43,
+              "IvrNum": 0,
+              "NodeId": 1398,
+              "NodeName": "WASHINGTON HILL       ",
+              "StopName": "FAYETTE ST & BROADWAY wb              ",
+              "StopAbbr": "5452",
+              "LineName": "ESSEX - WEST BALTIMORE MARC",
+              "LineAbbr": "OR",
+              "DirectionName": "WESTBOUND",
+              "StopId": "6326"
+            },
+            {
+              "ETime": 81528,
+              "ETimeSPC": 4861,
+              "Date": 20170711,
+              "ETimeUnadjusted": 81528,
+              "BayNum": 0,
+              "DateUnadjusted": 20170711,
+              "TripId": 1988107,
+              "BlockId": 318097,
+              "BlockNum": 1992,
+              "LineGroup": 10872,
+              "ServiceGroupId": 1,
+              "StopFlag": 0,
+              "StopTimesIndex": 15,
+              "DestinationSign": "PR CATONSVILLE",
+              "LastTripOfDayLineDir": "No",
+              "LastTripOfDayPattern": "Yes",
+              "SignId": 121,
+              "LineDirId": 95180,
+              "PatternId": 98021,
+              "StopNum": 80,
+              "IvrNum": 0,
+              "NodeId": 0,
+              "NodeName": "",
+              "StopName": "FAYETTE ST & BROADWAY wb              ",
+              "StopAbbr": "5452",
+              "LineName": "HOPKINS HOSPITAL - CATONSVILLE",
+              "LineAbbr": "PR",
+              "DirectionName": "WESTBOUND",
+              "StopId": "6326"
+            }
+          ],
+          "ServiceResumesTimes": [],
+          "Validation": [
+            {
+              "Name": "Service",
+              "Instance": 1,
+              "Type": "message",
+              "Code": "CONTEXTOK",
+              "Message": "Context successfully found for date 20170711:  SignUp=121, ServiceGroup=1 [ExcCombo=-1]",
+              "Action": "none"
+            },
+            {
+              "Name": "Service",
+              "Instance": 1,
+              "Type": "message",
+              "Code": "CONTEXTOK",
+              "Message": "Context successfully found for date 20170711:  SignUp=121, ServiceGroup=1 [ExcCombo=-1]",
+              "Action": "none"
+            },
+            {
+              "Name": "Service",
+              "Instance": 1,
+              "Type": "message",
+              "Code": "CONTEXTOK",
+              "Message": "Context successfully found for date 20170711:  SignUp=121, ServiceGroup=1 [ExcCombo=-1]",
+              "Action": "none"
+            },
+            {
+              "Name": "Request",
+              "Instance": 1,
+              "Type": "message",
+              "Code": "TR",
+              "Message": "240 stop times were found",
+              "Action": "none"
+            },
+            {
+              "Name": "Request",
+              "Instance": 1,
+              "Type": "message",
+              "Code": "QH",
+              "Message": "212 historical times were suppressed",
+              "Action": "none"
+            },
+            {
+              "Name": "Request",
+              "Instance": 1,
+              "Type": "message",
+              "Code": "QX",
+              "Message": "13 excess times were suppressed",
+              "Action": "none"
+            },
+            {
+              "Name": "Request",
+              "Instance": 1,
+              "Type": "message",
+              "Code": "QE",
+              "Message": "0 empty times were suppressed",
+              "Action": "none"
+            },
+            {
+              "Name": "Request",
+              "Instance": 1,
+              "Type": "message",
+              "Code": "QV",
+              "Message": "0 previously viewed times were suppressed",
+              "Action": "none"
+            },
+            {
+              "Name": "Request",
+              "Instance": 1,
+              "Type": "message",
+              "Code": "QU",
+              "Message": "0 unload-only times were suppressed",
+              "Action": "none"
+            },
+            {
+              "Name": "Request",
+              "Instance": 1,
+              "Type": "message",
+              "Code": "ST",
+              "Message": "15 stop times were reported",
+              "Action": "none"
+            },
+            {
+              "Name": "Service",
+              "Instance": 1,
+              "Type": "message",
+              "Code": "CONTEXTOK",
+              "Message": "Context successfully found for date 20170711:  SignUp=121, ServiceGroup=1 [ExcCombo=-1]",
+              "Action": "none"
+            },
+            {
+              "Name": "Service",
+              "Instance": 1,
+              "Type": "message",
+              "Code": "CONTEXTOK",
+              "Message": "Context successfully found for date 20170711:  SignUp=121, ServiceGroup=1 [ExcCombo=-1]",
+              "Action": "none"
+            },
+            {
+              "Name": "Request",
+              "Instance": 1,
+              "Type": "message",
+              "Code": "RS",
+              "Message": "3 solutions were found for the request",
+              "Action": "none"
+            }
+          ]
+        }
+      ],
+      "TripResult": [
+        {
+          "Trips": [
+            {
+              "Results": [
+                {
+                  "BlockId": 322026,
+                  "TripId": 0,
+                  "LastUpdateDate": 20170711,
+                  "LastUpdateTime": 76518,
+                  "DeviceId": 1411,
+                  "EstimatedScheduleAdherence": -300,
+                  "Lat": 39290000,
+                  "Lon": -76621000,
+                  "MeasuredScheduleAdherence": 0,
+                  "LastTimingPointId": 1528,
+                  "LastTimingPointName": "FAYETTE PLAZA",
+                  "LastTimingPointScheduleTime": 0,
+                  "LastStopName": "NULL",
+                  "VehicleNumber": "14011",
+                  "CurrentTime": 76667,
+                  "CurrentDate": 20170711,
+                  "ForeCastThreshold": 10
+                }
+              ],
+              "Validation": []
+            }
+          ]
+        },
+        {
+          "Trips": [
+            {
+              "Results": [
+                {
+                  "BlockId": 318093,
+                  "TripId": 0,
+                  "LastUpdateDate": 20170711,
+                  "LastUpdateTime": 76573,
+                  "DeviceId": 1428,
+                  "EstimatedScheduleAdherence": -9999,
+                  "Lat": 39290000,
+                  "Lon": -76619000,
+                  "MeasuredScheduleAdherence": 0,
+                  "LastTimingPointId": 0,
+                  "LastTimingPointName": "NULL",
+                  "LastTimingPointScheduleTime": 0,
+                  "LastStopName": "NULL",
+                  "VehicleNumber": "14028",
+                  "AdherenceThreshold": true,
+                  "CurrentTime": 76667,
+                  "CurrentDate": 20170711,
+                  "ForeCastThreshold": 10
+                }
+              ],
+              "Validation": []
+            }
+          ]
+        },
+        {
+          "Trips": [
+            {
+              "Results": [
+                {
+                  "BlockId": 317818,
+                  "TripId": 0,
+                  "LastUpdateDate": 20170711,
+                  "LastUpdateTime": 76550,
+                  "DeviceId": 1218,
+                  "EstimatedScheduleAdherence": -180,
+                  "Lat": 39292000,
+                  "Lon": -76613000,
+                  "MeasuredScheduleAdherence": 0,
+                  "LastTimingPointId": 1636,
+                  "LastTimingPointName": "FAYETTE & BROADWAY wb",
+                  "LastTimingPointScheduleTime": 0,
+                  "LastStopName": "NULL",
+                  "VehicleNumber": "12018",
+                  "CurrentTime": 76667,
+                  "CurrentDate": 20170711,
+                  "ForeCastThreshold": 10
+                }
+              ],
+              "Validation": []
+            }
+          ]
+        },
+        {
+          "Trips": [
+            {
+              "Results": [
+                {
+                  "BlockId": 322029,
+                  "TripId": 0,
+                  "LastUpdateDate": 20170711,
+                  "LastUpdateTime": 76548,
+                  "DeviceId": 8028,
+                  "EstimatedScheduleAdherence": -330,
+                  "Lat": 39292000,
+                  "Lon": -76557000,
+                  "MeasuredScheduleAdherence": 0,
+                  "LastTimingPointId": 3167,
+                  "LastTimingPointName": "NULL",
+                  "LastTimingPointScheduleTime": 0,
+                  "LastStopName": "NULL",
+                  "VehicleNumber": "08028",
+                  "CurrentTime": 76667,
+                  "CurrentDate": 20170711,
+                  "ForeCastThreshold": 10
+                }
+              ],
+              "Validation": []
+            }
+          ]
+        },
+        {
+          "Trips": [
+            {
+              "Results": [
+                {
+                  "BlockId": 322899,
+                  "TripId": 0,
+                  "LastUpdateDate": 20170711,
+                  "LastUpdateTime": 76551,
+                  "DeviceId": 5050,
+                  "EstimatedScheduleAdherence": 0,
+                  "Lat": 39299000,
+                  "Lon": -76591000,
+                  "MeasuredScheduleAdherence": 0,
+                  "LastTimingPointId": 0,
+                  "LastTimingPointName": "NULL",
+                  "LastTimingPointScheduleTime": 0,
+                  "LastStopName": "NULL",
+                  "VehicleNumber": "05050",
+                  "CurrentTime": 76667,
+                  "CurrentDate": 20170711,
+                  "ForeCastThreshold": 10
+                }
+              ],
+              "Validation": []
+            }
+          ]
+        },
+        {
+          "Trips": [
+            {
+              "Results": [
+                {
+                  "BlockId": 317828,
+                  "TripId": 0,
+                  "LastUpdateDate": 20170711,
+                  "LastUpdateTime": 76575,
+                  "DeviceId": 1302,
+                  "EstimatedScheduleAdherence": -330,
+                  "Lat": 39287000,
+                  "Lon": -76564000,
+                  "MeasuredScheduleAdherence": 0,
+                  "LastTimingPointId": 1752,
+                  "LastTimingPointName": "EASTERN & PONCA W\/B",
+                  "LastTimingPointScheduleTime": 0,
+                  "LastStopName": "NULL",
+                  "VehicleNumber": "13002",
+                  "CurrentTime": 76667,
+                  "CurrentDate": 20170711,
+                  "ForeCastThreshold": 10
+                }
+              ],
+              "Validation": []
+            }
+          ]
+        },
+        {
+          "Trips": [
+            {
+              "Results": [
+                {
+                  "BlockId": 317730,
+                  "TripId": 0,
+                  "LastUpdateDate": 20170711,
+                  "LastUpdateTime": 76576,
+                  "DeviceId": 1252,
+                  "EstimatedScheduleAdherence": -450,
+                  "Lat": 39311000,
+                  "Lon": -76447000,
+                  "MeasuredScheduleAdherence": 0,
+                  "LastTimingPointId": 1833,
+                  "LastTimingPointName": "BAYNER & SANDLEWOOD N\/B",
+                  "LastTimingPointScheduleTime": 0,
+                  "LastStopName": "NULL",
+                  "VehicleNumber": "12052",
+                  "CurrentTime": 76667,
+                  "CurrentDate": 20170711,
+                  "ForeCastThreshold": 10
+                }
+              ],
+              "Validation": []
+            }
+          ]
+        },
+        {
+          "Trips": [
+            {
+              "Results": [
+                {
+                  "BlockId": 318098,
+                  "TripId": 0,
+                  "LastUpdateDate": 20170711,
+                  "LastUpdateTime": 76559,
+                  "DeviceId": 1604,
+                  "EstimatedScheduleAdherence": -630,
+                  "Lat": 39288000,
+                  "Lon": -76640000,
+                  "MeasuredScheduleAdherence": 0,
+                  "LastTimingPointId": 1281,
+                  "LastTimingPointName": "PRATT & PULASKI E\/B",
+                  "LastTimingPointScheduleTime": 0,
+                  "VehicleNumber": "16004",
+                  "CurrentTime": 76667,
+                  "CurrentDate": 20170711,
+                  "ForeCastThreshold": 10
+                }
+              ],
+              "Validation": []
+            }
+          ]
+        },
+        {
+          "Trips": [
+            {
+              "Results": [
+                {
+                  "BlockId": 317817,
+                  "TripId": 0,
+                  "LastUpdateDate": 20170710,
+                  "LastUpdateTime": 49241,
+                  "DeviceId": 8007,
+                  "EstimatedScheduleAdherence": 0,
+                  "Lat": 39277000,
+                  "Lon": -76638000,
+                  "MeasuredScheduleAdherence": 0,
+                  "LastTimingPointId": 0,
+                  "LastTimingPointName": "NULL",
+                  "LastTimingPointScheduleTime": 0,
+                  "LastStopName": "NULL",
+                  "VehicleNumber": "08007",
+                  "LastUpdateThreshold": true,
+                  "CurrentTime": 76667,
+                  "CurrentDate": 20170711,
+                  "ForeCastThreshold": 10
+                }
+              ],
+              "Validation": []
+            }
+          ]
+        },
+        {
+          "Trips": [
+            {
+              "Results": [
+                {
+                  "BlockId": 317812,
+                  "TripId": 0,
+                  "LastUpdateDate": 20170711,
+                  "LastUpdateTime": 76552,
+                  "DeviceId": 1247,
+                  "EstimatedScheduleAdherence": -780,
+                  "Lat": 39294000,
+                  "Lon": -76628000,
+                  "MeasuredScheduleAdherence": 0,
+                  "LastTimingPointId": 1596,
+                  "LastTimingPointName": "MULBERRY & SMALLWOOD (MARC) eb",
+                  "LastTimingPointScheduleTime": 0,
+                  "LastStopName": "NULL",
+                  "VehicleNumber": "12047",
+                  "CurrentTime": 76667,
+                  "CurrentDate": 20170711,
+                  "ForeCastThreshold": 10
+                }
+              ],
+              "Validation": []
+            }
+          ]
+        },
+        {
+          "Trips": [
+            {
+              "Results": [
+                {
+                  "BlockId": 318099,
+                  "TripId": 0,
+                  "LastUpdateDate": 20170711,
+                  "LastUpdateTime": 76559,
+                  "DeviceId": 1201,
+                  "EstimatedScheduleAdherence": 0,
+                  "Lat": 39281000,
+                  "Lon": -76706000,
+                  "MeasuredScheduleAdherence": 0,
+                  "LastTimingPointId": 0,
+                  "LastTimingPointName": "NULL",
+                  "LastTimingPointScheduleTime": 0,
+                  "LastStopName": "NULL",
+                  "VehicleNumber": "12001",
+                  "CurrentTime": 76667,
+                  "CurrentDate": 20170711,
+                  "ForeCastThreshold": 10
+                }
+              ],
+              "Validation": []
+            }
+          ]
+        },
+        {
+          "Trips": [
+            {
+              "Results": [
+                {
+                  "BlockId": 317724,
+                  "TripId": 0,
+                  "LastUpdateDate": 20170711,
+                  "LastUpdateTime": 76549,
+                  "DeviceId": 1227,
+                  "EstimatedScheduleAdherence": -240,
+                  "Lat": 39296000,
+                  "Lon": -76456000,
+                  "MeasuredScheduleAdherence": 0,
+                  "LastTimingPointId": 3150,
+                  "LastTimingPointName": "EASTERN & TAYLOR E\/B",
+                  "LastTimingPointScheduleTime": 0,
+                  "LastStopName": "NULL",
+                  "VehicleNumber": "12027",
+                  "CurrentTime": 76667,
+                  "CurrentDate": 20170711,
+                  "ForeCastThreshold": 10
+                }
+              ],
+              "Validation": []
+            }
+          ]
+        },
+        {
+          "Trips": [
+            {
+              "Results": [
+                {
+                  "BlockId": 317833,
+                  "TripId": 0,
+                  "LastUpdateDate": 20170711,
+                  "LastUpdateTime": 76578,
+                  "DeviceId": 1186,
+                  "EstimatedScheduleAdherence": -210,
+                  "Lat": 39293000,
+                  "Lon": -76694000,
+                  "MeasuredScheduleAdherence": 0,
+                  "LastTimingPointId": 2887,
+                  "LastTimingPointName": "NORTH BEND LOOP",
+                  "LastTimingPointScheduleTime": 0,
+                  "LastStopName": "NULL",
+                  "VehicleNumber": "11086",
+                  "CurrentTime": 76667,
+                  "CurrentDate": 20170711,
+                  "ForeCastThreshold": 10
+                }
+              ],
+              "Validation": []
+            }
+          ]
+        },
+        {
+          "Trips": [
+            {
+              "Results": [
+                {
+                  "BlockId": 322028,
+                  "TripId": 0,
+                  "LastUpdateDate": 20170711,
+                  "LastUpdateTime": 76551,
+                  "DeviceId": 8027,
+                  "EstimatedScheduleAdherence": -420,
+                  "Lat": 39295000,
+                  "Lon": -76577000,
+                  "MeasuredScheduleAdherence": 0,
+                  "LastTimingPointId": 1635,
+                  "LastTimingPointName": "FAYETTE & BROADWAY en n\/s",
+                  "LastTimingPointScheduleTime": 0,
+                  "VehicleNumber": "08027",
+                  "CurrentTime": 76667,
+                  "CurrentDate": 20170711,
+                  "ForeCastThreshold": 10
+                }
+              ],
+              "Validation": []
+            }
+          ]
+        },
+        {
+          "Trips": [
+            {
+              "Results": [
+                {
+                  "BlockId": 318097,
+                  "TripId": 0,
+                  "LastUpdateDate": 20170711,
+                  "LastUpdateTime": 76521,
+                  "DeviceId": 1206,
+                  "EstimatedScheduleAdherence": -540,
+                  "Lat": 39268000,
+                  "Lon": -76757000,
+                  "MeasuredScheduleAdherence": 0,
+                  "LastTimingPointId": 1285,
+                  "LastTimingPointName": "FREDERICK & PARADISE W\/B",
+                  "LastTimingPointScheduleTime": 0,
+                  "LastStopName": "NULL",
+                  "VehicleNumber": "12006",
+                  "CurrentTime": 76667,
+                  "CurrentDate": 20170711,
+                  "ForeCastThreshold": 10
+                }
+              ],
+              "Validation": []
+            }
+          ]
+        }
+      ],
+      "RealTimeResults": [
+        {
+          "RealTime": 77190,
+          "RealTimeSPC": 523,
+          "RealTimeMPC": 8,
+          "ETime": 76860,
+          "ETimeSPC": 193,
+          "StopId": 6326,
+          "TripId": 1985042,
+          "BlockId": 322029,
+          "BayNum": 0,
+          "EstimatedScheduleAdherence": -330,
+          "LastTimingPointId": 3167,
+          "LastTimingPointName": "NULL",
+          "LastTimingPointScheduleTime": 0,
+          "LastUpdateThreshold": false,
+          "AdherenceThreshold": false,
+          "IgnoreAdherence": false,
+          "LineDirId": 95100,
+          "Lon": -76557000,
+          "Lat": 39292000,
+          "VehicleNumber": "08028",
+          "RealTimeExtraBusEnabled": true,
+          "NumberOfResults": 12
+        },
+        {
+          "RealTime": 77028,
+          "RealTimeSPC": 361,
+          "RealTimeMPC": 6,
+          "ETime": 77028,
+          "ETimeSPC": 361,
+          "StopId": 6326,
+          "TripId": 1988150,
+          "BlockId": 322899,
+          "BayNum": 0,
+          "EstimatedScheduleAdherence": 0,
+          "LastTimingPointId": 0,
+          "LastTimingPointName": "NULL",
+          "LastTimingPointScheduleTime": 0,
+          "LastUpdateThreshold": false,
+          "AdherenceThreshold": false,
+          "IgnoreAdherence": false,
+          "LineDirId": 95180,
+          "Lon": -76591000,
+          "Lat": 39299000,
+          "VehicleNumber": "05050",
+          "RealTimeExtraBusEnabled": true
+        },
+        {
+          "RealTime": 77490,
+          "RealTimeSPC": 823,
+          "RealTimeMPC": 13,
+          "ETime": 77160,
+          "ETimeSPC": 493,
+          "StopId": 6326,
+          "TripId": 1985828,
+          "BlockId": 317828,
+          "BayNum": 0,
+          "EstimatedScheduleAdherence": -330,
+          "LastTimingPointId": 1752,
+          "LastTimingPointName": "EASTERN & PONCA W\/B",
+          "LastTimingPointScheduleTime": 0,
+          "LastUpdateThreshold": false,
+          "AdherenceThreshold": false,
+          "IgnoreAdherence": false,
+          "LineDirId": 95121,
+          "Lon": -76564000,
+          "Lat": 39287000,
+          "VehicleNumber": "13002",
+          "RealTimeExtraBusEnabled": true
+        },
+        {
+          "RealTime": 78510,
+          "RealTimeSPC": 1843,
+          "RealTimeMPC": 30,
+          "ETime": 78060,
+          "ETimeSPC": 1393,
+          "StopId": 6326,
+          "TripId": 1985041,
+          "BlockId": 317730,
+          "BayNum": 0,
+          "EstimatedScheduleAdherence": -450,
+          "LastTimingPointId": 1833,
+          "LastTimingPointName": "BAYNER & SANDLEWOOD N\/B",
+          "LastTimingPointScheduleTime": 0,
+          "LastUpdateThreshold": false,
+          "AdherenceThreshold": false,
+          "IgnoreAdherence": false,
+          "LineDirId": 95100,
+          "Lon": -76447000,
+          "Lat": 39311000,
+          "VehicleNumber": "12052",
+          "RealTimeExtraBusEnabled": true
+        },
+        {
+          "RealTime": 78858,
+          "RealTimeSPC": 2191,
+          "RealTimeMPC": 36,
+          "ETime": 78228,
+          "ETimeSPC": 1561,
+          "StopId": 6326,
+          "TripId": 1988108,
+          "BlockId": 318098,
+          "BayNum": 0,
+          "EstimatedScheduleAdherence": -630,
+          "LastTimingPointId": 1281,
+          "LastTimingPointName": "PRATT & PULASKI E\/B",
+          "LastTimingPointScheduleTime": 0,
+          "LastUpdateThreshold": false,
+          "AdherenceThreshold": false,
+          "IgnoreAdherence": false,
+          "LineDirId": 95180,
+          "Lon": -76640000,
+          "Lat": 39288000,
+          "VehicleNumber": "16004",
+          "RealTimeExtraBusEnabled": true
+        },
+        {
+          "RealTime": 78360,
+          "RealTimeSPC": 1693,
+          "RealTimeMPC": 28,
+          "ETime": 78360,
+          "ETimeSPC": 1693,
+          "StopId": 6326,
+          "TripId": 1985819,
+          "BlockId": 317817,
+          "BayNum": 0,
+          "EstimatedScheduleAdherence": 0,
+          "LastTimingPointId": 0,
+          "LastTimingPointName": "NULL",
+          "LastTimingPointScheduleTime": 0,
+          "LastUpdateThreshold": true,
+          "AdherenceThreshold": false,
+          "IgnoreAdherence": true,
+          "LineDirId": 95121,
+          "Lon": -76638000,
+          "Lat": 39277000,
+          "VehicleNumber": "08007",
+          "RealTimeExtraBusEnabled": true
+        },
+        {
+          "RealTime": 79860,
+          "RealTimeSPC": 3193,
+          "RealTimeMPC": 53,
+          "ETime": 79080,
+          "ETimeSPC": 2413,
+          "StopId": 6326,
+          "TripId": 1985827,
+          "BlockId": 317812,
+          "BayNum": 0,
+          "EstimatedScheduleAdherence": -780,
+          "LastTimingPointId": 1596,
+          "LastTimingPointName": "MULBERRY & SMALLWOOD (MARC) eb",
+          "LastTimingPointScheduleTime": 0,
+          "LastUpdateThreshold": false,
+          "AdherenceThreshold": false,
+          "IgnoreAdherence": false,
+          "LineDirId": 95121,
+          "Lon": -76628000,
+          "Lat": 39294000,
+          "VehicleNumber": "12047",
+          "RealTimeExtraBusEnabled": true
+        },
+        {
+          "RealTime": 79728,
+          "RealTimeSPC": 3061,
+          "RealTimeMPC": 51,
+          "ETime": 79728,
+          "ETimeSPC": 3061,
+          "StopId": 6326,
+          "TripId": 1988149,
+          "BlockId": 318099,
+          "BayNum": 0,
+          "EstimatedScheduleAdherence": 0,
+          "LastTimingPointId": 0,
+          "LastTimingPointName": "NULL",
+          "LastTimingPointScheduleTime": 0,
+          "LastUpdateThreshold": false,
+          "AdherenceThreshold": false,
+          "IgnoreAdherence": false,
+          "LineDirId": 95180,
+          "Lon": -76706000,
+          "Lat": 39281000,
+          "VehicleNumber": "12001",
+          "RealTimeExtraBusEnabled": true
+        },
+        {
+          "RealTime": 80100,
+          "RealTimeSPC": 3433,
+          "RealTimeMPC": 57,
+          "ETime": 79860,
+          "ETimeSPC": 3193,
+          "StopId": 6326,
+          "TripId": 1985040,
+          "BlockId": 317724,
+          "BayNum": 0,
+          "EstimatedScheduleAdherence": -240,
+          "LastTimingPointId": 3150,
+          "LastTimingPointName": "EASTERN & TAYLOR E\/B",
+          "LastTimingPointScheduleTime": 0,
+          "LastUpdateThreshold": false,
+          "AdherenceThreshold": false,
+          "IgnoreAdherence": false,
+          "LineDirId": 95100,
+          "Lon": -76456000,
+          "Lat": 39296000,
+          "VehicleNumber": "12027",
+          "RealTimeExtraBusEnabled": true
+        },
+        {
+          "RealTime": 80760,
+          "RealTimeSPC": 4093,
+          "RealTimeMPC": 68,
+          "ETime": 80760,
+          "ETimeSPC": 4093,
+          "StopId": 6326,
+          "TripId": 1985818,
+          "BlockId": 317833,
+          "BayNum": 0,
+          "EstimatedScheduleAdherence": -210,
+          "LastTimingPointId": 2887,
+          "LastTimingPointName": "NORTH BEND LOOP",
+          "LastTimingPointScheduleTime": 0,
+          "LastUpdateThreshold": false,
+          "AdherenceThreshold": false,
+          "IgnoreAdherence": true,
+          "LineDirId": 95121,
+          "Lon": -76694000,
+          "Lat": 39293000,
+          "VehicleNumber": "11086",
+          "RealTimeExtraBusEnabled": true
+        },
+        {
+          "RealTime": 81180,
+          "RealTimeSPC": 4513,
+          "RealTimeMPC": 75,
+          "ETime": 81180,
+          "ETimeSPC": 4513,
+          "StopId": 6326,
+          "TripId": 1985039,
+          "BlockId": 322028,
+          "BayNum": 0,
+          "EstimatedScheduleAdherence": -420,
+          "LastTimingPointId": 1635,
+          "LastTimingPointName": "FAYETTE & BROADWAY en n\/s",
+          "LastTimingPointScheduleTime": 0,
+          "LastUpdateThreshold": false,
+          "AdherenceThreshold": false,
+          "IgnoreAdherence": true,
+          "LineDirId": 95100,
+          "Lon": -76577000,
+          "Lat": 39295000,
+          "VehicleNumber": "08027",
+          "RealTimeExtraBusEnabled": true
+        },
+        {
+          "RealTime": 81528,
+          "RealTimeSPC": 4861,
+          "RealTimeMPC": 81,
+          "ETime": 81528,
+          "ETimeSPC": 4861,
+          "StopId": 6326,
+          "TripId": 1988107,
+          "BlockId": 318097,
+          "BayNum": 0,
+          "EstimatedScheduleAdherence": -540,
+          "LastTimingPointId": 1285,
+          "LastTimingPointName": "FREDERICK & PARADISE W\/B",
+          "LastTimingPointScheduleTime": 0,
+          "LastUpdateThreshold": false,
+          "AdherenceThreshold": false,
+          "IgnoreAdherence": true,
+          "LineDirId": 95180,
+          "Lon": -76757000,
+          "Lat": 39268000,
+          "VehicleNumber": "12006",
+          "RealTimeExtraBusEnabled": true
+        }
+      ],
+      "BusTimeStatus": -3,
+      "BusTimeCount": 0,
+      "BusTimeSummary": "",
+      "SystemTime": " 9:17p"
+    }
+  ]
+}
 
