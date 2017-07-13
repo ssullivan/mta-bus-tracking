@@ -14,11 +14,13 @@ Java library for doing analysis of MTA bus [data](http://transitfeeds.com/p/mta-
 ### IntelliJ
 
 You may need to turn on annotation processing if you don't use the the following command
-to setup the project
+to setup the project.
 
 ```code
 gradlew idea
 ```
+
+You will also want to turn off the setting 'Separate Module Per SourceSet'
 
 ### Eclipse
 

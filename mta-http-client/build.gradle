@@ -19,7 +19,10 @@ dependencies {
     compile "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml:$jacksonVersion"
     compile "com.fasterxml.jackson.core:jackson-databind:$jacksonVersion"
     compile "com.google.guava:guava:$guavaVersion"
+// https://mvnrepository.com/artifact/org.slf4j/slf4j-api
+    compile group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
 
+    
     // https://mvnrepository.com/artifact/junit/junit
     testCompile group: 'junit', name: 'junit', version: "$junitVersion"
     testCompile group: 'org.hamcrest', name: 'hamcrest-library', version: '1.3'
