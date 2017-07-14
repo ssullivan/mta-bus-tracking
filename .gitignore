@@ -7,3 +7,5 @@ data
 .idea
 build
 .gradle
+.ideaDataSources
+dataSources

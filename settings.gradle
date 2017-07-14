@@ -1,3 +1,4 @@
 include 'gtfs-reader'
 include 'mta-http-client'
+include 'gtfs-sql'
 

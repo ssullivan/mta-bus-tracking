@@ -24,4 +24,13 @@ You will also want to turn off the setting 'Separate Module Per SourceSet'
 
 ### Eclipse
 
+## Running Locally
 
+### Launch the database
+
+The following will create a database and initialize it with the gtfs schema.
+
+
+``bash
+docker-compose -f gtfs-sql/docker-compose.yml up
+``
