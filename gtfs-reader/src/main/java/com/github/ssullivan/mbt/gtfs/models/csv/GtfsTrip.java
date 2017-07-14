@@ -1,4 +1,4 @@
-package com.github.ssullivan.mbt.gtfs.models;
+package com.github.ssullivan.mbt.gtfs.models.csv;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.JsonCreator;

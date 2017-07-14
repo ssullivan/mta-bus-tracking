@@ -1,4 +1,4 @@
-package com.github.ssullivan.mbt.gtfs.models;
+package com.github.ssullivan.mbt.gtfs.models.csv;
 
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.JsonCreator;
@@ -49,7 +49,7 @@ public abstract class GtfsStop {
 
     @Nullable
     @JsonProperty("wheelchair_boarding")
-    public abstract Boolean wheelchairBoarding();
+    public abstract Integer wheelchairBoarding();
 
     @Nullable
     @JsonProperty("stop_timezone")
@@ -67,7 +67,7 @@ public abstract class GtfsStop {
                            @JsonProperty("stop_url") String url,
                            @JsonProperty("location_type") String locationType,
                            @JsonProperty("parent_station") String parentStation,
-                           @JsonProperty("wheelchair_boarding") Boolean wheelchairBoarding,
+                           @JsonProperty("wheelchair_boarding") Integer wheelchairBoarding,
                            @JsonProperty("stop_timezone") String stopTimeZone) {
         return new AutoValue_GtfsStop(
                 stopId,
