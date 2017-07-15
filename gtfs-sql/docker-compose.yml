@@ -6,8 +6,8 @@ services:
     volumes:
       - ./initdb.d:/docker-entrypoint-initdb.d
     environment:
-      POSTGRES_PASSWORD: changeit
-      POSTGRES_DB: mta-gtfs
+      POSTGRES_PASSWORD:
+      POSTGRES_DB: mta_gtfs
     ports:
       - 5432:5432
 

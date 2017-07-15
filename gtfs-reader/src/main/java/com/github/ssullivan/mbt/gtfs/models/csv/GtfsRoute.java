@@ -33,7 +33,7 @@ public abstract class GtfsRoute {
 
     @Nullable
     @JsonProperty("route_type")
-    public abstract String type();
+    public abstract Integer type();
 
     @Nullable
     @JsonProperty("route_url")
@@ -53,7 +53,7 @@ public abstract class GtfsRoute {
                             @JsonProperty("route_short_name") String shortName,
                             @JsonProperty("route_long_name") String longName,
                             @JsonProperty("route_desc") String description,
-                            @JsonProperty("route_type") String type,
+                            @JsonProperty("route_type") Integer type,
                             @JsonProperty("route_url") String url,
                             @JsonProperty("route_color") String color,
                             @JsonProperty("route_text_color") String textColor) {

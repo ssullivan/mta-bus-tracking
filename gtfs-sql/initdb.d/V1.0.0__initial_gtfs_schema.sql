@@ -18,7 +18,7 @@ CREATE TABLE IF NOT EXISTS agency
 (
   agency_index BIGSERIAL PRIMARY KEY,
   feed_index BIGINT,
-  agency_id text NOT NULL,
+  agency_id text NOT NULL DEFAULT '',
   agency_name text,
   agency_url text,
   agency_timezone text,
@@ -124,8 +124,10 @@ trip_id,arrival_time,departure_time,stop_id,stop_sequence,stop_headsign,pickup_t
 CREATE TABLE IF NOT EXISTS stop_times
 (
   trip_index BIGINT NOT NULL,
-  arrival_time TIMESTAMP,
-  departure_time TIMESTAMP,
+  arrival_time text,
+  departure_time text,
+  arrival_time_seconds BIGINT,
+  departure_time_seconds BIGINT,
   stop_id INTEGER NOT NULL,
   stop_sequence INTEGER,
   stop_headsign text,
@@ -179,7 +181,7 @@ CREATE TABLE IF NOT EXISTS trips
   trip_short_name text,
   direction_id INTEGER,
   block_id INTEGER,
-  shape_index INTEGER,
+  shape_index BIGINT,
   CONSTRAINT feed_trip_unique UNIQUE (feed_index, trip_id)
 );
 
@@ -190,3 +192,54 @@ CREATE TABLE IF NOT EXISTS service_indexes_per_date (
 );
 
 CREATE INDEX IF NOT EXISTS service_feed_date_index ON service_indexes_per_date (feed_index, date);
+
+CREATE TABLE IF NOT EXISTS events (
+  service_date TIMESTAMP NOT NULL,
+  trip_index BIGINT NOT NULL,
+  vehicle_id INTEGER NOT NULL,
+  stop_id INTEGER NOT NULL,
+  est_dep_utc TIMESTAMP,
+  dep_accuracy INTEGER,
+  sched_dep_utc TIMESTAMP,
+  sched_dep_date TIMESTAMP,
+  sched_dep_hour NUMERIC(2),
+  route_id TEXT NOT NULL,
+  direction_id BOOLEAN NOT NULL,
+  CONSTRAINT events_primary_key PRIMARY KEY (service_date, trip_index, vehicle_id, stop_id)
+);
+
+CREATE INDEX events_index ON events(sched_dep_date,
+                                    sched_dep_hour,
+                                    route_id,
+                                    direction_id);
+
+CREATE TABLE IF NOT EXISTS adherence (
+  date TIMESTAMP NOT NULL,
+  hour NUMERIC(2) NOT NULL,
+  route_id text NOT NULL,
+  direction_id NUMERIC(1) NOT NULL,
+  stop_id INTEGER NOT NULL,
+  early INTEGER NOT NULL,
+  on_time INTEGER NOT NULL,
+  late INTEGER NOT NULL,
+  CONSTRAINT adherence_primary_key
+  PRIMARY KEY (date, hour, route_id, direction_id, stop_id)
+);
+
+
+CREATE TABLE IF NOT EXISTS positions (
+  timestamp_utc TIMESTAMP NOT NULL,
+  vehicle_id INTEGER NOT NULL,
+  latitude DOUBLE PRECISION NOT NULL,
+  longitude DOUBLE PRECISION NOT NULL,
+  bearing DOUBLE PRECISION NOT NULL,
+  progress NUMERIC(1) NOT NULL,
+  service_date TIMESTAMP NOT NULL,
+  trip_index BIGINT NOT NULL,
+  block_assigned NUMERIC(1) NOT NULL,
+  next_stop_id INTEGER,
+  dist_along_route DOUBLE PRECISION,
+  dist_from_stop DOUBLE PRECISION,
+  CONSTRAINT positions_primary_key
+  PRIMARY KEY (timestamp_utc, vehicle_id)
+);

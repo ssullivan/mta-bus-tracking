@@ -39,6 +39,13 @@ public abstract class GtfsStopTime {
         if (parts.length != 3) {
             return -1L;
         }
+        /**
+         * GTFS represents arrival, and departures times potentially as values greater than 24hours
+         *
+         * GTFS times are typically offset from Noon minus 12 hours
+         *
+         * (Hour * 3600) + (Minute * 60) + Seconds
+         */
         return Long.valueOf(parts[0]) * 3600 + Integer.valueOf(parts[1]) * 60 + Integer.valueOf(parts[2]);
     }
 
@@ -53,7 +60,7 @@ public abstract class GtfsStopTime {
     }
 
     @JsonProperty("stop_id")
-    public abstract String stopId();
+    public abstract Integer stopId();
 
     @JsonProperty("stop_sequence")
     public abstract Integer stopSequence();
@@ -80,7 +87,7 @@ public abstract class GtfsStopTime {
                                String arrivalTime,
                                @JsonProperty("departure_time")
                                 String departureTime,
-                               @JsonProperty("stop_id") String stopId,
+                               @JsonProperty("stop_id") Integer stopId,
                                @JsonProperty("stop_headsign") String stopHeadSign,
                                @JsonProperty("stop_sequence") Integer stopSequence,
                                @JsonProperty("pickup_type") String pickupType,

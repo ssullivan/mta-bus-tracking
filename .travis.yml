@@ -1,16 +1,33 @@
-language: java
-sudo: false
+dist: trusty
+sudo: required
 
+# Override default travis gradle steps
+# Per docs: https://docs.travis-ci.com/user/customizing-the-build/#Skipping-the-Installation-Step
+install: true
+
+language: java
 jdk:
   - oraclejdk8
 
+addons:
+  postgresql: "9.6"
+
+services:
+  - postgresql
+
 before_script:
-  - chmod +x gradlew
+  - sudo psql -U postgres -c "create database mta_gtfs;"
+  - echo "Finished before script stage"
 
 script:
+  - echo "Script stage started"
+  - ./gradlew assemble
   - ./gradlew check
   - ./gradlew build
-  - ./gradlew codeCoverageReport
+  - ./gradlew -x generateJOOQ codeCoverageReport
+
+after_script:
+  - echo "Finished script stage"
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
