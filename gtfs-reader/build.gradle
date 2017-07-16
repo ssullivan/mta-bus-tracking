@@ -3,13 +3,14 @@ plugins {
 }
 
 sourceSets {
-    apt{
-        java{
-            srcDir 'build/source/apt/main'
+    generated {
+        java {
+            srcDir "${buildDir.absolutePath}/generated/source/apt/main"
         }
     }
-
 }
+
+
 
 dependencies {
     compileOnly "com.google.auto.value:auto-value:$autoValueVersion"
