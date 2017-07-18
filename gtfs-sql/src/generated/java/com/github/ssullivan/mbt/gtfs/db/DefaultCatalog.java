@@ -27,7 +27,7 @@ import org.jooq.impl.CatalogImpl;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class DefaultCatalog extends CatalogImpl {
 
-    private static final long serialVersionUID = 173210632;
+    private static final long serialVersionUID = -993436188;
 
     /**
      * The reference instance of <code></code>
@@ -35,9 +35,9 @@ public class DefaultCatalog extends CatalogImpl {
     public static final DefaultCatalog DEFAULT_CATALOG = new DefaultCatalog();
 
     /**
-     * The schema <code>codegen</code>.
+     * The schema <code>public</code>.
      */
-    public final Codegen CODEGEN = com.github.ssullivan.mbt.gtfs.db.Codegen.CODEGEN;
+    public final Public PUBLIC = com.github.ssullivan.mbt.gtfs.db.Public.PUBLIC;
 
     /**
      * No further instances allowed
@@ -55,6 +55,6 @@ public class DefaultCatalog extends CatalogImpl {
 
     private final List<Schema> getSchemas0() {
         return Arrays.<Schema>asList(
-            Codegen.CODEGEN);
+            Public.PUBLIC);
     }
 }

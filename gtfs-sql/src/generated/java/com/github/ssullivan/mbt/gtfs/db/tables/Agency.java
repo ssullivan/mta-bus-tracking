@@ -4,8 +4,8 @@
 package com.github.ssullivan.mbt.gtfs.db.tables;
 
 
-import com.github.ssullivan.mbt.gtfs.db.Codegen;
 import com.github.ssullivan.mbt.gtfs.db.Keys;
+import com.github.ssullivan.mbt.gtfs.db.Public;
 import com.github.ssullivan.mbt.gtfs.db.tables.records.AgencyRecord;
 
 import java.util.Arrays;
@@ -35,10 +35,10 @@ import org.jooq.impl.TableImpl;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class Agency extends TableImpl<AgencyRecord> {
 
-    private static final long serialVersionUID = -189229420;
+    private static final long serialVersionUID = 552779980;
 
     /**
-     * The reference instance of <code>codegen.agency</code>
+     * The reference instance of <code>public.agency</code>
      */
     public static final Agency AGENCY = new Agency();
 
@@ -51,54 +51,54 @@ public class Agency extends TableImpl<AgencyRecord> {
     }
 
     /**
-     * The column <code>codegen.agency.agency_index</code>.
+     * The column <code>public.agency.agency_index</code>.
      */
     public final TableField<AgencyRecord, Long> AGENCY_INDEX = createField("agency_index", org.jooq.impl.SQLDataType.BIGINT.nullable(false).defaultValue(org.jooq.impl.DSL.field("nextval('codegen.agency_agency_index_seq'::regclass)", org.jooq.impl.SQLDataType.BIGINT)), this, "");
 
     /**
-     * The column <code>codegen.agency.feed_index</code>.
+     * The column <code>public.agency.feed_index</code>.
      */
     public final TableField<AgencyRecord, Long> FEED_INDEX = createField("feed_index", org.jooq.impl.SQLDataType.BIGINT, this, "");
 
     /**
-     * The column <code>codegen.agency.agency_id</code>.
+     * The column <code>public.agency.agency_id</code>.
      */
     public final TableField<AgencyRecord, String> AGENCY_ID = createField("agency_id", org.jooq.impl.SQLDataType.CLOB.nullable(false).defaultValue(org.jooq.impl.DSL.field("''::text", org.jooq.impl.SQLDataType.CLOB)), this, "");
 
     /**
-     * The column <code>codegen.agency.agency_name</code>.
+     * The column <code>public.agency.agency_name</code>.
      */
     public final TableField<AgencyRecord, String> AGENCY_NAME = createField("agency_name", org.jooq.impl.SQLDataType.CLOB, this, "");
 
     /**
-     * The column <code>codegen.agency.agency_url</code>.
+     * The column <code>public.agency.agency_url</code>.
      */
     public final TableField<AgencyRecord, String> AGENCY_URL = createField("agency_url", org.jooq.impl.SQLDataType.CLOB, this, "");
 
     /**
-     * The column <code>codegen.agency.agency_timezone</code>.
+     * The column <code>public.agency.agency_timezone</code>.
      */
     public final TableField<AgencyRecord, String> AGENCY_TIMEZONE = createField("agency_timezone", org.jooq.impl.SQLDataType.CLOB, this, "");
 
     /**
-     * The column <code>codegen.agency.agency_lang</code>.
+     * The column <code>public.agency.agency_lang</code>.
      */
     public final TableField<AgencyRecord, String> AGENCY_LANG = createField("agency_lang", org.jooq.impl.SQLDataType.CLOB, this, "");
 
     /**
-     * The column <code>codegen.agency.agency_phone</code>.
+     * The column <code>public.agency.agency_phone</code>.
      */
     public final TableField<AgencyRecord, String> AGENCY_PHONE = createField("agency_phone", org.jooq.impl.SQLDataType.CLOB, this, "");
 
     /**
-     * Create a <code>codegen.agency</code> table reference
+     * Create a <code>public.agency</code> table reference
      */
     public Agency() {
         this("agency", null);
     }
 
     /**
-     * Create an aliased <code>codegen.agency</code> table reference
+     * Create an aliased <code>public.agency</code> table reference
      */
     public Agency(String alias) {
         this(alias, AGENCY);
@@ -117,7 +117,7 @@ public class Agency extends TableImpl<AgencyRecord> {
      */
     @Override
     public Schema getSchema() {
-        return Codegen.CODEGEN;
+        return Public.PUBLIC;
     }
 
     /**

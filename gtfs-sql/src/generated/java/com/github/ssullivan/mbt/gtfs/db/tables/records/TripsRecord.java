@@ -28,143 +28,143 @@ import org.jooq.impl.UpdatableRecordImpl;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class TripsRecord extends UpdatableRecordImpl<TripsRecord> implements Record10<Long, Long, Integer, Long, String, String, String, Integer, Integer, Long> {
 
-    private static final long serialVersionUID = 1425249010;
+    private static final long serialVersionUID = -921846492;
 
     /**
-     * Setter for <code>codegen.trips.feed_index</code>.
+     * Setter for <code>public.trips.feed_index</code>.
      */
     public void setFeedIndex(Long value) {
         set(0, value);
     }
 
     /**
-     * Getter for <code>codegen.trips.feed_index</code>.
+     * Getter for <code>public.trips.feed_index</code>.
      */
     public Long getFeedIndex() {
         return (Long) get(0);
     }
 
     /**
-     * Setter for <code>codegen.trips.trip_index</code>.
+     * Setter for <code>public.trips.trip_index</code>.
      */
     public void setTripIndex(Long value) {
         set(1, value);
     }
 
     /**
-     * Getter for <code>codegen.trips.trip_index</code>.
+     * Getter for <code>public.trips.trip_index</code>.
      */
     public Long getTripIndex() {
         return (Long) get(1);
     }
 
     /**
-     * Setter for <code>codegen.trips.route_id</code>.
+     * Setter for <code>public.trips.route_id</code>.
      */
     public void setRouteId(Integer value) {
         set(2, value);
     }
 
     /**
-     * Getter for <code>codegen.trips.route_id</code>.
+     * Getter for <code>public.trips.route_id</code>.
      */
     public Integer getRouteId() {
         return (Integer) get(2);
     }
 
     /**
-     * Setter for <code>codegen.trips.service_index</code>.
+     * Setter for <code>public.trips.service_index</code>.
      */
     public void setServiceIndex(Long value) {
         set(3, value);
     }
 
     /**
-     * Getter for <code>codegen.trips.service_index</code>.
+     * Getter for <code>public.trips.service_index</code>.
      */
     public Long getServiceIndex() {
         return (Long) get(3);
     }
 
     /**
-     * Setter for <code>codegen.trips.trip_id</code>.
+     * Setter for <code>public.trips.trip_id</code>.
      */
     public void setTripId(String value) {
         set(4, value);
     }
 
     /**
-     * Getter for <code>codegen.trips.trip_id</code>.
+     * Getter for <code>public.trips.trip_id</code>.
      */
     public String getTripId() {
         return (String) get(4);
     }
 
     /**
-     * Setter for <code>codegen.trips.trip_headsign</code>.
+     * Setter for <code>public.trips.trip_headsign</code>.
      */
     public void setTripHeadsign(String value) {
         set(5, value);
     }
 
     /**
-     * Getter for <code>codegen.trips.trip_headsign</code>.
+     * Getter for <code>public.trips.trip_headsign</code>.
      */
     public String getTripHeadsign() {
         return (String) get(5);
     }
 
     /**
-     * Setter for <code>codegen.trips.trip_short_name</code>.
+     * Setter for <code>public.trips.trip_short_name</code>.
      */
     public void setTripShortName(String value) {
         set(6, value);
     }
 
     /**
-     * Getter for <code>codegen.trips.trip_short_name</code>.
+     * Getter for <code>public.trips.trip_short_name</code>.
      */
     public String getTripShortName() {
         return (String) get(6);
     }
 
     /**
-     * Setter for <code>codegen.trips.direction_id</code>.
+     * Setter for <code>public.trips.direction_id</code>.
      */
     public void setDirectionId(Integer value) {
         set(7, value);
     }
 
     /**
-     * Getter for <code>codegen.trips.direction_id</code>.
+     * Getter for <code>public.trips.direction_id</code>.
      */
     public Integer getDirectionId() {
         return (Integer) get(7);
     }
 
     /**
-     * Setter for <code>codegen.trips.block_id</code>.
+     * Setter for <code>public.trips.block_id</code>.
      */
     public void setBlockId(Integer value) {
         set(8, value);
     }
 
     /**
-     * Getter for <code>codegen.trips.block_id</code>.
+     * Getter for <code>public.trips.block_id</code>.
      */
     public Integer getBlockId() {
         return (Integer) get(8);
     }
 
     /**
-     * Setter for <code>codegen.trips.shape_index</code>.
+     * Setter for <code>public.trips.shape_index</code>.
      */
     public void setShapeIndex(Long value) {
         set(9, value);
     }
 
     /**
-     * Getter for <code>codegen.trips.shape_index</code>.
+     * Getter for <code>public.trips.shape_index</code>.
      */
     public Long getShapeIndex() {
         return (Long) get(9);

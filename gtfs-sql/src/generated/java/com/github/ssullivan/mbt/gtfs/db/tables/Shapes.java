@@ -4,8 +4,8 @@
 package com.github.ssullivan.mbt.gtfs.db.tables;
 
 
-import com.github.ssullivan.mbt.gtfs.db.Codegen;
 import com.github.ssullivan.mbt.gtfs.db.Keys;
+import com.github.ssullivan.mbt.gtfs.db.Public;
 import com.github.ssullivan.mbt.gtfs.db.tables.records.ShapesRecord;
 
 import java.math.BigDecimal;
@@ -36,10 +36,10 @@ import org.jooq.impl.TableImpl;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class Shapes extends TableImpl<ShapesRecord> {
 
-    private static final long serialVersionUID = -664121109;
+    private static final long serialVersionUID = 163039561;
 
     /**
-     * The reference instance of <code>codegen.shapes</code>
+     * The reference instance of <code>public.shapes</code>
      */
     public static final Shapes SHAPES = new Shapes();
 
@@ -52,49 +52,49 @@ public class Shapes extends TableImpl<ShapesRecord> {
     }
 
     /**
-     * The column <code>codegen.shapes.feed_index</code>.
+     * The column <code>public.shapes.feed_index</code>.
      */
     public final TableField<ShapesRecord, Long> FEED_INDEX = createField("feed_index", org.jooq.impl.SQLDataType.BIGINT.nullable(false), this, "");
 
     /**
-     * The column <code>codegen.shapes.shape_index</code>.
+     * The column <code>public.shapes.shape_index</code>.
      */
     public final TableField<ShapesRecord, Long> SHAPE_INDEX = createField("shape_index", org.jooq.impl.SQLDataType.BIGINT.nullable(false).defaultValue(org.jooq.impl.DSL.field("nextval('codegen.shapes_shape_index_seq'::regclass)", org.jooq.impl.SQLDataType.BIGINT)), this, "");
 
     /**
-     * The column <code>codegen.shapes.shape_id</code>.
+     * The column <code>public.shapes.shape_id</code>.
      */
     public final TableField<ShapesRecord, String> SHAPE_ID = createField("shape_id", org.jooq.impl.SQLDataType.CLOB.nullable(false), this, "");
 
     /**
-     * The column <code>codegen.shapes.shape_pt_lat</code>.
+     * The column <code>public.shapes.shape_pt_lat</code>.
      */
     public final TableField<ShapesRecord, Double> SHAPE_PT_LAT = createField("shape_pt_lat", org.jooq.impl.SQLDataType.DOUBLE, this, "");
 
     /**
-     * The column <code>codegen.shapes.shape_pt_lon</code>.
+     * The column <code>public.shapes.shape_pt_lon</code>.
      */
     public final TableField<ShapesRecord, Double> SHAPE_PT_LON = createField("shape_pt_lon", org.jooq.impl.SQLDataType.DOUBLE, this, "");
 
     /**
-     * The column <code>codegen.shapes.shape_pt_sequence</code>.
+     * The column <code>public.shapes.shape_pt_sequence</code>.
      */
     public final TableField<ShapesRecord, Integer> SHAPE_PT_SEQUENCE = createField("shape_pt_sequence", org.jooq.impl.SQLDataType.INTEGER.nullable(false), this, "");
 
     /**
-     * The column <code>codegen.shapes.shape_dist_traveled</code>.
+     * The column <code>public.shapes.shape_dist_traveled</code>.
      */
     public final TableField<ShapesRecord, BigDecimal> SHAPE_DIST_TRAVELED = createField("shape_dist_traveled", org.jooq.impl.SQLDataType.NUMERIC, this, "");
 
     /**
-     * Create a <code>codegen.shapes</code> table reference
+     * Create a <code>public.shapes</code> table reference
      */
     public Shapes() {
         this("shapes", null);
     }
 
     /**
-     * Create an aliased <code>codegen.shapes</code> table reference
+     * Create an aliased <code>public.shapes</code> table reference
      */
     public Shapes(String alias) {
         this(alias, SHAPES);
@@ -113,7 +113,7 @@ public class Shapes extends TableImpl<ShapesRecord> {
      */
     @Override
     public Schema getSchema() {
-        return Codegen.CODEGEN;
+        return Public.PUBLIC;
     }
 
     /**

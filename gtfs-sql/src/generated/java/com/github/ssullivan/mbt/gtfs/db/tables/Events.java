@@ -4,8 +4,8 @@
 package com.github.ssullivan.mbt.gtfs.db.tables;
 
 
-import com.github.ssullivan.mbt.gtfs.db.Codegen;
 import com.github.ssullivan.mbt.gtfs.db.Keys;
+import com.github.ssullivan.mbt.gtfs.db.Public;
 import com.github.ssullivan.mbt.gtfs.db.tables.records.EventsRecord;
 
 import java.sql.Timestamp;
@@ -35,10 +35,10 @@ import org.jooq.impl.TableImpl;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class Events extends TableImpl<EventsRecord> {
 
-    private static final long serialVersionUID = 2146795722;
+    private static final long serialVersionUID = 1828836820;
 
     /**
-     * The reference instance of <code>codegen.events</code>
+     * The reference instance of <code>public.events</code>
      */
     public static final Events EVENTS = new Events();
 
@@ -51,69 +51,69 @@ public class Events extends TableImpl<EventsRecord> {
     }
 
     /**
-     * The column <code>codegen.events.service_date</code>.
+     * The column <code>public.events.service_date</code>.
      */
     public final TableField<EventsRecord, Timestamp> SERVICE_DATE = createField("service_date", org.jooq.impl.SQLDataType.TIMESTAMP.nullable(false), this, "");
 
     /**
-     * The column <code>codegen.events.trip_index</code>.
+     * The column <code>public.events.trip_index</code>.
      */
     public final TableField<EventsRecord, Long> TRIP_INDEX = createField("trip_index", org.jooq.impl.SQLDataType.BIGINT.nullable(false), this, "");
 
     /**
-     * The column <code>codegen.events.vehicle_id</code>.
+     * The column <code>public.events.vehicle_id</code>.
      */
     public final TableField<EventsRecord, Integer> VEHICLE_ID = createField("vehicle_id", org.jooq.impl.SQLDataType.INTEGER.nullable(false), this, "");
 
     /**
-     * The column <code>codegen.events.stop_id</code>.
+     * The column <code>public.events.stop_id</code>.
      */
     public final TableField<EventsRecord, Integer> STOP_ID = createField("stop_id", org.jooq.impl.SQLDataType.INTEGER.nullable(false), this, "");
 
     /**
-     * The column <code>codegen.events.est_dep_utc</code>.
+     * The column <code>public.events.est_dep_utc</code>.
      */
     public final TableField<EventsRecord, Timestamp> EST_DEP_UTC = createField("est_dep_utc", org.jooq.impl.SQLDataType.TIMESTAMP, this, "");
 
     /**
-     * The column <code>codegen.events.dep_accuracy</code>.
+     * The column <code>public.events.dep_accuracy</code>.
      */
     public final TableField<EventsRecord, Integer> DEP_ACCURACY = createField("dep_accuracy", org.jooq.impl.SQLDataType.INTEGER, this, "");
 
     /**
-     * The column <code>codegen.events.sched_dep_utc</code>.
+     * The column <code>public.events.sched_dep_utc</code>.
      */
     public final TableField<EventsRecord, Timestamp> SCHED_DEP_UTC = createField("sched_dep_utc", org.jooq.impl.SQLDataType.TIMESTAMP, this, "");
 
     /**
-     * The column <code>codegen.events.sched_dep_date</code>.
+     * The column <code>public.events.sched_dep_date</code>.
      */
     public final TableField<EventsRecord, Timestamp> SCHED_DEP_DATE = createField("sched_dep_date", org.jooq.impl.SQLDataType.TIMESTAMP, this, "");
 
     /**
-     * The column <code>codegen.events.sched_dep_hour</code>.
+     * The column <code>public.events.sched_dep_hour</code>.
      */
     public final TableField<EventsRecord, Byte> SCHED_DEP_HOUR = createField("sched_dep_hour", org.jooq.impl.SQLDataType.TINYINT, this, "");
 
     /**
-     * The column <code>codegen.events.route_id</code>.
+     * The column <code>public.events.route_id</code>.
      */
     public final TableField<EventsRecord, String> ROUTE_ID = createField("route_id", org.jooq.impl.SQLDataType.CLOB.nullable(false), this, "");
 
     /**
-     * The column <code>codegen.events.direction_id</code>.
+     * The column <code>public.events.direction_id</code>.
      */
     public final TableField<EventsRecord, Boolean> DIRECTION_ID = createField("direction_id", org.jooq.impl.SQLDataType.BOOLEAN.nullable(false), this, "");
 
     /**
-     * Create a <code>codegen.events</code> table reference
+     * Create a <code>public.events</code> table reference
      */
     public Events() {
         this("events", null);
     }
 
     /**
-     * Create an aliased <code>codegen.events</code> table reference
+     * Create an aliased <code>public.events</code> table reference
      */
     public Events(String alias) {
         this(alias, EVENTS);
@@ -132,7 +132,7 @@ public class Events extends TableImpl<EventsRecord> {
      */
     @Override
     public Schema getSchema() {
-        return Codegen.CODEGEN;
+        return Public.PUBLIC;
     }
 
     /**

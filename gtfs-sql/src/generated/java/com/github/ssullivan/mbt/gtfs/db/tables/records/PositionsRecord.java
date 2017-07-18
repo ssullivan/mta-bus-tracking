@@ -30,171 +30,171 @@ import org.jooq.impl.UpdatableRecordImpl;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class PositionsRecord extends UpdatableRecordImpl<PositionsRecord> implements Record12<Timestamp, Integer, Double, Double, Double, Byte, Timestamp, Long, Byte, Integer, Double, Double> {
 
-    private static final long serialVersionUID = -318198473;
+    private static final long serialVersionUID = 1124493791;
 
     /**
-     * Setter for <code>codegen.positions.timestamp_utc</code>.
+     * Setter for <code>public.positions.timestamp_utc</code>.
      */
     public void setTimestampUtc(Timestamp value) {
         set(0, value);
     }
 
     /**
-     * Getter for <code>codegen.positions.timestamp_utc</code>.
+     * Getter for <code>public.positions.timestamp_utc</code>.
      */
     public Timestamp getTimestampUtc() {
         return (Timestamp) get(0);
     }
 
     /**
-     * Setter for <code>codegen.positions.vehicle_id</code>.
+     * Setter for <code>public.positions.vehicle_id</code>.
      */
     public void setVehicleId(Integer value) {
         set(1, value);
     }
 
     /**
-     * Getter for <code>codegen.positions.vehicle_id</code>.
+     * Getter for <code>public.positions.vehicle_id</code>.
      */
     public Integer getVehicleId() {
         return (Integer) get(1);
     }
 
     /**
-     * Setter for <code>codegen.positions.latitude</code>.
+     * Setter for <code>public.positions.latitude</code>.
      */
     public void setLatitude(Double value) {
         set(2, value);
     }
 
     /**
-     * Getter for <code>codegen.positions.latitude</code>.
+     * Getter for <code>public.positions.latitude</code>.
      */
     public Double getLatitude() {
         return (Double) get(2);
     }
 
     /**
-     * Setter for <code>codegen.positions.longitude</code>.
+     * Setter for <code>public.positions.longitude</code>.
      */
     public void setLongitude(Double value) {
         set(3, value);
     }
 
     /**
-     * Getter for <code>codegen.positions.longitude</code>.
+     * Getter for <code>public.positions.longitude</code>.
      */
     public Double getLongitude() {
         return (Double) get(3);
     }
 
     /**
-     * Setter for <code>codegen.positions.bearing</code>.
+     * Setter for <code>public.positions.bearing</code>.
      */
     public void setBearing(Double value) {
         set(4, value);
     }
 
     /**
-     * Getter for <code>codegen.positions.bearing</code>.
+     * Getter for <code>public.positions.bearing</code>.
      */
     public Double getBearing() {
         return (Double) get(4);
     }
 
     /**
-     * Setter for <code>codegen.positions.progress</code>.
+     * Setter for <code>public.positions.progress</code>.
      */
     public void setProgress(Byte value) {
         set(5, value);
     }
 
     /**
-     * Getter for <code>codegen.positions.progress</code>.
+     * Getter for <code>public.positions.progress</code>.
      */
     public Byte getProgress() {
         return (Byte) get(5);
     }
 
     /**
-     * Setter for <code>codegen.positions.service_date</code>.
+     * Setter for <code>public.positions.service_date</code>.
      */
     public void setServiceDate(Timestamp value) {
         set(6, value);
     }
 
     /**
-     * Getter for <code>codegen.positions.service_date</code>.
+     * Getter for <code>public.positions.service_date</code>.
      */
     public Timestamp getServiceDate() {
         return (Timestamp) get(6);
     }
 
     /**
-     * Setter for <code>codegen.positions.trip_index</code>.
+     * Setter for <code>public.positions.trip_index</code>.
      */
     public void setTripIndex(Long value) {
         set(7, value);
     }
 
     /**
-     * Getter for <code>codegen.positions.trip_index</code>.
+     * Getter for <code>public.positions.trip_index</code>.
      */
     public Long getTripIndex() {
         return (Long) get(7);
     }
 
     /**
-     * Setter for <code>codegen.positions.block_assigned</code>.
+     * Setter for <code>public.positions.block_assigned</code>.
      */
     public void setBlockAssigned(Byte value) {
         set(8, value);
     }
 
     /**
-     * Getter for <code>codegen.positions.block_assigned</code>.
+     * Getter for <code>public.positions.block_assigned</code>.
      */
     public Byte getBlockAssigned() {
         return (Byte) get(8);
     }
 
     /**
-     * Setter for <code>codegen.positions.next_stop_id</code>.
+     * Setter for <code>public.positions.next_stop_id</code>.
      */
     public void setNextStopId(Integer value) {
         set(9, value);
     }
 
     /**
-     * Getter for <code>codegen.positions.next_stop_id</code>.
+     * Getter for <code>public.positions.next_stop_id</code>.
      */
     public Integer getNextStopId() {
         return (Integer) get(9);
     }
 
     /**
-     * Setter for <code>codegen.positions.dist_along_route</code>.
+     * Setter for <code>public.positions.dist_along_route</code>.
      */
     public void setDistAlongRoute(Double value) {
         set(10, value);
     }
 
     /**
-     * Getter for <code>codegen.positions.dist_along_route</code>.
+     * Getter for <code>public.positions.dist_along_route</code>.
      */
     public Double getDistAlongRoute() {
         return (Double) get(10);
     }
 
     /**
-     * Setter for <code>codegen.positions.dist_from_stop</code>.
+     * Setter for <code>public.positions.dist_from_stop</code>.
      */
     public void setDistFromStop(Double value) {
         set(11, value);
     }
 
     /**
-     * Getter for <code>codegen.positions.dist_from_stop</code>.
+     * Getter for <code>public.positions.dist_from_stop</code>.
      */
     public Double getDistFromStop() {
         return (Double) get(11);

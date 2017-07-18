@@ -11,7 +11,7 @@ import org.jooq.impl.SequenceImpl;
 
 
 /**
- * Convenience access to all sequences in codegen
+ * Convenience access to all sequences in public
  */
 @Generated(
     value = {
@@ -24,37 +24,37 @@ import org.jooq.impl.SequenceImpl;
 public class Sequences {
 
     /**
-     * The sequence <code>codegen.agency_agency_index_seq</code>
+     * The sequence <code>public.agency_agency_index_seq</code>
      */
-    public static final Sequence<Long> AGENCY_AGENCY_INDEX_SEQ = new SequenceImpl<Long>("agency_agency_index_seq", Codegen.CODEGEN, org.jooq.impl.SQLDataType.BIGINT.nullable(false));
+    public static final Sequence<Long> AGENCY_AGENCY_INDEX_SEQ = new SequenceImpl<Long>("agency_agency_index_seq", Public.PUBLIC, org.jooq.impl.SQLDataType.BIGINT.nullable(false));
 
     /**
-     * The sequence <code>codegen.calendar_service_index_seq</code>
+     * The sequence <code>public.calendar_service_index_seq</code>
      */
-    public static final Sequence<Long> CALENDAR_SERVICE_INDEX_SEQ = new SequenceImpl<Long>("calendar_service_index_seq", Codegen.CODEGEN, org.jooq.impl.SQLDataType.BIGINT.nullable(false));
+    public static final Sequence<Long> CALENDAR_SERVICE_INDEX_SEQ = new SequenceImpl<Long>("calendar_service_index_seq", Public.PUBLIC, org.jooq.impl.SQLDataType.BIGINT.nullable(false));
 
     /**
-     * The sequence <code>codegen.feeds_feed_index_seq</code>
+     * The sequence <code>public.feeds_feed_index_seq</code>
      */
-    public static final Sequence<Long> FEEDS_FEED_INDEX_SEQ = new SequenceImpl<Long>("feeds_feed_index_seq", Codegen.CODEGEN, org.jooq.impl.SQLDataType.BIGINT.nullable(false));
+    public static final Sequence<Long> FEEDS_FEED_INDEX_SEQ = new SequenceImpl<Long>("feeds_feed_index_seq", Public.PUBLIC, org.jooq.impl.SQLDataType.BIGINT.nullable(false));
 
     /**
-     * The sequence <code>codegen.routes_route_index_seq</code>
+     * The sequence <code>public.routes_route_index_seq</code>
      */
-    public static final Sequence<Long> ROUTES_ROUTE_INDEX_SEQ = new SequenceImpl<Long>("routes_route_index_seq", Codegen.CODEGEN, org.jooq.impl.SQLDataType.BIGINT.nullable(false));
+    public static final Sequence<Long> ROUTES_ROUTE_INDEX_SEQ = new SequenceImpl<Long>("routes_route_index_seq", Public.PUBLIC, org.jooq.impl.SQLDataType.BIGINT.nullable(false));
 
     /**
-     * The sequence <code>codegen.shapes_shape_index_seq</code>
+     * The sequence <code>public.shapes_shape_index_seq</code>
      */
-    public static final Sequence<Long> SHAPES_SHAPE_INDEX_SEQ = new SequenceImpl<Long>("shapes_shape_index_seq", Codegen.CODEGEN, org.jooq.impl.SQLDataType.BIGINT.nullable(false));
+    public static final Sequence<Long> SHAPES_SHAPE_INDEX_SEQ = new SequenceImpl<Long>("shapes_shape_index_seq", Public.PUBLIC, org.jooq.impl.SQLDataType.BIGINT.nullable(false));
 
     /**
-     * The sequence <code>codegen.stops_stop_index_seq</code>
+     * The sequence <code>public.stops_stop_index_seq</code>
      */
-    public static final Sequence<Long> STOPS_STOP_INDEX_SEQ = new SequenceImpl<Long>("stops_stop_index_seq", Codegen.CODEGEN, org.jooq.impl.SQLDataType.BIGINT.nullable(false));
+    public static final Sequence<Long> STOPS_STOP_INDEX_SEQ = new SequenceImpl<Long>("stops_stop_index_seq", Public.PUBLIC, org.jooq.impl.SQLDataType.BIGINT.nullable(false));
 
     /**
-     * The sequence <code>codegen.trips_trip_index_seq</code>
+     * The sequence <code>public.trips_trip_index_seq</code>
      */
-    public static final Sequence<Long> TRIPS_TRIP_INDEX_SEQ = new SequenceImpl<Long>("trips_trip_index_seq", Codegen.CODEGEN, org.jooq.impl.SQLDataType.BIGINT.nullable(false));
+    public static final Sequence<Long> TRIPS_TRIP_INDEX_SEQ = new SequenceImpl<Long>("trips_trip_index_seq", Public.PUBLIC, org.jooq.impl.SQLDataType.BIGINT.nullable(false));
 }

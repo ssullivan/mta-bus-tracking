@@ -4,8 +4,8 @@
 package com.github.ssullivan.mbt.gtfs.db.tables;
 
 
-import com.github.ssullivan.mbt.gtfs.db.Codegen;
 import com.github.ssullivan.mbt.gtfs.db.Keys;
+import com.github.ssullivan.mbt.gtfs.db.Public;
 import com.github.ssullivan.mbt.gtfs.db.tables.records.FeedsRecord;
 
 import java.sql.Timestamp;
@@ -36,10 +36,10 @@ import org.jooq.impl.TableImpl;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class Feeds extends TableImpl<FeedsRecord> {
 
-    private static final long serialVersionUID = 804414400;
+    private static final long serialVersionUID = 260039524;
 
     /**
-     * The reference instance of <code>codegen.feeds</code>
+     * The reference instance of <code>public.feeds</code>
      */
     public static final Feeds FEEDS = new Feeds();
 
@@ -52,34 +52,34 @@ public class Feeds extends TableImpl<FeedsRecord> {
     }
 
     /**
-     * The column <code>codegen.feeds.feed_index</code>.
+     * The column <code>public.feeds.feed_index</code>.
      */
     public final TableField<FeedsRecord, Long> FEED_INDEX = createField("feed_index", org.jooq.impl.SQLDataType.BIGINT.nullable(false).defaultValue(org.jooq.impl.DSL.field("nextval('codegen.feeds_feed_index_seq'::regclass)", org.jooq.impl.SQLDataType.BIGINT)), this, "");
 
     /**
-     * The column <code>codegen.feeds.feed_start_date</code>.
+     * The column <code>public.feeds.feed_start_date</code>.
      */
     public final TableField<FeedsRecord, Timestamp> FEED_START_DATE = createField("feed_start_date", org.jooq.impl.SQLDataType.TIMESTAMP.nullable(false), this, "");
 
     /**
-     * The column <code>codegen.feeds.feed_end_date</code>.
+     * The column <code>public.feeds.feed_end_date</code>.
      */
     public final TableField<FeedsRecord, Timestamp> FEED_END_DATE = createField("feed_end_date", org.jooq.impl.SQLDataType.TIMESTAMP.nullable(false), this, "");
 
     /**
-     * The column <code>codegen.feeds.feed_name</code>.
+     * The column <code>public.feeds.feed_name</code>.
      */
     public final TableField<FeedsRecord, String> FEED_NAME = createField("feed_name", org.jooq.impl.SQLDataType.CLOB.nullable(false), this, "");
 
     /**
-     * Create a <code>codegen.feeds</code> table reference
+     * Create a <code>public.feeds</code> table reference
      */
     public Feeds() {
         this("feeds", null);
     }
 
     /**
-     * Create an aliased <code>codegen.feeds</code> table reference
+     * Create an aliased <code>public.feeds</code> table reference
      */
     public Feeds(String alias) {
         this(alias, FEEDS);
@@ -98,7 +98,7 @@ public class Feeds extends TableImpl<FeedsRecord> {
      */
     @Override
     public Schema getSchema() {
-        return Codegen.CODEGEN;
+        return Public.PUBLIC;
     }
 
     /**

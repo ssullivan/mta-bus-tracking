@@ -29,45 +29,45 @@ import org.jooq.impl.TableRecordImpl;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class ServiceIndexesPerDateRecord extends TableRecordImpl<ServiceIndexesPerDateRecord> implements Record3<Long, Timestamp, Long> {
 
-    private static final long serialVersionUID = 2005050470;
+    private static final long serialVersionUID = 1241053086;
 
     /**
-     * Setter for <code>codegen.service_indexes_per_date.feed_index</code>.
+     * Setter for <code>public.service_indexes_per_date.feed_index</code>.
      */
     public void setFeedIndex(Long value) {
         set(0, value);
     }
 
     /**
-     * Getter for <code>codegen.service_indexes_per_date.feed_index</code>.
+     * Getter for <code>public.service_indexes_per_date.feed_index</code>.
      */
     public Long getFeedIndex() {
         return (Long) get(0);
     }
 
     /**
-     * Setter for <code>codegen.service_indexes_per_date.date</code>.
+     * Setter for <code>public.service_indexes_per_date.date</code>.
      */
     public void setDate(Timestamp value) {
         set(1, value);
     }
 
     /**
-     * Getter for <code>codegen.service_indexes_per_date.date</code>.
+     * Getter for <code>public.service_indexes_per_date.date</code>.
      */
     public Timestamp getDate() {
         return (Timestamp) get(1);
     }
 
     /**
-     * Setter for <code>codegen.service_indexes_per_date.service_index</code>.
+     * Setter for <code>public.service_indexes_per_date.service_index</code>.
      */
     public void setServiceIndex(Long value) {
         set(2, value);
     }
 
     /**
-     * Getter for <code>codegen.service_indexes_per_date.service_index</code>.
+     * Getter for <code>public.service_indexes_per_date.service_index</code>.
      */
     public Long getServiceIndex() {
         return (Long) get(2);

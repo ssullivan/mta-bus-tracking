@@ -4,7 +4,7 @@
 package com.github.ssullivan.mbt.gtfs.db.tables;
 
 
-import com.github.ssullivan.mbt.gtfs.db.Codegen;
+import com.github.ssullivan.mbt.gtfs.db.Public;
 import com.github.ssullivan.mbt.gtfs.db.tables.records.CalendarDatesRecord;
 
 import java.sql.Date;
@@ -31,10 +31,10 @@ import org.jooq.impl.TableImpl;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class CalendarDates extends TableImpl<CalendarDatesRecord> {
 
-    private static final long serialVersionUID = -1263409527;
+    private static final long serialVersionUID = 153978291;
 
     /**
-     * The reference instance of <code>codegen.calendar_dates</code>
+     * The reference instance of <code>public.calendar_dates</code>
      */
     public static final CalendarDates CALENDAR_DATES = new CalendarDates();
 
@@ -47,39 +47,39 @@ public class CalendarDates extends TableImpl<CalendarDatesRecord> {
     }
 
     /**
-     * The column <code>codegen.calendar_dates.feed_index</code>.
+     * The column <code>public.calendar_dates.feed_index</code>.
      */
     public final TableField<CalendarDatesRecord, Long> FEED_INDEX = createField("feed_index", org.jooq.impl.SQLDataType.BIGINT, this, "");
 
     /**
-     * The column <code>codegen.calendar_dates.service_index</code>.
+     * The column <code>public.calendar_dates.service_index</code>.
      */
     public final TableField<CalendarDatesRecord, Long> SERVICE_INDEX = createField("service_index", org.jooq.impl.SQLDataType.BIGINT.nullable(false), this, "");
 
     /**
-     * The column <code>codegen.calendar_dates.service_id</code>.
+     * The column <code>public.calendar_dates.service_id</code>.
      */
     public final TableField<CalendarDatesRecord, String> SERVICE_ID = createField("service_id", org.jooq.impl.SQLDataType.CLOB, this, "");
 
     /**
-     * The column <code>codegen.calendar_dates.exception_date</code>.
+     * The column <code>public.calendar_dates.exception_date</code>.
      */
     public final TableField<CalendarDatesRecord, Date> EXCEPTION_DATE = createField("exception_date", org.jooq.impl.SQLDataType.DATE, this, "");
 
     /**
-     * The column <code>codegen.calendar_dates.exception_type</code>.
+     * The column <code>public.calendar_dates.exception_type</code>.
      */
     public final TableField<CalendarDatesRecord, Integer> EXCEPTION_TYPE = createField("exception_type", org.jooq.impl.SQLDataType.INTEGER, this, "");
 
     /**
-     * Create a <code>codegen.calendar_dates</code> table reference
+     * Create a <code>public.calendar_dates</code> table reference
      */
     public CalendarDates() {
         this("calendar_dates", null);
     }
 
     /**
-     * Create an aliased <code>codegen.calendar_dates</code> table reference
+     * Create an aliased <code>public.calendar_dates</code> table reference
      */
     public CalendarDates(String alias) {
         this(alias, CALENDAR_DATES);
@@ -98,7 +98,7 @@ public class CalendarDates extends TableImpl<CalendarDatesRecord> {
      */
     @Override
     public Schema getSchema() {
-        return Codegen.CODEGEN;
+        return Public.PUBLIC;
     }
 
     /**

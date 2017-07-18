@@ -4,8 +4,8 @@
 package com.github.ssullivan.mbt.gtfs.db.tables;
 
 
-import com.github.ssullivan.mbt.gtfs.db.Codegen;
 import com.github.ssullivan.mbt.gtfs.db.Keys;
+import com.github.ssullivan.mbt.gtfs.db.Public;
 import com.github.ssullivan.mbt.gtfs.db.tables.records.StopsRecord;
 
 import java.util.Arrays;
@@ -35,10 +35,10 @@ import org.jooq.impl.TableImpl;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class Stops extends TableImpl<StopsRecord> {
 
-    private static final long serialVersionUID = -1215125330;
+    private static final long serialVersionUID = 1756101230;
 
     /**
-     * The reference instance of <code>codegen.stops</code>
+     * The reference instance of <code>public.stops</code>
      */
     public static final Stops STOPS = new Stops();
 
@@ -51,74 +51,74 @@ public class Stops extends TableImpl<StopsRecord> {
     }
 
     /**
-     * The column <code>codegen.stops.feed_index</code>.
+     * The column <code>public.stops.feed_index</code>.
      */
     public final TableField<StopsRecord, Long> FEED_INDEX = createField("feed_index", org.jooq.impl.SQLDataType.BIGINT.nullable(false), this, "");
 
     /**
-     * The column <code>codegen.stops.stop_index</code>.
+     * The column <code>public.stops.stop_index</code>.
      */
     public final TableField<StopsRecord, Long> STOP_INDEX = createField("stop_index", org.jooq.impl.SQLDataType.BIGINT.nullable(false).defaultValue(org.jooq.impl.DSL.field("nextval('codegen.stops_stop_index_seq'::regclass)", org.jooq.impl.SQLDataType.BIGINT)), this, "");
 
     /**
-     * The column <code>codegen.stops.stop_id</code>.
+     * The column <code>public.stops.stop_id</code>.
      */
     public final TableField<StopsRecord, Integer> STOP_ID = createField("stop_id", org.jooq.impl.SQLDataType.INTEGER, this, "");
 
     /**
-     * The column <code>codegen.stops.stop_code</code>.
+     * The column <code>public.stops.stop_code</code>.
      */
     public final TableField<StopsRecord, String> STOP_CODE = createField("stop_code", org.jooq.impl.SQLDataType.CLOB, this, "");
 
     /**
-     * The column <code>codegen.stops.stop_name</code>.
+     * The column <code>public.stops.stop_name</code>.
      */
     public final TableField<StopsRecord, String> STOP_NAME = createField("stop_name", org.jooq.impl.SQLDataType.CLOB, this, "");
 
     /**
-     * The column <code>codegen.stops.stop_desc</code>.
+     * The column <code>public.stops.stop_desc</code>.
      */
     public final TableField<StopsRecord, String> STOP_DESC = createField("stop_desc", org.jooq.impl.SQLDataType.CLOB, this, "");
 
     /**
-     * The column <code>codegen.stops.stop_lat</code>.
+     * The column <code>public.stops.stop_lat</code>.
      */
     public final TableField<StopsRecord, Double> STOP_LAT = createField("stop_lat", org.jooq.impl.SQLDataType.DOUBLE, this, "");
 
     /**
-     * The column <code>codegen.stops.stop_lon</code>.
+     * The column <code>public.stops.stop_lon</code>.
      */
     public final TableField<StopsRecord, Double> STOP_LON = createField("stop_lon", org.jooq.impl.SQLDataType.DOUBLE, this, "");
 
     /**
-     * The column <code>codegen.stops.zone_id</code>.
+     * The column <code>public.stops.zone_id</code>.
      */
     public final TableField<StopsRecord, Integer> ZONE_ID = createField("zone_id", org.jooq.impl.SQLDataType.INTEGER, this, "");
 
     /**
-     * The column <code>codegen.stops.stop_url</code>.
+     * The column <code>public.stops.stop_url</code>.
      */
     public final TableField<StopsRecord, String> STOP_URL = createField("stop_url", org.jooq.impl.SQLDataType.CLOB, this, "");
 
     /**
-     * The column <code>codegen.stops.location_type</code>.
+     * The column <code>public.stops.location_type</code>.
      */
     public final TableField<StopsRecord, Integer> LOCATION_TYPE = createField("location_type", org.jooq.impl.SQLDataType.INTEGER, this, "");
 
     /**
-     * The column <code>codegen.stops.parent_station</code>.
+     * The column <code>public.stops.parent_station</code>.
      */
     public final TableField<StopsRecord, Integer> PARENT_STATION = createField("parent_station", org.jooq.impl.SQLDataType.INTEGER, this, "");
 
     /**
-     * Create a <code>codegen.stops</code> table reference
+     * Create a <code>public.stops</code> table reference
      */
     public Stops() {
         this("stops", null);
     }
 
     /**
-     * Create an aliased <code>codegen.stops</code> table reference
+     * Create an aliased <code>public.stops</code> table reference
      */
     public Stops(String alias) {
         this(alias, STOPS);
@@ -137,7 +137,7 @@ public class Stops extends TableImpl<StopsRecord> {
      */
     @Override
     public Schema getSchema() {
-        return Codegen.CODEGEN;
+        return Public.PUBLIC;
     }
 
     /**

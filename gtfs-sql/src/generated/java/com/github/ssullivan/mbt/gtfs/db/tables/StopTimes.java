@@ -4,8 +4,8 @@
 package com.github.ssullivan.mbt.gtfs.db.tables;
 
 
-import com.github.ssullivan.mbt.gtfs.db.Codegen;
 import com.github.ssullivan.mbt.gtfs.db.Keys;
+import com.github.ssullivan.mbt.gtfs.db.Public;
 import com.github.ssullivan.mbt.gtfs.db.tables.records.StopTimesRecord;
 
 import java.util.Arrays;
@@ -34,10 +34,10 @@ import org.jooq.impl.TableImpl;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class StopTimes extends TableImpl<StopTimesRecord> {
 
-    private static final long serialVersionUID = 1052849814;
+    private static final long serialVersionUID = 1285011410;
 
     /**
-     * The reference instance of <code>codegen.stop_times</code>
+     * The reference instance of <code>public.stop_times</code>
      */
     public static final StopTimes STOP_TIMES = new StopTimes();
 
@@ -50,64 +50,64 @@ public class StopTimes extends TableImpl<StopTimesRecord> {
     }
 
     /**
-     * The column <code>codegen.stop_times.trip_index</code>.
+     * The column <code>public.stop_times.trip_index</code>.
      */
     public final TableField<StopTimesRecord, Long> TRIP_INDEX = createField("trip_index", org.jooq.impl.SQLDataType.BIGINT.nullable(false), this, "");
 
     /**
-     * The column <code>codegen.stop_times.arrival_time</code>.
+     * The column <code>public.stop_times.arrival_time</code>.
      */
     public final TableField<StopTimesRecord, String> ARRIVAL_TIME = createField("arrival_time", org.jooq.impl.SQLDataType.CLOB, this, "");
 
     /**
-     * The column <code>codegen.stop_times.departure_time</code>.
+     * The column <code>public.stop_times.departure_time</code>.
      */
     public final TableField<StopTimesRecord, String> DEPARTURE_TIME = createField("departure_time", org.jooq.impl.SQLDataType.CLOB, this, "");
 
     /**
-     * The column <code>codegen.stop_times.arrival_time_seconds</code>.
+     * The column <code>public.stop_times.arrival_time_seconds</code>.
      */
     public final TableField<StopTimesRecord, Long> ARRIVAL_TIME_SECONDS = createField("arrival_time_seconds", org.jooq.impl.SQLDataType.BIGINT, this, "");
 
     /**
-     * The column <code>codegen.stop_times.departure_time_seconds</code>.
+     * The column <code>public.stop_times.departure_time_seconds</code>.
      */
     public final TableField<StopTimesRecord, Long> DEPARTURE_TIME_SECONDS = createField("departure_time_seconds", org.jooq.impl.SQLDataType.BIGINT, this, "");
 
     /**
-     * The column <code>codegen.stop_times.stop_id</code>.
+     * The column <code>public.stop_times.stop_id</code>.
      */
     public final TableField<StopTimesRecord, Integer> STOP_ID = createField("stop_id", org.jooq.impl.SQLDataType.INTEGER.nullable(false), this, "");
 
     /**
-     * The column <code>codegen.stop_times.stop_sequence</code>.
+     * The column <code>public.stop_times.stop_sequence</code>.
      */
     public final TableField<StopTimesRecord, Integer> STOP_SEQUENCE = createField("stop_sequence", org.jooq.impl.SQLDataType.INTEGER.nullable(false), this, "");
 
     /**
-     * The column <code>codegen.stop_times.stop_headsign</code>.
+     * The column <code>public.stop_times.stop_headsign</code>.
      */
     public final TableField<StopTimesRecord, String> STOP_HEADSIGN = createField("stop_headsign", org.jooq.impl.SQLDataType.CLOB, this, "");
 
     /**
-     * The column <code>codegen.stop_times.pickup_type</code>.
+     * The column <code>public.stop_times.pickup_type</code>.
      */
     public final TableField<StopTimesRecord, String> PICKUP_TYPE = createField("pickup_type", org.jooq.impl.SQLDataType.CLOB, this, "");
 
     /**
-     * The column <code>codegen.stop_times.drop_off_type</code>.
+     * The column <code>public.stop_times.drop_off_type</code>.
      */
     public final TableField<StopTimesRecord, String> DROP_OFF_TYPE = createField("drop_off_type", org.jooq.impl.SQLDataType.CLOB, this, "");
 
     /**
-     * Create a <code>codegen.stop_times</code> table reference
+     * Create a <code>public.stop_times</code> table reference
      */
     public StopTimes() {
         this("stop_times", null);
     }
 
     /**
-     * Create an aliased <code>codegen.stop_times</code> table reference
+     * Create an aliased <code>public.stop_times</code> table reference
      */
     public StopTimes(String alias) {
         this(alias, STOP_TIMES);
@@ -126,7 +126,7 @@ public class StopTimes extends TableImpl<StopTimesRecord> {
      */
     @Override
     public Schema getSchema() {
-        return Codegen.CODEGEN;
+        return Public.PUBLIC;
     }
 
     /**

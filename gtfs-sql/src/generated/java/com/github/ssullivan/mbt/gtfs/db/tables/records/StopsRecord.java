@@ -28,171 +28,171 @@ import org.jooq.impl.UpdatableRecordImpl;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class StopsRecord extends UpdatableRecordImpl<StopsRecord> implements Record12<Long, Long, Integer, String, String, String, Double, Double, Integer, String, Integer, Integer> {
 
-    private static final long serialVersionUID = 1508325395;
+    private static final long serialVersionUID = 12936239;
 
     /**
-     * Setter for <code>codegen.stops.feed_index</code>.
+     * Setter for <code>public.stops.feed_index</code>.
      */
     public void setFeedIndex(Long value) {
         set(0, value);
     }
 
     /**
-     * Getter for <code>codegen.stops.feed_index</code>.
+     * Getter for <code>public.stops.feed_index</code>.
      */
     public Long getFeedIndex() {
         return (Long) get(0);
     }
 
     /**
-     * Setter for <code>codegen.stops.stop_index</code>.
+     * Setter for <code>public.stops.stop_index</code>.
      */
     public void setStopIndex(Long value) {
         set(1, value);
     }
 
     /**
-     * Getter for <code>codegen.stops.stop_index</code>.
+     * Getter for <code>public.stops.stop_index</code>.
      */
     public Long getStopIndex() {
         return (Long) get(1);
     }
 
     /**
-     * Setter for <code>codegen.stops.stop_id</code>.
+     * Setter for <code>public.stops.stop_id</code>.
      */
     public void setStopId(Integer value) {
         set(2, value);
     }
 
     /**
-     * Getter for <code>codegen.stops.stop_id</code>.
+     * Getter for <code>public.stops.stop_id</code>.
      */
     public Integer getStopId() {
         return (Integer) get(2);
     }
 
     /**
-     * Setter for <code>codegen.stops.stop_code</code>.
+     * Setter for <code>public.stops.stop_code</code>.
      */
     public void setStopCode(String value) {
         set(3, value);
     }
 
     /**
-     * Getter for <code>codegen.stops.stop_code</code>.
+     * Getter for <code>public.stops.stop_code</code>.
      */
     public String getStopCode() {
         return (String) get(3);
     }
 
     /**
-     * Setter for <code>codegen.stops.stop_name</code>.
+     * Setter for <code>public.stops.stop_name</code>.
      */
     public void setStopName(String value) {
         set(4, value);
     }
 
     /**
-     * Getter for <code>codegen.stops.stop_name</code>.
+     * Getter for <code>public.stops.stop_name</code>.
      */
     public String getStopName() {
         return (String) get(4);
     }
 
     /**
-     * Setter for <code>codegen.stops.stop_desc</code>.
+     * Setter for <code>public.stops.stop_desc</code>.
      */
     public void setStopDesc(String value) {
         set(5, value);
     }
 
     /**
-     * Getter for <code>codegen.stops.stop_desc</code>.
+     * Getter for <code>public.stops.stop_desc</code>.
      */
     public String getStopDesc() {
         return (String) get(5);
     }
 
     /**
-     * Setter for <code>codegen.stops.stop_lat</code>.
+     * Setter for <code>public.stops.stop_lat</code>.
      */
     public void setStopLat(Double value) {
         set(6, value);
     }
 
     /**
-     * Getter for <code>codegen.stops.stop_lat</code>.
+     * Getter for <code>public.stops.stop_lat</code>.
      */
     public Double getStopLat() {
         return (Double) get(6);
     }
 
     /**
-     * Setter for <code>codegen.stops.stop_lon</code>.
+     * Setter for <code>public.stops.stop_lon</code>.
      */
     public void setStopLon(Double value) {
         set(7, value);
     }
 
     /**
-     * Getter for <code>codegen.stops.stop_lon</code>.
+     * Getter for <code>public.stops.stop_lon</code>.
      */
     public Double getStopLon() {
         return (Double) get(7);
     }
 
     /**
-     * Setter for <code>codegen.stops.zone_id</code>.
+     * Setter for <code>public.stops.zone_id</code>.
      */
     public void setZoneId(Integer value) {
         set(8, value);
     }
 
     /**
-     * Getter for <code>codegen.stops.zone_id</code>.
+     * Getter for <code>public.stops.zone_id</code>.
      */
     public Integer getZoneId() {
         return (Integer) get(8);
     }
 
     /**
-     * Setter for <code>codegen.stops.stop_url</code>.
+     * Setter for <code>public.stops.stop_url</code>.
      */
     public void setStopUrl(String value) {
         set(9, value);
     }
 
     /**
-     * Getter for <code>codegen.stops.stop_url</code>.
+     * Getter for <code>public.stops.stop_url</code>.
      */
     public String getStopUrl() {
         return (String) get(9);
     }
 
     /**
-     * Setter for <code>codegen.stops.location_type</code>.
+     * Setter for <code>public.stops.location_type</code>.
      */
     public void setLocationType(Integer value) {
         set(10, value);
     }
 
     /**
-     * Getter for <code>codegen.stops.location_type</code>.
+     * Getter for <code>public.stops.location_type</code>.
      */
     public Integer getLocationType() {
         return (Integer) get(10);
     }
 
     /**
-     * Setter for <code>codegen.stops.parent_station</code>.
+     * Setter for <code>public.stops.parent_station</code>.
      */
     public void setParentStation(Integer value) {
         set(11, value);
     }
 
     /**
-     * Getter for <code>codegen.stops.parent_station</code>.
+     * Getter for <code>public.stops.parent_station</code>.
      */
     public Integer getParentStation() {
         return (Integer) get(11);

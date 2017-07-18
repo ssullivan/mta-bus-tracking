@@ -51,6 +51,7 @@ def xml = new groovy.xml.MarkupBuilder(writer)
         database() {
             name('org.jooq.util.postgres.PostgresDatabase')
             inputSchema('codegen')
+            outputSchema('public')
         }
 
         // Watch out for this caveat when using MarkupBuilder with "reserved names"

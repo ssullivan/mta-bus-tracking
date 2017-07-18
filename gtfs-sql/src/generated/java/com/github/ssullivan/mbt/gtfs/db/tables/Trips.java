@@ -4,8 +4,8 @@
 package com.github.ssullivan.mbt.gtfs.db.tables;
 
 
-import com.github.ssullivan.mbt.gtfs.db.Codegen;
 import com.github.ssullivan.mbt.gtfs.db.Keys;
+import com.github.ssullivan.mbt.gtfs.db.Public;
 import com.github.ssullivan.mbt.gtfs.db.tables.records.TripsRecord;
 
 import java.util.Arrays;
@@ -35,10 +35,10 @@ import org.jooq.impl.TableImpl;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class Trips extends TableImpl<TripsRecord> {
 
-    private static final long serialVersionUID = -672266180;
+    private static final long serialVersionUID = 1983530716;
 
     /**
-     * The reference instance of <code>codegen.trips</code>
+     * The reference instance of <code>public.trips</code>
      */
     public static final Trips TRIPS = new Trips();
 
@@ -51,64 +51,64 @@ public class Trips extends TableImpl<TripsRecord> {
     }
 
     /**
-     * The column <code>codegen.trips.feed_index</code>.
+     * The column <code>public.trips.feed_index</code>.
      */
     public final TableField<TripsRecord, Long> FEED_INDEX = createField("feed_index", org.jooq.impl.SQLDataType.BIGINT.nullable(false), this, "");
 
     /**
-     * The column <code>codegen.trips.trip_index</code>.
+     * The column <code>public.trips.trip_index</code>.
      */
     public final TableField<TripsRecord, Long> TRIP_INDEX = createField("trip_index", org.jooq.impl.SQLDataType.BIGINT.nullable(false).defaultValue(org.jooq.impl.DSL.field("nextval('codegen.trips_trip_index_seq'::regclass)", org.jooq.impl.SQLDataType.BIGINT)), this, "");
 
     /**
-     * The column <code>codegen.trips.route_id</code>.
+     * The column <code>public.trips.route_id</code>.
      */
     public final TableField<TripsRecord, Integer> ROUTE_ID = createField("route_id", org.jooq.impl.SQLDataType.INTEGER.nullable(false), this, "");
 
     /**
-     * The column <code>codegen.trips.service_index</code>.
+     * The column <code>public.trips.service_index</code>.
      */
     public final TableField<TripsRecord, Long> SERVICE_INDEX = createField("service_index", org.jooq.impl.SQLDataType.BIGINT, this, "");
 
     /**
-     * The column <code>codegen.trips.trip_id</code>.
+     * The column <code>public.trips.trip_id</code>.
      */
     public final TableField<TripsRecord, String> TRIP_ID = createField("trip_id", org.jooq.impl.SQLDataType.CLOB, this, "");
 
     /**
-     * The column <code>codegen.trips.trip_headsign</code>.
+     * The column <code>public.trips.trip_headsign</code>.
      */
     public final TableField<TripsRecord, String> TRIP_HEADSIGN = createField("trip_headsign", org.jooq.impl.SQLDataType.CLOB, this, "");
 
     /**
-     * The column <code>codegen.trips.trip_short_name</code>.
+     * The column <code>public.trips.trip_short_name</code>.
      */
     public final TableField<TripsRecord, String> TRIP_SHORT_NAME = createField("trip_short_name", org.jooq.impl.SQLDataType.CLOB, this, "");
 
     /**
-     * The column <code>codegen.trips.direction_id</code>.
+     * The column <code>public.trips.direction_id</code>.
      */
     public final TableField<TripsRecord, Integer> DIRECTION_ID = createField("direction_id", org.jooq.impl.SQLDataType.INTEGER, this, "");
 
     /**
-     * The column <code>codegen.trips.block_id</code>.
+     * The column <code>public.trips.block_id</code>.
      */
     public final TableField<TripsRecord, Integer> BLOCK_ID = createField("block_id", org.jooq.impl.SQLDataType.INTEGER, this, "");
 
     /**
-     * The column <code>codegen.trips.shape_index</code>.
+     * The column <code>public.trips.shape_index</code>.
      */
     public final TableField<TripsRecord, Long> SHAPE_INDEX = createField("shape_index", org.jooq.impl.SQLDataType.BIGINT, this, "");
 
     /**
-     * Create a <code>codegen.trips</code> table reference
+     * Create a <code>public.trips</code> table reference
      */
     public Trips() {
         this("trips", null);
     }
 
     /**
-     * Create an aliased <code>codegen.trips</code> table reference
+     * Create an aliased <code>public.trips</code> table reference
      */
     public Trips(String alias) {
         this(alias, TRIPS);
@@ -127,7 +127,7 @@ public class Trips extends TableImpl<TripsRecord> {
      */
     @Override
     public Schema getSchema() {
-        return Codegen.CODEGEN;
+        return Public.PUBLIC;
     }
 
     /**

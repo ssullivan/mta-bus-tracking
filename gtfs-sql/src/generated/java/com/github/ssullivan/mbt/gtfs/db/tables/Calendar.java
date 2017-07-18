@@ -4,8 +4,8 @@
 package com.github.ssullivan.mbt.gtfs.db.tables;
 
 
-import com.github.ssullivan.mbt.gtfs.db.Codegen;
 import com.github.ssullivan.mbt.gtfs.db.Keys;
+import com.github.ssullivan.mbt.gtfs.db.Public;
 import com.github.ssullivan.mbt.gtfs.db.tables.records.CalendarRecord;
 
 import java.sql.Date;
@@ -36,10 +36,10 @@ import org.jooq.impl.TableImpl;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class Calendar extends TableImpl<CalendarRecord> {
 
-    private static final long serialVersionUID = 1655489820;
+    private static final long serialVersionUID = 1285882998;
 
     /**
-     * The reference instance of <code>codegen.calendar</code>
+     * The reference instance of <code>public.calendar</code>
      */
     public static final Calendar CALENDAR = new Calendar();
 
@@ -52,74 +52,74 @@ public class Calendar extends TableImpl<CalendarRecord> {
     }
 
     /**
-     * The column <code>codegen.calendar.feed_index</code>.
+     * The column <code>public.calendar.feed_index</code>.
      */
     public final TableField<CalendarRecord, Long> FEED_INDEX = createField("feed_index", org.jooq.impl.SQLDataType.BIGINT, this, "");
 
     /**
-     * The column <code>codegen.calendar.service_index</code>.
+     * The column <code>public.calendar.service_index</code>.
      */
     public final TableField<CalendarRecord, Long> SERVICE_INDEX = createField("service_index", org.jooq.impl.SQLDataType.BIGINT.nullable(false).defaultValue(org.jooq.impl.DSL.field("nextval('codegen.calendar_service_index_seq'::regclass)", org.jooq.impl.SQLDataType.BIGINT)), this, "");
 
     /**
-     * The column <code>codegen.calendar.service_id</code>.
+     * The column <code>public.calendar.service_id</code>.
      */
     public final TableField<CalendarRecord, String> SERVICE_ID = createField("service_id", org.jooq.impl.SQLDataType.CLOB, this, "");
 
     /**
-     * The column <code>codegen.calendar.monday</code>.
+     * The column <code>public.calendar.monday</code>.
      */
     public final TableField<CalendarRecord, Integer> MONDAY = createField("monday", org.jooq.impl.SQLDataType.INTEGER, this, "");
 
     /**
-     * The column <code>codegen.calendar.tuesday</code>.
+     * The column <code>public.calendar.tuesday</code>.
      */
     public final TableField<CalendarRecord, Integer> TUESDAY = createField("tuesday", org.jooq.impl.SQLDataType.INTEGER, this, "");
 
     /**
-     * The column <code>codegen.calendar.wednesday</code>.
+     * The column <code>public.calendar.wednesday</code>.
      */
     public final TableField<CalendarRecord, Integer> WEDNESDAY = createField("wednesday", org.jooq.impl.SQLDataType.INTEGER, this, "");
 
     /**
-     * The column <code>codegen.calendar.thursday</code>.
+     * The column <code>public.calendar.thursday</code>.
      */
     public final TableField<CalendarRecord, Integer> THURSDAY = createField("thursday", org.jooq.impl.SQLDataType.INTEGER, this, "");
 
     /**
-     * The column <code>codegen.calendar.friday</code>.
+     * The column <code>public.calendar.friday</code>.
      */
     public final TableField<CalendarRecord, Integer> FRIDAY = createField("friday", org.jooq.impl.SQLDataType.INTEGER, this, "");
 
     /**
-     * The column <code>codegen.calendar.saturday</code>.
+     * The column <code>public.calendar.saturday</code>.
      */
     public final TableField<CalendarRecord, Integer> SATURDAY = createField("saturday", org.jooq.impl.SQLDataType.INTEGER, this, "");
 
     /**
-     * The column <code>codegen.calendar.sunday</code>.
+     * The column <code>public.calendar.sunday</code>.
      */
     public final TableField<CalendarRecord, Integer> SUNDAY = createField("sunday", org.jooq.impl.SQLDataType.INTEGER, this, "");
 
     /**
-     * The column <code>codegen.calendar.start_date</code>.
+     * The column <code>public.calendar.start_date</code>.
      */
     public final TableField<CalendarRecord, Date> START_DATE = createField("start_date", org.jooq.impl.SQLDataType.DATE, this, "");
 
     /**
-     * The column <code>codegen.calendar.end_date</code>.
+     * The column <code>public.calendar.end_date</code>.
      */
     public final TableField<CalendarRecord, Date> END_DATE = createField("end_date", org.jooq.impl.SQLDataType.DATE, this, "");
 
     /**
-     * Create a <code>codegen.calendar</code> table reference
+     * Create a <code>public.calendar</code> table reference
      */
     public Calendar() {
         this("calendar", null);
     }
 
     /**
-     * Create an aliased <code>codegen.calendar</code> table reference
+     * Create an aliased <code>public.calendar</code> table reference
      */
     public Calendar(String alias) {
         this(alias, CALENDAR);
@@ -138,7 +138,7 @@ public class Calendar extends TableImpl<CalendarRecord> {
      */
     @Override
     public Schema getSchema() {
-        return Codegen.CODEGEN;
+        return Public.PUBLIC;
     }
 
     /**

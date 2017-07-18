@@ -4,8 +4,8 @@
 package com.github.ssullivan.mbt.gtfs.db.tables;
 
 
-import com.github.ssullivan.mbt.gtfs.db.Codegen;
 import com.github.ssullivan.mbt.gtfs.db.Keys;
+import com.github.ssullivan.mbt.gtfs.db.Public;
 import com.github.ssullivan.mbt.gtfs.db.tables.records.AdherenceRecord;
 
 import java.sql.Timestamp;
@@ -35,10 +35,10 @@ import org.jooq.impl.TableImpl;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class Adherence extends TableImpl<AdherenceRecord> {
 
-    private static final long serialVersionUID = -1003271429;
+    private static final long serialVersionUID = 642769187;
 
     /**
-     * The reference instance of <code>codegen.adherence</code>
+     * The reference instance of <code>public.adherence</code>
      */
     public static final Adherence ADHERENCE = new Adherence();
 
@@ -51,54 +51,54 @@ public class Adherence extends TableImpl<AdherenceRecord> {
     }
 
     /**
-     * The column <code>codegen.adherence.date</code>.
+     * The column <code>public.adherence.date</code>.
      */
     public final TableField<AdherenceRecord, Timestamp> DATE = createField("date", org.jooq.impl.SQLDataType.TIMESTAMP.nullable(false), this, "");
 
     /**
-     * The column <code>codegen.adherence.hour</code>.
+     * The column <code>public.adherence.hour</code>.
      */
     public final TableField<AdherenceRecord, Byte> HOUR = createField("hour", org.jooq.impl.SQLDataType.TINYINT.nullable(false), this, "");
 
     /**
-     * The column <code>codegen.adherence.route_id</code>.
+     * The column <code>public.adherence.route_id</code>.
      */
     public final TableField<AdherenceRecord, String> ROUTE_ID = createField("route_id", org.jooq.impl.SQLDataType.CLOB.nullable(false), this, "");
 
     /**
-     * The column <code>codegen.adherence.direction_id</code>.
+     * The column <code>public.adherence.direction_id</code>.
      */
     public final TableField<AdherenceRecord, Byte> DIRECTION_ID = createField("direction_id", org.jooq.impl.SQLDataType.TINYINT.nullable(false), this, "");
 
     /**
-     * The column <code>codegen.adherence.stop_id</code>.
+     * The column <code>public.adherence.stop_id</code>.
      */
     public final TableField<AdherenceRecord, Integer> STOP_ID = createField("stop_id", org.jooq.impl.SQLDataType.INTEGER.nullable(false), this, "");
 
     /**
-     * The column <code>codegen.adherence.early</code>.
+     * The column <code>public.adherence.early</code>.
      */
     public final TableField<AdherenceRecord, Integer> EARLY = createField("early", org.jooq.impl.SQLDataType.INTEGER.nullable(false), this, "");
 
     /**
-     * The column <code>codegen.adherence.on_time</code>.
+     * The column <code>public.adherence.on_time</code>.
      */
     public final TableField<AdherenceRecord, Integer> ON_TIME = createField("on_time", org.jooq.impl.SQLDataType.INTEGER.nullable(false), this, "");
 
     /**
-     * The column <code>codegen.adherence.late</code>.
+     * The column <code>public.adherence.late</code>.
      */
     public final TableField<AdherenceRecord, Integer> LATE = createField("late", org.jooq.impl.SQLDataType.INTEGER.nullable(false), this, "");
 
     /**
-     * Create a <code>codegen.adherence</code> table reference
+     * Create a <code>public.adherence</code> table reference
      */
     public Adherence() {
         this("adherence", null);
     }
 
     /**
-     * Create an aliased <code>codegen.adherence</code> table reference
+     * Create an aliased <code>public.adherence</code> table reference
      */
     public Adherence(String alias) {
         this(alias, ADHERENCE);
@@ -117,7 +117,7 @@ public class Adherence extends TableImpl<AdherenceRecord> {
      */
     @Override
     public Schema getSchema() {
-        return Codegen.CODEGEN;
+        return Public.PUBLIC;
     }
 
     /**

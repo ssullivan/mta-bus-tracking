@@ -4,8 +4,8 @@
 package com.github.ssullivan.mbt.gtfs.db.tables;
 
 
-import com.github.ssullivan.mbt.gtfs.db.Codegen;
 import com.github.ssullivan.mbt.gtfs.db.Keys;
+import com.github.ssullivan.mbt.gtfs.db.Public;
 import com.github.ssullivan.mbt.gtfs.db.tables.records.PositionsRecord;
 
 import java.sql.Timestamp;
@@ -35,10 +35,10 @@ import org.jooq.impl.TableImpl;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class Positions extends TableImpl<PositionsRecord> {
 
-    private static final long serialVersionUID = 858071749;
+    private static final long serialVersionUID = 320948361;
 
     /**
-     * The reference instance of <code>codegen.positions</code>
+     * The reference instance of <code>public.positions</code>
      */
     public static final Positions POSITIONS = new Positions();
 
@@ -51,74 +51,74 @@ public class Positions extends TableImpl<PositionsRecord> {
     }
 
     /**
-     * The column <code>codegen.positions.timestamp_utc</code>.
+     * The column <code>public.positions.timestamp_utc</code>.
      */
     public final TableField<PositionsRecord, Timestamp> TIMESTAMP_UTC = createField("timestamp_utc", org.jooq.impl.SQLDataType.TIMESTAMP.nullable(false), this, "");
 
     /**
-     * The column <code>codegen.positions.vehicle_id</code>.
+     * The column <code>public.positions.vehicle_id</code>.
      */
     public final TableField<PositionsRecord, Integer> VEHICLE_ID = createField("vehicle_id", org.jooq.impl.SQLDataType.INTEGER.nullable(false), this, "");
 
     /**
-     * The column <code>codegen.positions.latitude</code>.
+     * The column <code>public.positions.latitude</code>.
      */
     public final TableField<PositionsRecord, Double> LATITUDE = createField("latitude", org.jooq.impl.SQLDataType.DOUBLE.nullable(false), this, "");
 
     /**
-     * The column <code>codegen.positions.longitude</code>.
+     * The column <code>public.positions.longitude</code>.
      */
     public final TableField<PositionsRecord, Double> LONGITUDE = createField("longitude", org.jooq.impl.SQLDataType.DOUBLE.nullable(false), this, "");
 
     /**
-     * The column <code>codegen.positions.bearing</code>.
+     * The column <code>public.positions.bearing</code>.
      */
     public final TableField<PositionsRecord, Double> BEARING = createField("bearing", org.jooq.impl.SQLDataType.DOUBLE.nullable(false), this, "");
 
     /**
-     * The column <code>codegen.positions.progress</code>.
+     * The column <code>public.positions.progress</code>.
      */
     public final TableField<PositionsRecord, Byte> PROGRESS = createField("progress", org.jooq.impl.SQLDataType.TINYINT.nullable(false), this, "");
 
     /**
-     * The column <code>codegen.positions.service_date</code>.
+     * The column <code>public.positions.service_date</code>.
      */
     public final TableField<PositionsRecord, Timestamp> SERVICE_DATE = createField("service_date", org.jooq.impl.SQLDataType.TIMESTAMP.nullable(false), this, "");
 
     /**
-     * The column <code>codegen.positions.trip_index</code>.
+     * The column <code>public.positions.trip_index</code>.
      */
     public final TableField<PositionsRecord, Long> TRIP_INDEX = createField("trip_index", org.jooq.impl.SQLDataType.BIGINT.nullable(false), this, "");
 
     /**
-     * The column <code>codegen.positions.block_assigned</code>.
+     * The column <code>public.positions.block_assigned</code>.
      */
     public final TableField<PositionsRecord, Byte> BLOCK_ASSIGNED = createField("block_assigned", org.jooq.impl.SQLDataType.TINYINT.nullable(false), this, "");
 
     /**
-     * The column <code>codegen.positions.next_stop_id</code>.
+     * The column <code>public.positions.next_stop_id</code>.
      */
     public final TableField<PositionsRecord, Integer> NEXT_STOP_ID = createField("next_stop_id", org.jooq.impl.SQLDataType.INTEGER, this, "");
 
     /**
-     * The column <code>codegen.positions.dist_along_route</code>.
+     * The column <code>public.positions.dist_along_route</code>.
      */
     public final TableField<PositionsRecord, Double> DIST_ALONG_ROUTE = createField("dist_along_route", org.jooq.impl.SQLDataType.DOUBLE, this, "");
 
     /**
-     * The column <code>codegen.positions.dist_from_stop</code>.
+     * The column <code>public.positions.dist_from_stop</code>.
      */
     public final TableField<PositionsRecord, Double> DIST_FROM_STOP = createField("dist_from_stop", org.jooq.impl.SQLDataType.DOUBLE, this, "");
 
     /**
-     * Create a <code>codegen.positions</code> table reference
+     * Create a <code>public.positions</code> table reference
      */
     public Positions() {
         this("positions", null);
     }
 
     /**
-     * Create an aliased <code>codegen.positions</code> table reference
+     * Create an aliased <code>public.positions</code> table reference
      */
     public Positions(String alias) {
         this(alias, POSITIONS);
@@ -137,7 +137,7 @@ public class Positions extends TableImpl<PositionsRecord> {
      */
     @Override
     public Schema getSchema() {
-        return Codegen.CODEGEN;
+        return Public.PUBLIC;
     }
 
     /**

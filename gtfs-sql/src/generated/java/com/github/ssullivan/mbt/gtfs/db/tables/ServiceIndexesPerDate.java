@@ -4,7 +4,7 @@
 package com.github.ssullivan.mbt.gtfs.db.tables;
 
 
-import com.github.ssullivan.mbt.gtfs.db.Codegen;
+import com.github.ssullivan.mbt.gtfs.db.Public;
 import com.github.ssullivan.mbt.gtfs.db.tables.records.ServiceIndexesPerDateRecord;
 
 import java.sql.Timestamp;
@@ -31,10 +31,10 @@ import org.jooq.impl.TableImpl;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class ServiceIndexesPerDate extends TableImpl<ServiceIndexesPerDateRecord> {
 
-    private static final long serialVersionUID = 2027925520;
+    private static final long serialVersionUID = 432256242;
 
     /**
-     * The reference instance of <code>codegen.service_indexes_per_date</code>
+     * The reference instance of <code>public.service_indexes_per_date</code>
      */
     public static final ServiceIndexesPerDate SERVICE_INDEXES_PER_DATE = new ServiceIndexesPerDate();
 
@@ -47,29 +47,29 @@ public class ServiceIndexesPerDate extends TableImpl<ServiceIndexesPerDateRecord
     }
 
     /**
-     * The column <code>codegen.service_indexes_per_date.feed_index</code>.
+     * The column <code>public.service_indexes_per_date.feed_index</code>.
      */
     public final TableField<ServiceIndexesPerDateRecord, Long> FEED_INDEX = createField("feed_index", org.jooq.impl.SQLDataType.BIGINT.nullable(false), this, "");
 
     /**
-     * The column <code>codegen.service_indexes_per_date.date</code>.
+     * The column <code>public.service_indexes_per_date.date</code>.
      */
     public final TableField<ServiceIndexesPerDateRecord, Timestamp> DATE = createField("date", org.jooq.impl.SQLDataType.TIMESTAMP.nullable(false), this, "");
 
     /**
-     * The column <code>codegen.service_indexes_per_date.service_index</code>.
+     * The column <code>public.service_indexes_per_date.service_index</code>.
      */
     public final TableField<ServiceIndexesPerDateRecord, Long> SERVICE_INDEX = createField("service_index", org.jooq.impl.SQLDataType.BIGINT.nullable(false), this, "");
 
     /**
-     * Create a <code>codegen.service_indexes_per_date</code> table reference
+     * Create a <code>public.service_indexes_per_date</code> table reference
      */
     public ServiceIndexesPerDate() {
         this("service_indexes_per_date", null);
     }
 
     /**
-     * Create an aliased <code>codegen.service_indexes_per_date</code> table reference
+     * Create an aliased <code>public.service_indexes_per_date</code> table reference
      */
     public ServiceIndexesPerDate(String alias) {
         this(alias, SERVICE_INDEXES_PER_DATE);
@@ -88,7 +88,7 @@ public class ServiceIndexesPerDate extends TableImpl<ServiceIndexesPerDateRecord
      */
     @Override
     public Schema getSchema() {
-        return Codegen.CODEGEN;
+        return Public.PUBLIC;
     }
 
     /**

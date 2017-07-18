@@ -30,157 +30,157 @@ import org.jooq.impl.UpdatableRecordImpl;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class EventsRecord extends UpdatableRecordImpl<EventsRecord> implements Record11<Timestamp, Long, Integer, Integer, Timestamp, Integer, Timestamp, Timestamp, Byte, String, Boolean> {
 
-    private static final long serialVersionUID = 619806773;
+    private static final long serialVersionUID = 359349811;
 
     /**
-     * Setter for <code>codegen.events.service_date</code>.
+     * Setter for <code>public.events.service_date</code>.
      */
     public void setServiceDate(Timestamp value) {
         set(0, value);
     }
 
     /**
-     * Getter for <code>codegen.events.service_date</code>.
+     * Getter for <code>public.events.service_date</code>.
      */
     public Timestamp getServiceDate() {
         return (Timestamp) get(0);
     }
 
     /**
-     * Setter for <code>codegen.events.trip_index</code>.
+     * Setter for <code>public.events.trip_index</code>.
      */
     public void setTripIndex(Long value) {
         set(1, value);
     }
 
     /**
-     * Getter for <code>codegen.events.trip_index</code>.
+     * Getter for <code>public.events.trip_index</code>.
      */
     public Long getTripIndex() {
         return (Long) get(1);
     }
 
     /**
-     * Setter for <code>codegen.events.vehicle_id</code>.
+     * Setter for <code>public.events.vehicle_id</code>.
      */
     public void setVehicleId(Integer value) {
         set(2, value);
     }
 
     /**
-     * Getter for <code>codegen.events.vehicle_id</code>.
+     * Getter for <code>public.events.vehicle_id</code>.
      */
     public Integer getVehicleId() {
         return (Integer) get(2);
     }
 
     /**
-     * Setter for <code>codegen.events.stop_id</code>.
+     * Setter for <code>public.events.stop_id</code>.
      */
     public void setStopId(Integer value) {
         set(3, value);
     }
 
     /**
-     * Getter for <code>codegen.events.stop_id</code>.
+     * Getter for <code>public.events.stop_id</code>.
      */
     public Integer getStopId() {
         return (Integer) get(3);
     }
 
     /**
-     * Setter for <code>codegen.events.est_dep_utc</code>.
+     * Setter for <code>public.events.est_dep_utc</code>.
      */
     public void setEstDepUtc(Timestamp value) {
         set(4, value);
     }
 
     /**
-     * Getter for <code>codegen.events.est_dep_utc</code>.
+     * Getter for <code>public.events.est_dep_utc</code>.
      */
     public Timestamp getEstDepUtc() {
         return (Timestamp) get(4);
     }
 
     /**
-     * Setter for <code>codegen.events.dep_accuracy</code>.
+     * Setter for <code>public.events.dep_accuracy</code>.
      */
     public void setDepAccuracy(Integer value) {
         set(5, value);
     }
 
     /**
-     * Getter for <code>codegen.events.dep_accuracy</code>.
+     * Getter for <code>public.events.dep_accuracy</code>.
      */
     public Integer getDepAccuracy() {
         return (Integer) get(5);
     }
 
     /**
-     * Setter for <code>codegen.events.sched_dep_utc</code>.
+     * Setter for <code>public.events.sched_dep_utc</code>.
      */
     public void setSchedDepUtc(Timestamp value) {
         set(6, value);
     }
 
     /**
-     * Getter for <code>codegen.events.sched_dep_utc</code>.
+     * Getter for <code>public.events.sched_dep_utc</code>.
      */
     public Timestamp getSchedDepUtc() {
         return (Timestamp) get(6);
     }
 
     /**
-     * Setter for <code>codegen.events.sched_dep_date</code>.
+     * Setter for <code>public.events.sched_dep_date</code>.
      */
     public void setSchedDepDate(Timestamp value) {
         set(7, value);
     }
 
     /**
-     * Getter for <code>codegen.events.sched_dep_date</code>.
+     * Getter for <code>public.events.sched_dep_date</code>.
      */
     public Timestamp getSchedDepDate() {
         return (Timestamp) get(7);
     }
 
     /**
-     * Setter for <code>codegen.events.sched_dep_hour</code>.
+     * Setter for <code>public.events.sched_dep_hour</code>.
      */
     public void setSchedDepHour(Byte value) {
         set(8, value);
     }
 
     /**
-     * Getter for <code>codegen.events.sched_dep_hour</code>.
+     * Getter for <code>public.events.sched_dep_hour</code>.
      */
     public Byte getSchedDepHour() {
         return (Byte) get(8);
     }
 
     /**
-     * Setter for <code>codegen.events.route_id</code>.
+     * Setter for <code>public.events.route_id</code>.
      */
     public void setRouteId(String value) {
         set(9, value);
     }
 
     /**
-     * Getter for <code>codegen.events.route_id</code>.
+     * Getter for <code>public.events.route_id</code>.
      */
     public String getRouteId() {
         return (String) get(9);
     }
 
     /**
-     * Setter for <code>codegen.events.direction_id</code>.
+     * Setter for <code>public.events.direction_id</code>.
      */
     public void setDirectionId(Boolean value) {
         set(10, value);
     }
 
     /**
-     * Getter for <code>codegen.events.direction_id</code>.
+     * Getter for <code>public.events.direction_id</code>.
      */
     public Boolean getDirectionId() {
         return (Boolean) get(10);

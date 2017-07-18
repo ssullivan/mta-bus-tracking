@@ -30,59 +30,59 @@ import org.jooq.impl.UpdatableRecordImpl;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class FeedsRecord extends UpdatableRecordImpl<FeedsRecord> implements Record4<Long, Timestamp, Timestamp, String> {
 
-    private static final long serialVersionUID = -1972555741;
+    private static final long serialVersionUID = -854112543;
 
     /**
-     * Setter for <code>codegen.feeds.feed_index</code>.
+     * Setter for <code>public.feeds.feed_index</code>.
      */
     public void setFeedIndex(Long value) {
         set(0, value);
     }
 
     /**
-     * Getter for <code>codegen.feeds.feed_index</code>.
+     * Getter for <code>public.feeds.feed_index</code>.
      */
     public Long getFeedIndex() {
         return (Long) get(0);
     }
 
     /**
-     * Setter for <code>codegen.feeds.feed_start_date</code>.
+     * Setter for <code>public.feeds.feed_start_date</code>.
      */
     public void setFeedStartDate(Timestamp value) {
         set(1, value);
     }
 
     /**
-     * Getter for <code>codegen.feeds.feed_start_date</code>.
+     * Getter for <code>public.feeds.feed_start_date</code>.
      */
     public Timestamp getFeedStartDate() {
         return (Timestamp) get(1);
     }
 
     /**
-     * Setter for <code>codegen.feeds.feed_end_date</code>.
+     * Setter for <code>public.feeds.feed_end_date</code>.
      */
     public void setFeedEndDate(Timestamp value) {
         set(2, value);
     }
 
     /**
-     * Getter for <code>codegen.feeds.feed_end_date</code>.
+     * Getter for <code>public.feeds.feed_end_date</code>.
      */
     public Timestamp getFeedEndDate() {
         return (Timestamp) get(2);
     }
 
     /**
-     * Setter for <code>codegen.feeds.feed_name</code>.
+     * Setter for <code>public.feeds.feed_name</code>.
      */
     public void setFeedName(String value) {
         set(3, value);
     }
 
     /**
-     * Getter for <code>codegen.feeds.feed_name</code>.
+     * Getter for <code>public.feeds.feed_name</code>.
      */
     public String getFeedName() {
         return (String) get(3);

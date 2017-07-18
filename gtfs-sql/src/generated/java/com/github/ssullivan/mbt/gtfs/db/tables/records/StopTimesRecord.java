@@ -28,143 +28,143 @@ import org.jooq.impl.UpdatableRecordImpl;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class StopTimesRecord extends UpdatableRecordImpl<StopTimesRecord> implements Record10<Long, String, String, Long, Long, Integer, Integer, String, String, String> {
 
-    private static final long serialVersionUID = -1580903436;
+    private static final long serialVersionUID = 992762170;
 
     /**
-     * Setter for <code>codegen.stop_times.trip_index</code>.
+     * Setter for <code>public.stop_times.trip_index</code>.
      */
     public void setTripIndex(Long value) {
         set(0, value);
     }
 
     /**
-     * Getter for <code>codegen.stop_times.trip_index</code>.
+     * Getter for <code>public.stop_times.trip_index</code>.
      */
     public Long getTripIndex() {
         return (Long) get(0);
     }
 
     /**
-     * Setter for <code>codegen.stop_times.arrival_time</code>.
+     * Setter for <code>public.stop_times.arrival_time</code>.
      */
     public void setArrivalTime(String value) {
         set(1, value);
     }
 
     /**
-     * Getter for <code>codegen.stop_times.arrival_time</code>.
+     * Getter for <code>public.stop_times.arrival_time</code>.
      */
     public String getArrivalTime() {
         return (String) get(1);
     }
 
     /**
-     * Setter for <code>codegen.stop_times.departure_time</code>.
+     * Setter for <code>public.stop_times.departure_time</code>.
      */
     public void setDepartureTime(String value) {
         set(2, value);
     }
 
     /**
-     * Getter for <code>codegen.stop_times.departure_time</code>.
+     * Getter for <code>public.stop_times.departure_time</code>.
      */
     public String getDepartureTime() {
         return (String) get(2);
     }
 
     /**
-     * Setter for <code>codegen.stop_times.arrival_time_seconds</code>.
+     * Setter for <code>public.stop_times.arrival_time_seconds</code>.
      */
     public void setArrivalTimeSeconds(Long value) {
         set(3, value);
     }
 
     /**
-     * Getter for <code>codegen.stop_times.arrival_time_seconds</code>.
+     * Getter for <code>public.stop_times.arrival_time_seconds</code>.
      */
     public Long getArrivalTimeSeconds() {
         return (Long) get(3);
     }
 
     /**
-     * Setter for <code>codegen.stop_times.departure_time_seconds</code>.
+     * Setter for <code>public.stop_times.departure_time_seconds</code>.
      */
     public void setDepartureTimeSeconds(Long value) {
         set(4, value);
     }
 
     /**
-     * Getter for <code>codegen.stop_times.departure_time_seconds</code>.
+     * Getter for <code>public.stop_times.departure_time_seconds</code>.
      */
     public Long getDepartureTimeSeconds() {
         return (Long) get(4);
     }
 
     /**
-     * Setter for <code>codegen.stop_times.stop_id</code>.
+     * Setter for <code>public.stop_times.stop_id</code>.
      */
     public void setStopId(Integer value) {
         set(5, value);
     }
 
     /**
-     * Getter for <code>codegen.stop_times.stop_id</code>.
+     * Getter for <code>public.stop_times.stop_id</code>.
      */
     public Integer getStopId() {
         return (Integer) get(5);
     }
 
     /**
-     * Setter for <code>codegen.stop_times.stop_sequence</code>.
+     * Setter for <code>public.stop_times.stop_sequence</code>.
      */
     public void setStopSequence(Integer value) {
         set(6, value);
     }
 
     /**
-     * Getter for <code>codegen.stop_times.stop_sequence</code>.
+     * Getter for <code>public.stop_times.stop_sequence</code>.
      */
     public Integer getStopSequence() {
         return (Integer) get(6);
     }
 
     /**
-     * Setter for <code>codegen.stop_times.stop_headsign</code>.
+     * Setter for <code>public.stop_times.stop_headsign</code>.
      */
     public void setStopHeadsign(String value) {
         set(7, value);
     }
 
     /**
-     * Getter for <code>codegen.stop_times.stop_headsign</code>.
+     * Getter for <code>public.stop_times.stop_headsign</code>.
      */
     public String getStopHeadsign() {
         return (String) get(7);
     }
 
     /**
-     * Setter for <code>codegen.stop_times.pickup_type</code>.
+     * Setter for <code>public.stop_times.pickup_type</code>.
      */
     public void setPickupType(String value) {
         set(8, value);
     }
 
     /**
-     * Getter for <code>codegen.stop_times.pickup_type</code>.
+     * Getter for <code>public.stop_times.pickup_type</code>.
      */
     public String getPickupType() {
         return (String) get(8);
     }
 
     /**
-     * Setter for <code>codegen.stop_times.drop_off_type</code>.
+     * Setter for <code>public.stop_times.drop_off_type</code>.
      */
     public void setDropOffType(String value) {
         set(9, value);
     }
 
     /**
-     * Getter for <code>codegen.stop_times.drop_off_type</code>.
+     * Getter for <code>public.stop_times.drop_off_type</code>.
      */
     public String getDropOffType() {
         return (String) get(9);

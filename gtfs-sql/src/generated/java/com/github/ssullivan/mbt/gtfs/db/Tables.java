@@ -23,7 +23,7 @@ import javax.annotation.Generated;
 
 
 /**
- * Convenience access to all tables in codegen
+ * Convenience access to all tables in public
  */
 @Generated(
     value = {
@@ -36,72 +36,72 @@ import javax.annotation.Generated;
 public class Tables {
 
     /**
-     * The table <code>codegen.adherence</code>.
+     * The table <code>public.adherence</code>.
      */
     public static final Adherence ADHERENCE = com.github.ssullivan.mbt.gtfs.db.tables.Adherence.ADHERENCE;
 
     /**
-     * The table <code>codegen.agency</code>.
+     * The table <code>public.agency</code>.
      */
     public static final Agency AGENCY = com.github.ssullivan.mbt.gtfs.db.tables.Agency.AGENCY;
 
     /**
-     * The table <code>codegen.calendar</code>.
+     * The table <code>public.calendar</code>.
      */
     public static final Calendar CALENDAR = com.github.ssullivan.mbt.gtfs.db.tables.Calendar.CALENDAR;
 
     /**
-     * The table <code>codegen.calendar_dates</code>.
+     * The table <code>public.calendar_dates</code>.
      */
     public static final CalendarDates CALENDAR_DATES = com.github.ssullivan.mbt.gtfs.db.tables.CalendarDates.CALENDAR_DATES;
 
     /**
-     * The table <code>codegen.events</code>.
+     * The table <code>public.events</code>.
      */
     public static final Events EVENTS = com.github.ssullivan.mbt.gtfs.db.tables.Events.EVENTS;
 
     /**
-     * The table <code>codegen.feeds</code>.
+     * The table <code>public.feeds</code>.
      */
     public static final Feeds FEEDS = com.github.ssullivan.mbt.gtfs.db.tables.Feeds.FEEDS;
 
     /**
-     * The table <code>codegen.positions</code>.
+     * The table <code>public.positions</code>.
      */
     public static final Positions POSITIONS = com.github.ssullivan.mbt.gtfs.db.tables.Positions.POSITIONS;
 
     /**
-     * The table <code>codegen.routes</code>.
+     * The table <code>public.routes</code>.
      */
     public static final Routes ROUTES = com.github.ssullivan.mbt.gtfs.db.tables.Routes.ROUTES;
 
     /**
-     * The table <code>codegen.schema_version</code>.
+     * The table <code>public.schema_version</code>.
      */
     public static final SchemaVersion SCHEMA_VERSION = com.github.ssullivan.mbt.gtfs.db.tables.SchemaVersion.SCHEMA_VERSION;
 
     /**
-     * The table <code>codegen.service_indexes_per_date</code>.
+     * The table <code>public.service_indexes_per_date</code>.
      */
     public static final ServiceIndexesPerDate SERVICE_INDEXES_PER_DATE = com.github.ssullivan.mbt.gtfs.db.tables.ServiceIndexesPerDate.SERVICE_INDEXES_PER_DATE;
 
     /**
-     * The table <code>codegen.shapes</code>.
+     * The table <code>public.shapes</code>.
      */
     public static final Shapes SHAPES = com.github.ssullivan.mbt.gtfs.db.tables.Shapes.SHAPES;
 
     /**
-     * The table <code>codegen.stop_times</code>.
+     * The table <code>public.stop_times</code>.
      */
     public static final StopTimes STOP_TIMES = com.github.ssullivan.mbt.gtfs.db.tables.StopTimes.STOP_TIMES;
 
     /**
-     * The table <code>codegen.stops</code>.
+     * The table <code>public.stops</code>.
      */
     public static final Stops STOPS = com.github.ssullivan.mbt.gtfs.db.tables.Stops.STOPS;
 
     /**
-     * The table <code>codegen.trips</code>.
+     * The table <code>public.trips</code>.
      */
     public static final Trips TRIPS = com.github.ssullivan.mbt.gtfs.db.tables.Trips.TRIPS;
 }

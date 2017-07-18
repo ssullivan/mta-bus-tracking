@@ -30,101 +30,101 @@ import org.jooq.impl.UpdatableRecordImpl;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class ShapesRecord extends UpdatableRecordImpl<ShapesRecord> implements Record7<Long, Long, String, Double, Double, Integer, BigDecimal> {
 
-    private static final long serialVersionUID = -1706405525;
+    private static final long serialVersionUID = -1915151365;
 
     /**
-     * Setter for <code>codegen.shapes.feed_index</code>.
+     * Setter for <code>public.shapes.feed_index</code>.
      */
     public void setFeedIndex(Long value) {
         set(0, value);
     }
 
     /**
-     * Getter for <code>codegen.shapes.feed_index</code>.
+     * Getter for <code>public.shapes.feed_index</code>.
      */
     public Long getFeedIndex() {
         return (Long) get(0);
     }
 
     /**
-     * Setter for <code>codegen.shapes.shape_index</code>.
+     * Setter for <code>public.shapes.shape_index</code>.
      */
     public void setShapeIndex(Long value) {
         set(1, value);
     }
 
     /**
-     * Getter for <code>codegen.shapes.shape_index</code>.
+     * Getter for <code>public.shapes.shape_index</code>.
      */
     public Long getShapeIndex() {
         return (Long) get(1);
     }
 
     /**
-     * Setter for <code>codegen.shapes.shape_id</code>.
+     * Setter for <code>public.shapes.shape_id</code>.
      */
     public void setShapeId(String value) {
         set(2, value);
     }
 
     /**
-     * Getter for <code>codegen.shapes.shape_id</code>.
+     * Getter for <code>public.shapes.shape_id</code>.
      */
     public String getShapeId() {
         return (String) get(2);
     }
 
     /**
-     * Setter for <code>codegen.shapes.shape_pt_lat</code>.
+     * Setter for <code>public.shapes.shape_pt_lat</code>.
      */
     public void setShapePtLat(Double value) {
         set(3, value);
     }
 
     /**
-     * Getter for <code>codegen.shapes.shape_pt_lat</code>.
+     * Getter for <code>public.shapes.shape_pt_lat</code>.
      */
     public Double getShapePtLat() {
         return (Double) get(3);
     }
 
     /**
-     * Setter for <code>codegen.shapes.shape_pt_lon</code>.
+     * Setter for <code>public.shapes.shape_pt_lon</code>.
      */
     public void setShapePtLon(Double value) {
         set(4, value);
     }
 
     /**
-     * Getter for <code>codegen.shapes.shape_pt_lon</code>.
+     * Getter for <code>public.shapes.shape_pt_lon</code>.
      */
     public Double getShapePtLon() {
         return (Double) get(4);
     }
 
     /**
-     * Setter for <code>codegen.shapes.shape_pt_sequence</code>.
+     * Setter for <code>public.shapes.shape_pt_sequence</code>.
      */
     public void setShapePtSequence(Integer value) {
         set(5, value);
     }
 
     /**
-     * Getter for <code>codegen.shapes.shape_pt_sequence</code>.
+     * Getter for <code>public.shapes.shape_pt_sequence</code>.
      */
     public Integer getShapePtSequence() {
         return (Integer) get(5);
     }
 
     /**
-     * Setter for <code>codegen.shapes.shape_dist_traveled</code>.
+     * Setter for <code>public.shapes.shape_dist_traveled</code>.
      */
     public void setShapeDistTraveled(BigDecimal value) {
         set(6, value);
     }
 
     /**
-     * Getter for <code>codegen.shapes.shape_dist_traveled</code>.
+     * Getter for <code>public.shapes.shape_dist_traveled</code>.
      */
     public BigDecimal getShapeDistTraveled() {
         return (BigDecimal) get(6);

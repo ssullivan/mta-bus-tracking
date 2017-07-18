@@ -28,115 +28,115 @@ import org.jooq.impl.UpdatableRecordImpl;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class AgencyRecord extends UpdatableRecordImpl<AgencyRecord> implements Record8<Long, Long, String, String, String, String, String, String> {
 
-    private static final long serialVersionUID = -857116067;
+    private static final long serialVersionUID = 1772709901;
 
     /**
-     * Setter for <code>codegen.agency.agency_index</code>.
+     * Setter for <code>public.agency.agency_index</code>.
      */
     public void setAgencyIndex(Long value) {
         set(0, value);
     }
 
     /**
-     * Getter for <code>codegen.agency.agency_index</code>.
+     * Getter for <code>public.agency.agency_index</code>.
      */
     public Long getAgencyIndex() {
         return (Long) get(0);
     }
 
     /**
-     * Setter for <code>codegen.agency.feed_index</code>.
+     * Setter for <code>public.agency.feed_index</code>.
      */
     public void setFeedIndex(Long value) {
         set(1, value);
     }
 
     /**
-     * Getter for <code>codegen.agency.feed_index</code>.
+     * Getter for <code>public.agency.feed_index</code>.
      */
     public Long getFeedIndex() {
         return (Long) get(1);
     }
 
     /**
-     * Setter for <code>codegen.agency.agency_id</code>.
+     * Setter for <code>public.agency.agency_id</code>.
      */
     public void setAgencyId(String value) {
         set(2, value);
     }
 
     /**
-     * Getter for <code>codegen.agency.agency_id</code>.
+     * Getter for <code>public.agency.agency_id</code>.
      */
     public String getAgencyId() {
         return (String) get(2);
     }
 
     /**
-     * Setter for <code>codegen.agency.agency_name</code>.
+     * Setter for <code>public.agency.agency_name</code>.
      */
     public void setAgencyName(String value) {
         set(3, value);
     }
 
     /**
-     * Getter for <code>codegen.agency.agency_name</code>.
+     * Getter for <code>public.agency.agency_name</code>.
      */
     public String getAgencyName() {
         return (String) get(3);
     }
 
     /**
-     * Setter for <code>codegen.agency.agency_url</code>.
+     * Setter for <code>public.agency.agency_url</code>.
      */
     public void setAgencyUrl(String value) {
         set(4, value);
     }
 
     /**
-     * Getter for <code>codegen.agency.agency_url</code>.
+     * Getter for <code>public.agency.agency_url</code>.
      */
     public String getAgencyUrl() {
         return (String) get(4);
     }
 
     /**
-     * Setter for <code>codegen.agency.agency_timezone</code>.
+     * Setter for <code>public.agency.agency_timezone</code>.
      */
     public void setAgencyTimezone(String value) {
         set(5, value);
     }
 
     /**
-     * Getter for <code>codegen.agency.agency_timezone</code>.
+     * Getter for <code>public.agency.agency_timezone</code>.
      */
     public String getAgencyTimezone() {
         return (String) get(5);
     }
 
     /**
-     * Setter for <code>codegen.agency.agency_lang</code>.
+     * Setter for <code>public.agency.agency_lang</code>.
      */
     public void setAgencyLang(String value) {
         set(6, value);
     }
 
     /**
-     * Getter for <code>codegen.agency.agency_lang</code>.
+     * Getter for <code>public.agency.agency_lang</code>.
      */
     public String getAgencyLang() {
         return (String) get(6);
     }
 
     /**
-     * Setter for <code>codegen.agency.agency_phone</code>.
+     * Setter for <code>public.agency.agency_phone</code>.
      */
     public void setAgencyPhone(String value) {
         set(7, value);
     }
 
     /**
-     * Getter for <code>codegen.agency.agency_phone</code>.
+     * Getter for <code>public.agency.agency_phone</code>.
      */
     public String getAgencyPhone() {
         return (String) get(7);

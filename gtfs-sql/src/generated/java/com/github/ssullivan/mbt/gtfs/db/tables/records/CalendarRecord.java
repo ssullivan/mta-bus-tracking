@@ -30,171 +30,171 @@ import org.jooq.impl.UpdatableRecordImpl;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class CalendarRecord extends UpdatableRecordImpl<CalendarRecord> implements Record12<Long, Long, String, Integer, Integer, Integer, Integer, Integer, Integer, Integer, Date, Date> {
 
-    private static final long serialVersionUID = 762024749;
+    private static final long serialVersionUID = -1046030439;
 
     /**
-     * Setter for <code>codegen.calendar.feed_index</code>.
+     * Setter for <code>public.calendar.feed_index</code>.
      */
     public void setFeedIndex(Long value) {
         set(0, value);
     }
 
     /**
-     * Getter for <code>codegen.calendar.feed_index</code>.
+     * Getter for <code>public.calendar.feed_index</code>.
      */
     public Long getFeedIndex() {
         return (Long) get(0);
     }
 
     /**
-     * Setter for <code>codegen.calendar.service_index</code>.
+     * Setter for <code>public.calendar.service_index</code>.
      */
     public void setServiceIndex(Long value) {
         set(1, value);
     }
 
     /**
-     * Getter for <code>codegen.calendar.service_index</code>.
+     * Getter for <code>public.calendar.service_index</code>.
      */
     public Long getServiceIndex() {
         return (Long) get(1);
     }
 
     /**
-     * Setter for <code>codegen.calendar.service_id</code>.
+     * Setter for <code>public.calendar.service_id</code>.
      */
     public void setServiceId(String value) {
         set(2, value);
     }
 
     /**
-     * Getter for <code>codegen.calendar.service_id</code>.
+     * Getter for <code>public.calendar.service_id</code>.
      */
     public String getServiceId() {
         return (String) get(2);
     }
 
     /**
-     * Setter for <code>codegen.calendar.monday</code>.
+     * Setter for <code>public.calendar.monday</code>.
      */
     public void setMonday(Integer value) {
         set(3, value);
     }
 
     /**
-     * Getter for <code>codegen.calendar.monday</code>.
+     * Getter for <code>public.calendar.monday</code>.
      */
     public Integer getMonday() {
         return (Integer) get(3);
     }
 
     /**
-     * Setter for <code>codegen.calendar.tuesday</code>.
+     * Setter for <code>public.calendar.tuesday</code>.
      */
     public void setTuesday(Integer value) {
         set(4, value);
     }
 
     /**
-     * Getter for <code>codegen.calendar.tuesday</code>.
+     * Getter for <code>public.calendar.tuesday</code>.
      */
     public Integer getTuesday() {
         return (Integer) get(4);
     }
 
     /**
-     * Setter for <code>codegen.calendar.wednesday</code>.
+     * Setter for <code>public.calendar.wednesday</code>.
      */
     public void setWednesday(Integer value) {
         set(5, value);
     }
 
     /**
-     * Getter for <code>codegen.calendar.wednesday</code>.
+     * Getter for <code>public.calendar.wednesday</code>.
      */
     public Integer getWednesday() {
         return (Integer) get(5);
     }
 
     /**
-     * Setter for <code>codegen.calendar.thursday</code>.
+     * Setter for <code>public.calendar.thursday</code>.
      */
     public void setThursday(Integer value) {
         set(6, value);
     }
 
     /**
-     * Getter for <code>codegen.calendar.thursday</code>.
+     * Getter for <code>public.calendar.thursday</code>.
      */
     public Integer getThursday() {
         return (Integer) get(6);
     }
 
     /**
-     * Setter for <code>codegen.calendar.friday</code>.
+     * Setter for <code>public.calendar.friday</code>.
      */
     public void setFriday(Integer value) {
         set(7, value);
     }
 
     /**
-     * Getter for <code>codegen.calendar.friday</code>.
+     * Getter for <code>public.calendar.friday</code>.
      */
     public Integer getFriday() {
         return (Integer) get(7);
     }
 
     /**
-     * Setter for <code>codegen.calendar.saturday</code>.
+     * Setter for <code>public.calendar.saturday</code>.
      */
     public void setSaturday(Integer value) {
         set(8, value);
     }
 
     /**
-     * Getter for <code>codegen.calendar.saturday</code>.
+     * Getter for <code>public.calendar.saturday</code>.
      */
     public Integer getSaturday() {
         return (Integer) get(8);
     }
 
     /**
-     * Setter for <code>codegen.calendar.sunday</code>.
+     * Setter for <code>public.calendar.sunday</code>.
      */
     public void setSunday(Integer value) {
         set(9, value);
     }
 
     /**
-     * Getter for <code>codegen.calendar.sunday</code>.
+     * Getter for <code>public.calendar.sunday</code>.
      */
     public Integer getSunday() {
         return (Integer) get(9);
     }
 
     /**
-     * Setter for <code>codegen.calendar.start_date</code>.
+     * Setter for <code>public.calendar.start_date</code>.
      */
     public void setStartDate(Date value) {
         set(10, value);
     }
 
     /**
-     * Getter for <code>codegen.calendar.start_date</code>.
+     * Getter for <code>public.calendar.start_date</code>.
      */
     public Date getStartDate() {
         return (Date) get(10);
     }
 
     /**
-     * Setter for <code>codegen.calendar.end_date</code>.
+     * Setter for <code>public.calendar.end_date</code>.
      */
     public void setEndDate(Date value) {
         set(11, value);
     }
 
     /**
-     * Getter for <code>codegen.calendar.end_date</code>.
+     * Getter for <code>public.calendar.end_date</code>.
      */
     public Date getEndDate() {
         return (Date) get(11);

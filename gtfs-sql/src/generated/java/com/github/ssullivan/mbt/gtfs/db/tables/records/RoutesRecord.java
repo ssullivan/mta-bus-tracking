@@ -28,157 +28,157 @@ import org.jooq.impl.UpdatableRecordImpl;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class RoutesRecord extends UpdatableRecordImpl<RoutesRecord> implements Record11<Long, Long, String, Long, String, String, String, Integer, String, String, String> {
 
-    private static final long serialVersionUID = 1957419189;
+    private static final long serialVersionUID = 1743940855;
 
     /**
-     * Setter for <code>codegen.routes.feed_index</code>.
+     * Setter for <code>public.routes.feed_index</code>.
      */
     public void setFeedIndex(Long value) {
         set(0, value);
     }
 
     /**
-     * Getter for <code>codegen.routes.feed_index</code>.
+     * Getter for <code>public.routes.feed_index</code>.
      */
     public Long getFeedIndex() {
         return (Long) get(0);
     }
 
     /**
-     * Setter for <code>codegen.routes.route_index</code>.
+     * Setter for <code>public.routes.route_index</code>.
      */
     public void setRouteIndex(Long value) {
         set(1, value);
     }
 
     /**
-     * Getter for <code>codegen.routes.route_index</code>.
+     * Getter for <code>public.routes.route_index</code>.
      */
     public Long getRouteIndex() {
         return (Long) get(1);
     }
 
     /**
-     * Setter for <code>codegen.routes.route_id</code>.
+     * Setter for <code>public.routes.route_id</code>.
      */
     public void setRouteId(String value) {
         set(2, value);
     }
 
     /**
-     * Getter for <code>codegen.routes.route_id</code>.
+     * Getter for <code>public.routes.route_id</code>.
      */
     public String getRouteId() {
         return (String) get(2);
     }
 
     /**
-     * Setter for <code>codegen.routes.agency_index</code>.
+     * Setter for <code>public.routes.agency_index</code>.
      */
     public void setAgencyIndex(Long value) {
         set(3, value);
     }
 
     /**
-     * Getter for <code>codegen.routes.agency_index</code>.
+     * Getter for <code>public.routes.agency_index</code>.
      */
     public Long getAgencyIndex() {
         return (Long) get(3);
     }
 
     /**
-     * Setter for <code>codegen.routes.route_short_name</code>.
+     * Setter for <code>public.routes.route_short_name</code>.
      */
     public void setRouteShortName(String value) {
         set(4, value);
     }
 
     /**
-     * Getter for <code>codegen.routes.route_short_name</code>.
+     * Getter for <code>public.routes.route_short_name</code>.
      */
     public String getRouteShortName() {
         return (String) get(4);
     }
 
     /**
-     * Setter for <code>codegen.routes.route_long_name</code>.
+     * Setter for <code>public.routes.route_long_name</code>.
      */
     public void setRouteLongName(String value) {
         set(5, value);
     }
 
     /**
-     * Getter for <code>codegen.routes.route_long_name</code>.
+     * Getter for <code>public.routes.route_long_name</code>.
      */
     public String getRouteLongName() {
         return (String) get(5);
     }
 
     /**
-     * Setter for <code>codegen.routes.route_desc</code>.
+     * Setter for <code>public.routes.route_desc</code>.
      */
     public void setRouteDesc(String value) {
         set(6, value);
     }
 
     /**
-     * Getter for <code>codegen.routes.route_desc</code>.
+     * Getter for <code>public.routes.route_desc</code>.
      */
     public String getRouteDesc() {
         return (String) get(6);
     }
 
     /**
-     * Setter for <code>codegen.routes.route_type</code>.
+     * Setter for <code>public.routes.route_type</code>.
      */
     public void setRouteType(Integer value) {
         set(7, value);
     }
 
     /**
-     * Getter for <code>codegen.routes.route_type</code>.
+     * Getter for <code>public.routes.route_type</code>.
      */
     public Integer getRouteType() {
         return (Integer) get(7);
     }
 
     /**
-     * Setter for <code>codegen.routes.route_url</code>.
+     * Setter for <code>public.routes.route_url</code>.
      */
     public void setRouteUrl(String value) {
         set(8, value);
     }
 
     /**
-     * Getter for <code>codegen.routes.route_url</code>.
+     * Getter for <code>public.routes.route_url</code>.
      */
     public String getRouteUrl() {
         return (String) get(8);
     }
 
     /**
-     * Setter for <code>codegen.routes.route_color</code>.
+     * Setter for <code>public.routes.route_color</code>.
      */
     public void setRouteColor(String value) {
         set(9, value);
     }
 
     /**
-     * Getter for <code>codegen.routes.route_color</code>.
+     * Getter for <code>public.routes.route_color</code>.
      */
     public String getRouteColor() {
         return (String) get(9);
     }
 
     /**
-     * Setter for <code>codegen.routes.route_text_color</code>.
+     * Setter for <code>public.routes.route_text_color</code>.
      */
     public void setRouteTextColor(String value) {
         set(10, value);
     }
 
     /**
-     * Getter for <code>codegen.routes.route_text_color</code>.
+     * Getter for <code>public.routes.route_text_color</code>.
      */
     public String getRouteTextColor() {
         return (String) get(10);

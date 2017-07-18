@@ -30,115 +30,115 @@ import org.jooq.impl.UpdatableRecordImpl;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class AdherenceRecord extends UpdatableRecordImpl<AdherenceRecord> implements Record8<Timestamp, Byte, String, Byte, Integer, Integer, Integer, Integer> {
 
-    private static final long serialVersionUID = -409386646;
+    private static final long serialVersionUID = -332856392;
 
     /**
-     * Setter for <code>codegen.adherence.date</code>.
+     * Setter for <code>public.adherence.date</code>.
      */
     public void setDate(Timestamp value) {
         set(0, value);
     }
 
     /**
-     * Getter for <code>codegen.adherence.date</code>.
+     * Getter for <code>public.adherence.date</code>.
      */
     public Timestamp getDate() {
         return (Timestamp) get(0);
     }
 
     /**
-     * Setter for <code>codegen.adherence.hour</code>.
+     * Setter for <code>public.adherence.hour</code>.
      */
     public void setHour(Byte value) {
         set(1, value);
     }
 
     /**
-     * Getter for <code>codegen.adherence.hour</code>.
+     * Getter for <code>public.adherence.hour</code>.
      */
     public Byte getHour() {
         return (Byte) get(1);
     }
 
     /**
-     * Setter for <code>codegen.adherence.route_id</code>.
+     * Setter for <code>public.adherence.route_id</code>.
      */
     public void setRouteId(String value) {
         set(2, value);
     }
 
     /**
-     * Getter for <code>codegen.adherence.route_id</code>.
+     * Getter for <code>public.adherence.route_id</code>.
      */
     public String getRouteId() {
         return (String) get(2);
     }
 
     /**
-     * Setter for <code>codegen.adherence.direction_id</code>.
+     * Setter for <code>public.adherence.direction_id</code>.
      */
     public void setDirectionId(Byte value) {
         set(3, value);
     }
 
     /**
-     * Getter for <code>codegen.adherence.direction_id</code>.
+     * Getter for <code>public.adherence.direction_id</code>.
      */
     public Byte getDirectionId() {
         return (Byte) get(3);
     }
 
     /**
-     * Setter for <code>codegen.adherence.stop_id</code>.
+     * Setter for <code>public.adherence.stop_id</code>.
      */
     public void setStopId(Integer value) {
         set(4, value);
     }
 
     /**
-     * Getter for <code>codegen.adherence.stop_id</code>.
+     * Getter for <code>public.adherence.stop_id</code>.
      */
     public Integer getStopId() {
         return (Integer) get(4);
     }
 
     /**
-     * Setter for <code>codegen.adherence.early</code>.
+     * Setter for <code>public.adherence.early</code>.
      */
     public void setEarly(Integer value) {
         set(5, value);
     }
 
     /**
-     * Getter for <code>codegen.adherence.early</code>.
+     * Getter for <code>public.adherence.early</code>.
      */
     public Integer getEarly() {
         return (Integer) get(5);
     }
 
     /**
-     * Setter for <code>codegen.adherence.on_time</code>.
+     * Setter for <code>public.adherence.on_time</code>.
      */
     public void setOnTime(Integer value) {
         set(6, value);
     }
 
     /**
-     * Getter for <code>codegen.adherence.on_time</code>.
+     * Getter for <code>public.adherence.on_time</code>.
      */
     public Integer getOnTime() {
         return (Integer) get(6);
     }
 
     /**
-     * Setter for <code>codegen.adherence.late</code>.
+     * Setter for <code>public.adherence.late</code>.
      */
     public void setLate(Integer value) {
         set(7, value);
     }
 
     /**
-     * Getter for <code>codegen.adherence.late</code>.
+     * Getter for <code>public.adherence.late</code>.
      */
     public Integer getLate() {
         return (Integer) get(7);

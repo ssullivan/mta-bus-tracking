@@ -29,73 +29,73 @@ import org.jooq.impl.TableRecordImpl;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class CalendarDatesRecord extends TableRecordImpl<CalendarDatesRecord> implements Record5<Long, Long, String, Date, Integer> {
 
-    private static final long serialVersionUID = 1925621508;
+    private static final long serialVersionUID = 1380403656;
 
     /**
-     * Setter for <code>codegen.calendar_dates.feed_index</code>.
+     * Setter for <code>public.calendar_dates.feed_index</code>.
      */
     public void setFeedIndex(Long value) {
         set(0, value);
     }
 
     /**
-     * Getter for <code>codegen.calendar_dates.feed_index</code>.
+     * Getter for <code>public.calendar_dates.feed_index</code>.
      */
     public Long getFeedIndex() {
         return (Long) get(0);
     }
 
     /**
-     * Setter for <code>codegen.calendar_dates.service_index</code>.
+     * Setter for <code>public.calendar_dates.service_index</code>.
      */
     public void setServiceIndex(Long value) {
         set(1, value);
     }
 
     /**
-     * Getter for <code>codegen.calendar_dates.service_index</code>.
+     * Getter for <code>public.calendar_dates.service_index</code>.
      */
     public Long getServiceIndex() {
         return (Long) get(1);
     }
 
     /**
-     * Setter for <code>codegen.calendar_dates.service_id</code>.
+     * Setter for <code>public.calendar_dates.service_id</code>.
      */
     public void setServiceId(String value) {
         set(2, value);
     }
 
     /**
-     * Getter for <code>codegen.calendar_dates.service_id</code>.
+     * Getter for <code>public.calendar_dates.service_id</code>.
      */
     public String getServiceId() {
         return (String) get(2);
     }
 
     /**
-     * Setter for <code>codegen.calendar_dates.exception_date</code>.
+     * Setter for <code>public.calendar_dates.exception_date</code>.
      */
     public void setExceptionDate(Date value) {
         set(3, value);
     }
 
     /**
-     * Getter for <code>codegen.calendar_dates.exception_date</code>.
+     * Getter for <code>public.calendar_dates.exception_date</code>.
      */
     public Date getExceptionDate() {
         return (Date) get(3);
     }
 
     /**
-     * Setter for <code>codegen.calendar_dates.exception_type</code>.
+     * Setter for <code>public.calendar_dates.exception_type</code>.
      */
     public void setExceptionType(Integer value) {
         set(4, value);
     }
 
     /**
-     * Getter for <code>codegen.calendar_dates.exception_type</code>.
+     * Getter for <code>public.calendar_dates.exception_type</code>.
      */
     public Integer getExceptionType() {
         return (Integer) get(4);
