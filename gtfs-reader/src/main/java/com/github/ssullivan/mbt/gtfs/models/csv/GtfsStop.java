@@ -14,7 +14,7 @@ import static com.fasterxml.jackson.annotation.JsonAutoDetect.Visibility.NONE;
 @JsonAutoDetect(fieldVisibility = ANY, getterVisibility = NONE, setterVisibility = NONE)
 public abstract class GtfsStop {
     @JsonProperty("stop_id")
-    public abstract String id();
+    public abstract Integer id();
 
     @Nullable
     @JsonProperty("stop_code")
@@ -28,24 +28,29 @@ public abstract class GtfsStop {
     @JsonProperty("stop_desc")
     public abstract String description();
 
+    @Nullable
     @JsonProperty("stop_lat")
     public abstract Double lat();
 
+    @Nullable
     @JsonProperty("stop_lon")
     public abstract Double lon();
 
+    @Nullable
     @JsonProperty("zone_id")
-    public abstract String zoneId();
+    public abstract Integer zoneId();
 
+    @Nullable
     @JsonProperty("stop_url")
     public abstract String url();
 
+    @Nullable
     @JsonProperty("location_type")
-    public abstract String locationType();
+    public abstract Integer locationType();
 
     @Nullable
     @JsonProperty("parent_station")
-    public abstract String parentStation();
+    public abstract Integer parentStation();
 
     @Nullable
     @JsonProperty("wheelchair_boarding")
@@ -57,16 +62,16 @@ public abstract class GtfsStop {
 
 
     @JsonCreator
-    static GtfsStop create(@JsonProperty("stop_id") String stopId,
+    static GtfsStop create(@JsonProperty("stop_id") Integer stopId,
                            @JsonProperty("stop_code") String stopCode,
                            @JsonProperty("stop_name") String stopName,
                            @JsonProperty("stop_desc") String stopDesc,
                            @JsonProperty("stop_lat") Double stopLat,
                            @JsonProperty("stop_lon") Double stopLon,
-                           @JsonProperty("zone_id") String zoneId,
+                           @JsonProperty("zone_id") Integer zoneId,
                            @JsonProperty("stop_url") String url,
-                           @JsonProperty("location_type") String locationType,
-                           @JsonProperty("parent_station") String parentStation,
+                           @JsonProperty("location_type") Integer locationType,
+                           @JsonProperty("parent_station") Integer parentStation,
                            @JsonProperty("wheelchair_boarding") Integer wheelchairBoarding,
                            @JsonProperty("stop_timezone") String stopTimeZone) {
         return new AutoValue_GtfsStop(

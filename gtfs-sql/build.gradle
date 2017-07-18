@@ -8,6 +8,128 @@ repositories {
     mavenCentral()
 }
 
-dependencies {
-    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+configurations {
+    compile.extendsFrom generatedCompile
 }
+
+sourceSets {
+    generated
+    main {
+        java {
+            srcDir "${projectDir.absolutePath}/src/generated/java"
+        }
+    }
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/org.jooq/jooq
+    compile group: 'org.jooq', name: 'jooq', version: "$jooqVersion"
+    compile project(":gtfs-reader")
+    compile "com.zaxxer:HikariCP:2.6.2"
+
+    compile 'org.postgresql:postgresql:42.1.1'
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    generatedCompile "org.jooq:jooq:$jooqVersion",
+            "org.jooq:jooq-meta:$jooqVersion",
+            "org.jooq:jooq-codegen:$jooqVersion"
+}
+
+// Use your favourite XML builder to construct the code generation configuration file
+// ----------------------------------------------------------------------------------
+def writer = new StringWriter()
+def xml = new groovy.xml.MarkupBuilder(writer)
+        .configuration('xmlns': 'http://www.jooq.org/xsd/jooq-codegen-3.9.2.xsd') {
+    jdbc() {
+        driver('org.postgresql.Driver')
+        url('jdbc:postgresql://localhost:5432/mta_gtfs')
+        user('postgres')
+        password('')
+    }
+    generator() {
+        database() {
+            name('org.jooq.util.postgres.PostgresDatabase')
+            inputSchema('codegen')
+            outputSchema('public')
+        }
+
+        // Watch out for this caveat when using MarkupBuilder with "reserved names"
+        // - https://github.com/jOOQ/jOOQ/issues/4797
+        // - http://stackoverflow.com/a/11389034/521799
+        // - https://groups.google.com/forum/#!topic/jooq-user/wi4S9rRxk4A
+        generate([:]) {
+            pojos false
+            daos true
+        }
+        target() {
+            packageName('com.github.ssullivan.mbt.gtfs.db')
+            directory('src/generated/java')
+        }
+    }
+}
+
+
+
+import org.flywaydb.core.Flyway
+import org.jooq.DSLContext
+import org.jooq.SQLDialect
+import org.jooq.impl.DSL
+import com.zaxxer.hikari.HikariConfig;
+import com.zaxxer.hikari.HikariDataSource;
+
+def hikariProperties = new Properties()
+hikariProperties.setProperty("dataSourceClassName", "org.postgresql.ds.PGSimpleDataSource")
+hikariProperties.setProperty("dataSource.user", "postgres")
+hikariProperties.setProperty("dataSource.password", "")
+hikariProperties.setProperty("dataSource.serverName", "localhost")
+
+task createDatabase(type: Task) {
+    doLast {
+        try {
+            // This deals with strange gradle + jdbc classpath issues
+            HikariDataSource ds = new HikariDataSource(new HikariConfig(hikariProperties))
+            DSLContext dsl = DSL.using(ds, SQLDialect.POSTGRES)
+            dsl.execute("CREATE DATABASE mta_gtfs")
+            dsl.close()
+            ds.close()
+        } catch (Exception e) {
+            e.printStackTrace()
+        }
+    }
+}
+
+task generateJOOQ(type: Task) {
+    doLast {
+        DSLContext dsl = DSL.using("jdbc:postgresql://localhost:5432/mta_gtfs", "postgres", '')
+        try {
+            dsl.execute("drop schema if exists \"codegen\" cascade")
+
+            dsl.createSchemaIfNotExists("codegen")
+                .execute()
+        } catch (RuntimeException e) {
+            e.printStackTrace()
+        } finally {
+            dsl.close()
+        }
+
+        def Flyway flyway = new Flyway();
+        flyway.setDataSource("jdbc:postgresql://localhost:5432/mta_gtfs", "postgres", '');
+        flyway.setSchemas("codegen")
+        flyway.setLocations("filesystem:${project.projectDir}/initdb.d")
+        flyway.migrate();
+
+        // Run the code generator
+        // ----------------------
+        org.jooq.util.GenerationTool.generate(
+                javax.xml.bind.JAXB.unmarshal(new StringReader(writer.toString()), org.jooq.util.jaxb.Configuration.class)
+        )
+
+
+    }
+}
+
+
+compileGeneratedJava.dependsOn clean
+compileGeneratedJava.dependsOn generateJOOQ
+compileJava.dependsOn compileGeneratedJava

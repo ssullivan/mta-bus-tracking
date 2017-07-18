@@ -27,6 +27,21 @@ subprojects {
       }
     }
 
+    buildscript {
+        repositories {
+            mavenLocal()
+            mavenCentral()
+        }
+
+        dependencies {
+            classpath "org.jooq:jooq-codegen:$jooqVersion"
+            classpath 'org.postgresql:postgresql:42.1.1'
+            classpath 'org.flywaydb:flyway-core:4.2.0'
+            classpath 'com.h2database:h2:1.4.196'
+            classpath "org.jooq:jooq:$jooqVersion"
+            classpath "com.zaxxer:HikariCP:2.6.2"
+        }
+    }
     group = "com.github.ssullivan.${githubProjectName}"
     version = '1.0.0-SNAPSHOT'
     sourceCompatibility = '1.8'
@@ -35,6 +50,7 @@ subprojects {
 
     tasks.withType(Javadoc).each {
         it.classpath = sourceSets.main.compileClasspath
+
     }
 
     test {

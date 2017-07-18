@@ -17,7 +17,7 @@ public abstract class GtfsTrip {
     public abstract String id();
 
     @JsonProperty("route_id")
-    public abstract String routeId();
+    public abstract Integer routeId();
 
     @JsonProperty("service_id")
     public abstract String serviceId();
@@ -31,10 +31,10 @@ public abstract class GtfsTrip {
     public abstract String shortName();
 
     @JsonProperty("direction_id")
-    public abstract String directionId();
+    public abstract Integer directionId();
 
     @JsonProperty("block_id")
-    public abstract String blockId();
+    public abstract Integer blockId();
 
     @JsonProperty("shape_id")
     public abstract String shapeId();
@@ -42,12 +42,12 @@ public abstract class GtfsTrip {
 
     @JsonCreator
     static GtfsTrip create(@JsonProperty("trip_id") String tripId,
-                           @JsonProperty("route_id") String routeId,
+                           @JsonProperty("route_id") Integer routeId,
                            @JsonProperty("service_id") String serviceId,
                            @JsonProperty("trip_headsign") String tripHeadSign,
                            @JsonProperty("trip_short_name") String tripShortName,
-                           @JsonProperty("direction_id") String directionId,
-                           @JsonProperty("block_id") String blockId,
+                           @JsonProperty("direction_id") Integer directionId,
+                           @JsonProperty("block_id") Integer blockId,
                            @JsonProperty("shape_id") String shapeId) {
 
         return new AutoValue_GtfsTrip(tripId, routeId, serviceId,
