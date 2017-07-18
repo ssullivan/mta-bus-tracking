@@ -48,7 +48,7 @@ public class ImportShapePoints {
                 .with(Shapes.SHAPES.SHAPE_DIST_TRAVELED, null != gtfsShapePoint.distanceTraveled() ?
                         BigDecimal.valueOf(gtfsShapePoint.distanceTraveled()) : null)
                 .with(Shapes.SHAPES.SHAPE_PT_LAT, gtfsShapePoint.lat())
-                .with(Shapes.SHAPES.SHAPE_PT_LAT, gtfsShapePoint.lon())
+                .with(Shapes.SHAPES.SHAPE_PT_LON, gtfsShapePoint.lon())
                 .with(Shapes.SHAPES.SHAPE_PT_SEQUENCE, gtfsShapePoint.sequence());
 
     }
